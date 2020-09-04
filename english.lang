@@ -48,10 +48,10 @@
 	<string name="playermenu.character.armor">ARMOR</string>
 	<string name="playermenu.character.resistance">RESISTANCE</string>
 	<string name="playermenu.character.attackpower">ATTACK POWER</string>
-	<string name="playermenu.character.spellpower"></string>
+	<string name="playermenu.character.spellpower">SPELL POWER</string>
 	<string name="playermenu.character.attackdamage"></string>
 	<string name="playermenu.character.spelldamage"></string>
-	<string name="playermenu.character.movespeed"></string>
+	<string name="playermenu.character.movespeed">MOVE SPEED</string>
 
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
@@ -151,7 +151,9 @@
 	<string name="misc.dmg.crit2">%dmg%!!</string>
 	<string name="misc.dmg.crit3">%dmg%!!!</string>
 	<string name="item.key">KEY</string>
+	<string name="item.key.plural">%num% KEYS</string>
 	<string name="item.ore">ORE</string>
+	<string name="item.ore.plural">%num% ORE</string>
 
 
 	<!-- end of game -->
@@ -188,6 +190,9 @@
 
 	<string name="meta.info.elsewhere">This opens elsewhere...</string>
 	<string name="meta.info.happened">Something happened...</string>
+	<string name="meta.info.sequencecompleted">Sequence completed!</string>
+	<string name="meta.info.twomore">2 more to go…</string>
+	<string name="meta.info.onemore">1 more to go…</string>
 
 
 	<string name="hud.extralife">YOU FOUND ANOTHER PAIR OF GLASSES</string>
@@ -247,13 +252,12 @@
 	<string name="modifier.list.building">Town: %building% level %level%</string>
 	<string name="hud.accomplishment.done">Accomplishment: %name%</string>
 
-	<string name="playermenu.character.movespeed">Move speed</string>
-	<string name="playermenu.character.spellpower">Spell power</string>
-	<string name="playermenu.character.attackdamage">Attack damage</string>
-	<string name="playermenu.character.spelldamage">Spell damage</string>
 	<string name="modifier.list.player.items">Items</string>
 	<string name="modifier.list.player.skills">Skills</string>
 	<string name="modifier.list.player.upgrades">Upgrades</string>
+
+	<string name="ui_key_count">SHOW KEY COUNT</string>
+	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
 
 
 
@@ -933,6 +937,22 @@
 	<string name="shop.blacksmith.criticaldamage-3.name">Critical Damage III</string>
 	<string name="shop.blacksmith.criticaldamage-3.desc">Increases Critical Damage on your Primary attack to 3.5x.</string>
 
+	<string name="shop.blacksmith.movespeed-1.name">Boots I</string>
+	<string name="shop.blacksmith.movespeed-1.desc">+0.1 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-2.name">Boots II</string>
+	<string name="shop.blacksmith.movespeed-2.desc">+0.2 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-3.name">Boots III</string>
+	<string name="shop.blacksmith.movespeed-3.desc">+0.3 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-4.name">Boots IV</string>
+	<string name="shop.blacksmith.movespeed-4.desc">+0.4 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-5.name">Boots V</string>
+	<string name="shop.blacksmith.movespeed-5.desc">+0.5 to your Move Speed</string>
+
+
 
 	<!-- general store -->
 	<string name="shop.generalstore.keybronze.name">Bronze Key</string>
@@ -1151,9 +1171,9 @@
 	<string name="skills.priest.aura-of-purification.3">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 50%. While the aura is active the Priest's mana regen is reduced by 50%.</string>
 
 	<string name="skills.priest.celestial-orb">Celestial Orbs</string>
-	<string name="skills.priest.celestial-orb.create">Orbs rotates around the priest that fires small beams of holy light at nearby enemies.</string>
-	<string name="skills.priest.celestial-orb.1">Two orbs rotate around the Priest that fires small beams of holy light dealing 8 Magical damage.</string>
-	<string name="skills.priest.celestial-orb.2">Three orbs rotate around the Priest that fires small beams of holy light dealing 12 Magical damage.</string>
+	<string name="skills.priest.celestial-orb.create">Orbs rotate around the priest that fire small beams of holy light at nearby enemies.</string>
+	<string name="skills.priest.celestial-orb.1">Two orbs rotate around the Priest that fire small beams of holy light, dealing 8 Magical damage.</string>
+	<string name="skills.priest.celestial-orb.2">Three orbs rotate around the Priest that fire small beams of holy light, dealing 12 Magical damage.</string>
 
 
 	<!-- Ranger -->
@@ -1199,9 +1219,9 @@
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around and fires 16 of your current arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around and fires 16 of your current arrows in quick succession. The Ranger spins around 2 times.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around and fires 16 of your current arrows in quick succession. The Ranger spins around 3 times.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around 2 times and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around 3 times and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around 4 times and fires arrows in quick succession.</string>
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
@@ -1274,12 +1294,12 @@
 
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
 	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
-	<string name="skills.thief.throwing-knives.1">Throw 4 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 4 enemies.</string>
-	<string name="skills.thief.throwing-knives.2">Throw 5 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 5 enemies.</string>
-	<string name="skills.thief.throwing-knives.3">Throw 6 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 6 enemies.</string>
-	<string name="skills.thief.throwing-knives.4">Throw 7 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 7 enemies.</string>
-	<string name="skills.thief.throwing-knives.5">Throw 8 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 8 enemies.</string>
-	<string name="skills.thief.throwing-knives.6">Throw 9 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.1">Throw 5 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 4 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 6 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 5 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 7 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 8 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 9 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 10 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 9 enemies.</string>
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
@@ -1382,11 +1402,8 @@
 	<string name="item.chainmail.name">Chainmail</string>
 	<string name="item.chainmail.desc">+%armor% Armor.</string>
 
-	<string name="item.claymore.name">Claymore</string>
-	<string name="item.claymore.desc">+%atk% Attack Power.</string>
-
-	<string name="item.conjurers-cowl.name">Conjurer's Cowl</string>
-	<string name="item.conjurers-cowl.desc">+%mana% Mana.</string>
+	<string name="item.cowl-of-protection.name">Cowl of Protection</string>
+	<string name="item.cowl-of-protection.desc">%chance%% to Block %block% Magical damage.</string>
 
 	<string name="item.defenders-halberd.name">Defender's Halberd</string>
 	<string name="item.defenders-halberd.desc">Disarm enemies for %dur% seconds when hit.</string>
@@ -1479,7 +1496,7 @@
 	<string name="item.war-axe.desc">+%dmg% Physical damage on Primary Attack.</string>
 
 	<string name="item.wizards-wand.name">Wizard's Wand</string>
-	<string name="item.wizards-wand.desc">+%spell% Spell Power.</string>
+	<string name="item.wizards-wand.desc">+%dmg% Magical damage on Primary Attack.</string>
 
 	<!-- UNCOMMON -->
 
@@ -1501,6 +1518,9 @@
 
 	<string name="item.bloodthirst-ring.name">Bloodthirst Ring</string>
 	<string name="item.bloodthirst-ring.desc">%lsteal%% Lifesteal on Primary Attack.</string>
+
+	<string name="item.claymore.name">Claymore</string>
+	<string name="item.claymore.desc">+%atk% Attack Power and +%dmg% Physical damage on Primary Attack.</string>
 
 	<string name="item.cloak-of-many-pockets.name">Cloak of Many Pockets</string>
 	<string name="item.cloak-of-many-pockets.desc">You gain %gold%% more gold.</string>
@@ -1539,7 +1559,7 @@
 	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
 
 	<string name="item.robe-of-arch-magi.name">Robe of the Arch-Magi</string>
-	<string name="item.robe-of-arch-magi.desc">+%spell% Spell Power.</string>
+	<string name="item.robe-of-arch-magi.desc">+%spell% Spell Power and +%res% Resistance.</string>
 
 	<string name="item.scarab-of-protection.name">Scarab of Protection</string>
 	<string name="item.scarab-of-protection.desc">A nova of poison darts is released when taking damage.</string>
@@ -1578,8 +1598,8 @@
 	<string name="item.amulet-of-kings.name">Amulet of Kings</string>
 	<string name="item.amulet-of-kings.desc">+%res% Magic Resistance.</string>
 
-	<string name="item.amulet-of-spellwarding.name">Amulet of Spellwarding</string>
-	<string name="item.amulet-of-spellwarding.desc">%chance%% to Block %block% Magical damage.</string>
+	<string name="item.amulet-of-vengeance.name">Amulet of Vengeance</string>
+	<string name="item.amulet-of-vengeance.desc">%chance%% to trigger Combo when taking damage.</string>
 
 	<string name="item.armor-of-kings.name">Armor of Kings</string>
 	<string name="item.armor-of-kings.desc">+%armor% Armor.</string>
