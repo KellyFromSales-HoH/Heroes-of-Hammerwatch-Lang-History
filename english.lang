@@ -133,6 +133,7 @@
 	<string name="stats.damage-taken">Damage taken</string>
 	<string name="stats.damage-taken-max">Max damage taken</string>
 	<string name="stats.chests-opened">Chests opened</string>
+	<string name="stats.elevator-used">Elevators used</string>
 	<string name="stats.fountain-used">Fountain used</string>
 	<string name="stats.well-used">Well used</string>
 	<string name="stats.gold-found">Gold found</string>
@@ -169,6 +170,17 @@
 	<string name="stats.amount-healed">Amount healed</string>
 	<string name="stats.damage-dealt">Damage dealt</string>
 	<string name="stats.damage-dealt-max">Max damage dealt</string>
+	<string name="stats.damage-dealt-physical">Physical damage dealt</string>
+	<string name="stats.damage-dealt-magical">Magical damage dealt</string>
+	<string name="stats.lifesteal-amount">Health lifestealed</string>
+	<string name="stats.stun-count">Enemies stunned</string>
+	<string name="stats.crit-count">Critical hits scored</string>
+	<string name="stats.damage-blocked">Damage blocked</string>
+	<string name="stats.evade-amount">Attacks evaded</string>
+	<string name="stats.blessings-purchased">Blessings purchased</string>
+	<string name="stats.buildings-purchased">Building upgrades purchased</string>
+	<string name="stats.gambling-gold-won">Gambling gold won</string>
+	<string name="stats.gambling-gold-lost">Gambling gold lost</string>
 
 
 	<!-- misc -->
@@ -284,7 +296,7 @@
 	<string name="random_stuff.deposit_ore">Do you want to send your ore to town?</string>
 	<string name="random_stuff.rejuvenate">The imp healed you and refilled your potion!</string>
 
-	<string name="random_buff.lower_hp">The inscription reads:\nSacrifice %amount% max health. Do you agree?</string>
+	<string name="random_buff.lower_hp">The inscription reads:\nSacrifice %amount%% max health. Do you agree?</string>
 	<string name="random_buff.lower_armor">The inscription reads:\nSacrifice %amount% armor. Do you agree?</string>
 	<string name="random_buff.lower_resistance">The inscription reads:\nSacrifice %amount% resistance. Do you agree?</string>
 	<string name="random_buff.no_experience">The inscription reads:\nSacrifice %amount%% experience gain. Do you agree?</string>
@@ -294,13 +306,14 @@
 	<string name="random_buff.take_damage">The inscription reads:\nSacrifice %amount% health. Do you agree?</string>
 	<string name="random_buff.lower_damage">The inscription reads:\nSacrifice %amount%% damage. Do you agree?</string>
 
-	<string name="hud.extralife">YOU FOUND ANOTHER PAIR OF GLASSES</string>
-	<string name="hud.dead">DEAD</string>
-	<string name="hud.ammowarning.low">LOW AMMO</string>
-	<string name="hud.ammowarning.empty">OUT OF AMMO</string>
-	<string name="hud.spectate.who">Spectating %name%</string>
-	<string name="hud.spectate.help">Press Fire to spectate next player</string>
-	<string name="dead.gameover.spectate">Press Use to spectate</string>
+	<string name="random_buff.lower_hp">The shrine rewards you with %amount%% max health.</string>
+	<string name="random_buff.more_armor">The shrine rewards you with %amount% armor and resistance.</string>
+	<string name="random_buff.more_experience">The shrine rewards you with %amount%% experience gain.</string>
+	<string name="random_buff.more_gold">The shrine rewards you with %amount%% gold gain.</string>
+	<string name="random_buff.more_ore">The shrine rewards you with %amount%% ore gain.</string>
+	<string name="random_buff.more_hp_regen">The shrine rewards you with %amount% health regen.</string>
+	<string name="random_buff.more_mp_regen">The shrine rewards you with %amount% mana regen.</string>
+	<string name="random_buff.more_damage">The shrine rewards you with %amount%% damage.</string>
 
 	<string name="dead.respawn.countdown">Respawning in %countdown%</string>
 
@@ -843,6 +856,90 @@
 
 
 
+
+	<!-- bestiary -->
+	<string name="bestiary.type.beast">BEASTS</string>
+	<string name="bestiary.type.undead">UNDEAD</string>
+	<string name="bestiary.type.aberration">ABERRATIONS</string>
+	<string name="bestiary.type.construct">CONSTRUCTS</string>
+
+	<string name="bestiary.name.bosses.golem">Rock Golem</string>
+	<string name="bestiary.name.bosses.warden">Warden</string>
+	<string name="bestiary.name.bosses.wraith_scythe">Scythe Wraith</string>
+	<string name="bestiary.name.bosses.wraith_staff">Staff Wraith</string>
+	<string name="bestiary.name.bosses.wraith_mage">Mage Wraith</string>
+	<string name="bestiary.name.bosses.eye">Watcher</string>
+	<string name="bestiary.name.bosses.dragon">Dragon</string>
+	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
+	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
+	<string name="bestiary.name.spawner_bats">Bat Tree Stump</string>
+	<string name="bestiary.name.spawner_eye">Mother Eye</string>
+	<string name="bestiary.name.spawner_maggot">Maggot Incubator</string>
+	<string name="bestiary.name.spawner_skeleton_1">Skeleton Pit</string>
+	<string name="bestiary.name.spawner_skeleton_2">Skeleton Guardian Pit</string>
+	<string name="bestiary.name.spawner_tick">Tick Nest</string>
+	<string name="bestiary.name.spawner_wisp">Wisp Tree</string>
+	<string name="bestiary.name.banner_bloodlust">Bloodlust Banner</string>
+	<string name="bestiary.name.banner_healing">Healing Banner</string>
+	<string name="bestiary.name.banner_protection">Protection Banner</string>
+	<string name="bestiary.name.bannerman_bloodlust">Bloodlust Bannerman</string>
+	<string name="bestiary.name.bannerman_healing">Healing Bannerman</string>
+	<string name="bestiary.name.bannerman_protection">Protection Bannerman</string>
+	<string name="bestiary.name.bat_1">Bat</string>
+	<string name="bestiary.name.bat_2">Red Bat</string>
+	<string name="bestiary.name.battlemage">Battlemage</string>
+	<string name="bestiary.name.elemental_ice_sword">Ice Elemental</string>
+	<string name="bestiary.name.elemental_ice_ranged">Ranged Ice Elemental</string>
+	<string name="bestiary.name.eye_1">Eye</string>
+	<string name="bestiary.name.eye_1_mb">Monstrous Eye</string>
+	<string name="bestiary.name.eye_1_small">Small Eye</string>
+	<string name="bestiary.name.ghost_paladin">Fallen Paladin</string>
+	<string name="bestiary.name.ghost_priest">Fallen Priest</string>
+	<string name="bestiary.name.ghost_ranger">Fallen Ranger</string>
+	<string name="bestiary.name.ghost_sorcerer">Fallen Sorcerer</string>
+	<string name="bestiary.name.ghost_thief">Fallen Thief</string>
+	<string name="bestiary.name.guardian_1">Skeleton Guardian Berzerker</string>
+	<string name="bestiary.name.lich_1">Lich</string>
+	<string name="bestiary.name.lich_elite">Elite Lich</string>
+	<string name="bestiary.name.lich_mb">Arch-Lich</string>
+	<string name="bestiary.name.lich_frost">Frost Lich</string>
+	<string name="bestiary.name.lich_summ_1">Ghostcaller Lich</string>
+	<string name="bestiary.name.archer_1">Skeleton Archer</string>
+	<string name="bestiary.name.archer_1_elite">Elite Skeleton Archer</string>
+	<string name="bestiary.name.archer_2">Skeleton Archer II</string>
+	<string name="bestiary.name.skeleton_1">Skeleton</string>
+	<string name="bestiary.name.skeleton_1_elite">Elite Skeleton</string>
+	<string name="bestiary.name.skeleton_1_mb">Skeleton Gladiator</string>
+	<string name="bestiary.name.skeleton_1_small">Weak Skeleton</string>
+	<string name="bestiary.name.skeleton_2">Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_elite">Elite Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_small">Weak Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_1_spear">Skeleton Spearman</string>
+	<string name="bestiary.name.skeleton_2_spear">Skeleton Spearman II</string>
+	<string name="bestiary.name.maggot_1">Maggot</string>
+	<string name="bestiary.name.maggot_1_elite">Spined Maggot</string>
+	<string name="bestiary.name.maggot_1_mb">Massive Maggot</string>
+	<string name="bestiary.name.maggot_1_small">Small Maggot</string>
+	<string name="bestiary.name.tick_1">Tick</string>
+	<string name="bestiary.name.tick_1_elite">Elite Tick</string>
+	<string name="bestiary.name.tick_1_small">Small Tick</string>
+	<string name="bestiary.name.tick_1_small_exploding">Small Exploding Tick</string>
+	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
+	<string name="bestiary.name.tower_battlement_archer_1">Archer Battlement</string>
+	<string name="bestiary.name.tower_battlement_archer_2">Archer Battlement II</string>
+	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
+	<string name="bestiary.name.tower_beamo">Beamo Tower</string>
+	<string name="bestiary.name.tower_flower_1">Flower</string>
+	<string name="bestiary.name.tower_flower_2">Flower II</string>
+	<string name="bestiary.name.tower_nova_1">Nova Tower</string>
+	<string name="bestiary.name.tower_nova_2">Nova Tower II</string>
+	<string name="bestiary.name.trapper">Trapper</string>
+	<string name="bestiary.name.wisp_1">Blue Wisp</string>
+	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
+	<string name="bestiary.name.wisp_2">Red Wisp</string>
+
+
+
 	<!-- TOWN -->
 
 
@@ -1014,44 +1111,20 @@
 
 
 	<!-- apothecary -->
-	<string name="shop.apothecary.charges-1.name">Potion Charges I</string>
-	<string name="shop.apothecary.charges-1.desc">Your potion will have 2 charges.</string>
+	<string name="shop.apothecary.charges.name">Potion Charges %lvl%</string>
+	<string name="shop.apothecary.charges.desc">Your potion will have %num% charges.</string>
 
-	<string name="shop.apothecary.charges-2.name">Potion Charges II</string>
-	<string name="shop.apothecary.charges-2.desc">Your potion will have 3 charges.</string>
+	<string name="shop.apothecary.healing.name">Healing Draught %lvl%</string>
+	<string name="shop.apothecary.healing.desc">Increases the amount of healing gained from your potion from %from% to %to%.</string>
 
-	<string name="shop.apothecary.charges-3.name">Potion Charges III</string>
-	<string name="shop.apothecary.charges-3.desc">Your potion will have 4 charges.</string>
+	<string name="shop.apothecary.mana.name">Mana Draught %lvl%</string>
+	<string name="shop.apothecary.mana.desc">Increases the amount of mana gained from your potion from 50 to 70.</string>
 
-	<string name="shop.apothecary.healing-1.name">Healing Draught I</string>
-	<string name="shop.apothecary.healing-1.desc">Increases the amount of healing gained from your potion from 50 to 70.</string>
+	<string name="shop.apothecary.heal-pickups.name">Invigorating Spices %lvl%</string>
+	<string name="shop.apothecary.heal-pickups.desc">The effectiveness of health pickups is increased by %num%%.</string>
 
-	<string name="shop.apothecary.healing-2.name">Healing Draught II</string>
-	<string name="shop.apothecary.healing-2.desc">Increases the amount of healing gained from your potion from 70 to 100.</string>
-
-	<string name="shop.apothecary.healing-3.name">Healing Draught III</string>
-	<string name="shop.apothecary.healing-3.desc">Increases the amount of healing gained from your potion from 100 to 140.</string>
-
-	<string name="shop.apothecary.mana-1.name">Mana Draught I</string>
-	<string name="shop.apothecary.mana-1.desc">Increases the amount of mana gained from your potion from 50 to 70.</string>
-
-	<string name="shop.apothecary.mana-2.name">Mana Draught II</string>
-	<string name="shop.apothecary.mana-2.desc">Increases the amount of mana gained from your potion from 70 to 100.</string>
-
-	<string name="shop.apothecary.mana-3.name">Mana Draught III</string>
-	<string name="shop.apothecary.mana-3.desc">Increases the amount of mana gained from your potion from 100 to 140.</string>
-
-	<string name="shop.apothecary.heal-pickups-1.name">Invigorating Spices I</string>
-	<string name="shop.apothecary.heal-pickups-1.desc">The effectiveness of health pickups is increased by 50%.</string>
-
-	<string name="shop.apothecary.heal-pickups-2.name">Invigorating Spices II</string>
-	<string name="shop.apothecary.heal-pickups-2.desc">The effectiveness of health pickups is increased by 100%.</string>
-
-	<string name="shop.apothecary.mana-pickups-1.name">Mana Extractor I</string>
-	<string name="shop.apothecary.mana-pickups-1.desc">The effectiveness of mana pickups is increased by 50%.</string>
-
-	<string name="shop.apothecary.mana-pickups-2.name">Mana Extractor II</string>
-	<string name="shop.apothecary.mana-pickups-2.desc">The effectiveness of mana pickups is increased by 100%.</string>
+	<string name="shop.apothecary.mana-pickups.name">Mana Extractor %lvl%</string>
+	<string name="shop.apothecary.mana-pickups.desc">The effectiveness of mana pickups is increased by %num%%.</string>
 
 
 	<!-- blacksmith -->
@@ -2324,80 +2397,152 @@
 
 
 
-	<!-- Achievements -->
+	<!-- Accomplishments -->
 
 
-	<string name="achievement.aberration-killed.name">Excorcists %lvl%</string>
-	<string name="achievement.aberration-killed.desc">Kill 2000 Aberrations.</string>
+	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
+	<string name="accomplishment.aberration-killed.desc">Kill 2000 Aberrations.</string>
 
-	<string name="achievement.beast-killed.name">Beast Slayers %lvl%</string>
-	<string name="achievement.beast-killed.desc">Kill 1000 Beasts.</string>
+	<string name="accomplishment.beast-killed.name">Beast Slayers %lvl%</string>
+	<string name="accomplishment.beast-killed.desc">Kill 1000 Beasts.</string>
 
-	<string name="achievement.construct-killed.name">Demolishers %lvl%</string>
-	<string name="achievement.construct-killed.desc">Kill 250 Constructs.</string>
+	<string name="accomplishment.construct-killed.name">Demolishers %lvl%</string>
+	<string name="accomplishment.construct-killed.desc">Kill 250 Constructs.</string>
 
-	<string name="achievement.undead-killed.name">Sanctifiers %lvl%</string>
-	<string name="achievement.undead-killed.desc">Kill 2500 Undead.</string>
+	<string name="accomplishment.undead-killed.name">Sanctifiers %lvl%</string>
+	<string name="accomplishment.undead-killed.desc">Kill 2500 Undead.</string>
 
-	<string name="achievement.enemies-killed.name">Killers %lvl%</string>
-	<string name="achievement.enemies-killed.desc"></string>
+	<string name="accomplishment.enemies-killed.name">Killers %lvl%</string>
+	<string name="accomplishment.enemies-killed.desc"></string>
 
-	<string name="achievement.spent-mana.name">Spellcasters %lvl%</string>
-	<string name="achievement.spent-mana.desc"></string>
+	<string name="accomplishment.spent-mana.name">Spellcasters %lvl%</string>
+	<string name="accomplishment.spent-mana.desc"></string>
 
-	<string name="achievement.spent-gold.name">Big Spenders %lvl%</string>
-	<string name="achievement.spent-gold.desc"></string>
+	<string name="accomplishment.spent-gold.name">Big Spenders %lvl%</string>
+	<string name="accomplishment.spent-gold.desc"></string>
 
-	<string name="achievement.gold-found.name">Gold Diggers %lvl%</string>
-	<string name="achievement.gold-found.desc"></string>
+	<string name="accomplishment.gold-found.name">Gold Diggers %lvl%</string>
+	<string name="accomplishment.gold-found.desc"></string>
 
-	<string name="achievement.ore-found.name">Miners %lvl%</string>
-	<string name="achievement.ore-found.desc"></string>
+	<string name="accomplishment.ore-found.name">Miners %lvl%</string>
+	<string name="accomplishment.ore-found.desc"></string>
 
-	<string name="achievement.combo.name">Combo Streakers %lvl%</string>
-	<string name="achievement.combo.desc"></string>
+	<string name="accomplishment.combo.name">Combo Streakers %lvl%</string>
+	<string name="accomplishment.combo.desc"></string>
 
-	<string name="achievement.items-bought.name">Shoppers %lvl%</string>
-	<string name="achievement.items-bought.desc"></string>
+	<string name="accomplishment.items-bought.name">Shoppers %lvl%</string>
+	<string name="accomplishment.items-bought.desc"></string>
 
-	<string name="achievement.items-common.name">Common Looters %lvl%</string>
-	<string name="achievement.items-common.desc"></string>
+	<string name="accomplishment.items-common.name">Common Looters %lvl%</string>
+	<string name="accomplishment.items-common.desc"></string>
 
-	<string name="achievement.items-uncommon.name">Uncommon Looters %lvl%</string>
-	<string name="achievement.items-uncommon.desc"></string>
+	<string name="accomplishment.items-uncommon.name">Uncommon Looters %lvl%</string>
+	<string name="accomplishment.items-uncommon.desc"></string>
 
-	<string name="achievement.items-rare.name">Rare Looters %lvl%</string>
-	<string name="achievement.items-rare.desc"></string>
+	<string name="accomplishment.items-rare.name">Rare Looters %lvl%</string>
+	<string name="accomplishment.items-rare.desc"></string>
 
-	<string name="achievement.items-legendary.name">Legendary Looters %lvl%</string>
-	<string name="achievement.items-legendary.desc"></string>
+	<string name="accomplishment.items-legendary.name">Legendary Looters %lvl%</string>
+	<string name="accomplishment.items-legendary.desc"></string>
 
-	<string name="achievement.damage-dealt-max.name">Heavy Hitters %lvl%</string>
-	<string name="achievement.damage-dealt-max.desc"></string>
+	<string name="accomplishment.damage-dealt-max.name">Heavy Hitters %lvl%</string>
+	<string name="accomplishment.damage-dealt-max.desc"></string>
 
-	<string name="achievement.amount-healed.name">Physicians %lvl%</string>
-	<string name="achievement.amount-healed.desc"></string>
+	<string name="accomplishment.damage-dealt-physical.name">Warriors %lvl%</string>
+	<string name="accomplishment.damage-dealt-physical.desc"></string>
 
-	<string name="achievement.fountain-used.name">Coin Tossers %lvl%</string>
-	<string name="achievement.fountain-used.desc"></string>
+	<string name="accomplishment.damage-dealt-magical.name">Mages %lvl%</string>
+	<string name="accomplishment.damage-dealt-magical.desc"></string>
 
-	<string name="achievement.well-used.name">Replenishers %lvl%</string>
-	<string name="achievement.well-used.desc"></string>
+	<string name="accomplishment.amount-healed.name">Physicians %lvl%</string>
+	<string name="accomplishment.amount-healed.desc"></string>
 
-	<string name="achievement.potion-used.name">Potion Gulpers %lvl%</string>
-	<string name="achievement.potion-used.desc"></string>
+	<string name="accomplishment.fountain-used.name">Coin Tossers %lvl%</string>
+	<string name="accomplishment.fountain-used.desc"></string>
 
-	<string name="achievement.chest-bronze.name">Bronze Chest Pillagers %lvl%</string>
-	<string name="achievement.chest-bronze.desc"></string>
+	<string name="accomplishment.well-used.name">Replenishers %lvl%</string>
+	<string name="accomplishment.well-used.desc"></string>
 
-	<string name="achievement.chest-silver.name">Silver Chest Pillagers %lvl%</string>
-	<string name="achievement.chest-silver.desc"></string>
+	<string name="accomplishment.potion-used.name">Potion Gulpers %lvl%</string>
+	<string name="accomplishment.potion-used.desc"></string>
 
-	<string name="achievement.chest-gold.name">Gold Chest Pillagers %lvl%</string>
-	<string name="achievement.chest-gold.desc"></string>
+	<string name="accomplishment.chest-bronze.name">Bronze Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-bronze.desc"></string>
 
-	<string name="achievement.chest-ace.name">Ace Chest Pillagers %lvl%</string>
-	<string name="achievement.chest-ace.desc"></string>
+	<string name="accomplishment.chest-silver.name">Silver Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-silver.desc"></string>
+
+	<string name="accomplishment.chest-gold.name">Gold Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-gold.desc"></string>
+
+	<string name="accomplishment.chest-ace.name">Ace Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-ace.desc"></string>
+
+	<string name="accomplishment.paladin-level.name">Knights Chapter %lvl%</string>
+	<string name="accomplishment.paladin-level.desc"></string>
+
+	<string name="accomplishment.priest-level.name">Holy Order %lvl%</string>
+	<string name="accomplishment.priest-level.desc"></string>
+
+	<string name="accomplishment.ranger-level.name">Hunters Lodge %lvl%</string>
+	<string name="accomplishment.ranger-level.desc"></string>
+
+	<string name="accomplishment.sorcerer-level.name">Magicians Circle %lvl%</string>
+	<string name="accomplishment.sorcerer-level.desc"></string>
+
+	<string name="accomplishment.thief-level.name">Thieves Den %lvl%</string>
+	<string name="accomplishment.thief-level.desc"></string>
+
+	<string name="accomplishment.warlock-level.name">Mystic Cult %lvl%</string>
+	<string name="accomplishment.warlock-level.desc"></string>
+
+	<string name="accomplishment.wizard-level.name">Arcane League %lvl%</string>
+	<string name="accomplishment.wizard-level.desc"></string>
+
+	<string name="accomplishment.lifesteal-amount.name">Blood Hunters %lvl%</string>
+	<string name="accomplishment.lifesteal-amount.desc"></string>
+
+	<string name="accomplishment.stun-count.name">Bashers %lvl%</string>
+	<string name="accomplishment.stun-count.desc"></string>
+
+	<string name="accomplishment.crit-count.name">Critical Hitters %lvl%</string>
+	<string name="accomplishment.crit-count.desc"></string>
+
+	<string name="accomplishment.damage-blocked.name">Blockers %lvl%</string>
+	<string name="accomplishment.damage-blocked.desc"></string>
+
+	<string name="accomplishment.evade-amount.name">Dodgers %lvl%</string>
+	<string name="accomplishment.evade-amount.desc"></string>
+
+	<string name="accomplishment.amount-healed.name">Physicians %lvl%</string>
+	<string name="accomplishment.amount-healed.desc"></string>
+
+	<string name="accomplishment.elevator-used.name">Dispatchers %lvl%</string>
+	<string name="accomplishment.elevator-used.desc"></string>
+
+	<string name="accomplishment.fountain-used.name">Coin Tossers %lvl%</string>
+	<string name="accomplishment.fountain-used.desc"></string>
+
+	<string name="accomplishment.well-used.name">Replenishers %lvl%</string>
+	<string name="accomplishment.well-used.desc"></string>
+
+	<string name="accomplishment.blessings-purchased.name">Divine Favors %lvl%</string>
+	<string name="accomplishment.blessings-purchased.desc"></string>
+
+	<string name="accomplishment.buildings-purchased.name">Builders %lvl%</string>
+	<string name="accomplishment.buildings-purchased.desc"></string>
+
+	<string name="accomplishment.gambling-gold-won.name">High Rollers %lvl%</string>
+	<string name="accomplishment.gambling-gold-won.desc"></string>
+
+	<string name="accomplishment.floors-visited.name">Explorers %lvl%</string>
+	<string name="accomplishment.floors-visited.desc"></string>
+
+	<string name="accomplishment.units-traveled.name">Wanderers %lvl%</string>
+	<string name="accomplishment.units-traveled.desc"></string>
+
+	<string name="accomplishment.potion-used.name">Potion Gulpers %lvl%</string>
+	<string name="accomplishment.potion-used.desc"></string>
 
 
 
