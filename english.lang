@@ -15,11 +15,11 @@
 	<string name="class.paladin">Paladin</string>
 	<string name="class.paladin.desc">A powerful melee warrior with a lot of survivability.</string>
 	<string name="class.priest">Priest</string>
-	<string name="class.priest.desc"></string>
+	<string name="class.priest.desc">A mana dependent caster focused on healing and magical damage.</string>
 	<string name="class.ranger">Ranger</string>
 	<string name="class.ranger.desc">An expert at ranged combat with a variety of skills.</string>
 	<string name="class.sorcerer">Sorcerer</string>
-	<string name="class.sorcerer.desc">A fragile spell caster that deals physical and magical damage.</string>
+	<string name="class.sorcerer.desc">A fragile spell caster that deals both physical and magical damage.</string>
 	<string name="class.thief">Thief</string>
 	<string name="class.thief.desc">An elusive melee fighter with a lot of mobility.</string>
 	<string name="class.warlock">Warlock</string>
@@ -56,7 +56,7 @@
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
 	<string name="world.mines">OUTLOOK MINES</string>
-	<string name="world.tower">FORSAKEN SPIRE</string>
+	<string name="world.tower">FORSAKEN TOWER</string>
 	<string name="world.floor">FLOOR %num%</string>
 	<string name="world.acts.0">MINES</string>
 	<string name="world.acts.1">PRISON</string>
@@ -206,7 +206,7 @@
 	<string name="color.skin">Skin</string>
 
 	<!-- Colors Paladin -->
-	<string name="color.paladin.body">Body</string>
+	<string name="color.paladin.body">Armor</string>
 	<string name="color.paladin.shoulders">Shoulders</string>
 	<string name="color.paladin.guard">Guard/Cross</string>
 
@@ -224,6 +224,19 @@
 	<string name="color.thief.hair">Hair</string>
 	<string name="color.thief.scarf">Scarf</string>
 	<string name="color.thief.jacket">Jacket</string>
+
+	<!-- Colors Warlock -->
+	<string name="color.warlock.helmet">Helmet</string>
+	<string name="color.warlock.robe">Robe</string>
+	<string name="color.warlock.staff">Staff</string>
+
+	<!-- Colors Priest -->
+	<string name="color.priest.robe">Robe</string>
+	<string name="color.priest.cape">Cape</string>
+	<string name="color.priest.mitra">Mitra</string>
+
+
+
 
 	<string name="gameover.restart">RESTART</string>
 
@@ -267,7 +280,7 @@
 	<string name="mainmenu.character.create.random">RANDOM</string>
 	<string name="mainmenu.character.create.play">PLAY!</string>
 	<string name="mainmenu.character.create.voicepitch">VOICE PITCH</string>
-
+	<string name="mainmenu.character.colors.title">COLORS</string>
 	<string name="menu.restart.tooltip">Return to town. This will count as a death!</string>
 
 
@@ -718,9 +731,6 @@
 	<string name="shop.townhall.chapel-3.name">Chapel III</string>
 	<string name="shop.townhall.chapel-3.desc">Donate money to receive a permanent blessing.</string>
 
-	<string name="shop.townhall.chapel-4.name">Chapel IV</string>
-	<string name="shop.townhall.chapel-4.desc">Donate money to receive a permanent blessing.</string>
-
 	<string name="shop.townhall.fountain-1.name">Fountain I</string>
 	<string name="shop.townhall.fountain-1.desc">Throw gold in the fountain to have something happen (good or bad, amazing or terrible).</string>
 
@@ -776,13 +786,13 @@
 	<string name="shop.townhall.sculptor-3.desc">Build Level 3 status for ore. 4 slots.</string>
 
 	<string name="shop.townhall.tavern-1.name">Tavern I</string>
-	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling.</string>
+	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling coming soon.</string>
 
 	<string name="shop.townhall.tavern-2.name">Tavern II</string>
-	<string name="shop.townhall.tavern-2.desc">Gambling.</string>
+	<string name="shop.townhall.tavern-2.desc">Gambling coming soon.</string>
 
 	<string name="shop.townhall.tavern-3.name">Tavern III</string>
-	<string name="shop.townhall.tavern-3.desc">Gambling.</string>
+	<string name="shop.townhall.tavern-3.desc">Gambling coming soon.</string>
 
 	<string name="shop.townhall.treasury-1.name">Treasury I</string>
 	<string name="shop.townhall.treasury-1.desc">Conserve 40% of your gold when you die.</string>
@@ -935,6 +945,44 @@
 	<string name="shop.generalstore.keygold.desc">Used to open gold chests.</string>
 
 
+	<!-- chapel -->
+	<string name="shop.chapel.path.attack.name">Path of the Warrior</string>
+	<string name="shop.chapel.path.attack.desc">Increases damage of your Primary attack by %attack%%.</string>
+
+	<string name="shop.chapel.path.defense.name">Path of the Defender</string>
+	<string name="shop.chapel.path.defense.desc">Decreases damage taken by %taken%%.</string>
+
+	<string name="shop.chapel.path.spell.name">Path of the Magician</string>
+	<string name="shop.chapel.path.spell.desc">Increases damage of your Spells by %spell%%.</string>
+
+	<string name="shop.chapel.blessing.armor-pierce.name">Blessing of Might</string>
+	<string name="shop.chapel.blessing.armor-pierce.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
+
+	<string name="shop.chapel.blessing.health-regen.name">Blessing of Life</string>
+	<string name="shop.chapel.blessing.health-regen.desc">Increases your Health Regen by %regen%%.</string>
+
+	<string name="shop.chapel.blessing.mana-regen.name">Blessing of Mind</string>
+	<string name="shop.chapel.blessing.mana-regen.desc">Increases your Mana Regen by %regen%%.</string>
+
+	<string name="shop.chapel.blessing.resistance-pierce.name">Blessing of Intellect</string>
+	<string name="shop.chapel.blessing.resistance-pierce.desc">Magical damage ignore %pierce%% of the enemies Armor.</string>
+
+	<string name="shop.chapel.symbol.attack-crit.name">Symbol of Force</string>
+	<string name="shop.chapel.symbol.attack-crit.desc">Increases Critical Damage on your Primary attack by %damage%%.</string>
+
+	<string name="shop.chapel.symbol.lifesteal.name">Symbol of Essence</string>
+	<string name="shop.chapel.symbol.lifesteal.desc">Gain %lsteal%% lifesteal on Primary Attack.</string>
+
+	<string name="shop.chapel.symbol.return-damage.name">Symbol of Retribution</string>
+	<string name="shop.chapel.symbol.return-damage.desc">Returns %return%% damage to the attacker when hit.</string>
+
+	<string name="shop.chapel.symbol.spell-cost.name">Symbol of Wisdom</string>
+	<string name="shop.chapel.symbol.spell-cost.desc">Decreases the cost of casting your Spells by %cost%%.</string>
+
+	<string name="shop.chapel.symbol.spell-crit.name">Symbol of Focus</string>
+	<string name="shop.chapel.symbol.spell-crit.desc">Increases Critical Damage on your Spells by %damage%%.</string>
+
+
 	<!-- magic shop -->
 	<string name="shop.magicshop.resistance-1.name">Resistance I</string>
 	<string name="shop.magicshop.resistance-1.desc">+5 to your Resistance.</string>
@@ -1057,18 +1105,55 @@
 
 	<!-- Priest -->
 	<string name="skills.priest.smite">Smite</string>
+	<string name="skills.priest.smite.create">A short ranged area of effect attack that deals both physical and magical damage.</string>
+	<string name="skills.priest.smite.1">A short ranged attack dealing 8 Hybrid damage in a 11-unit radius.</string>
+	<string name="skills.priest.smite.2">A short ranged attack dealing 10 Hybrid damage in a 12-unit radius.</string>
+	<string name="skills.priest.smite.3">A short ranged attack dealing 12 Hybrid damage in a 13-unit radius.</string>
+	<string name="skills.priest.smite.4">A short ranged attack dealing 14 Hybrid damage in a 14-unit radius.</string>
+	<string name="skills.priest.smite.5">A short ranged attack dealing 16 Hybrid damage in a 15-unit radius.</string>
+	<string name="skills.priest.smite.6">A short ranged attack dealing 18 Hybrid damage in a 16-unit radius.</string>
 
 	<string name="skills.priest.holy-light">Holy Light</string>
-
-	<string name="skills.priest.remedy">Remedy</string>
+	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
+	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 magical damage and will heal allies for 4.</string>
+	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 17 magical damage and will heal allies for 5.</string>
+	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 22 magical damage and will heal allies for 6.</string>
+	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 27 magical damage and will heal allies for 7.</string>
+	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 32 magical damage and will heal allies for 8.</string>
+	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 37 magical damage and will heal allies for 9.</string>
 
 	<string name="skills.priest.divine-protection">Divine Protection</string>
+	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
+	<string name="skills.priest.divine-protection.1">Passive skill. The shield absorbs 50% of incoming damage for a cost of 4 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.2">Passive skill. The shield absorbs 55% of incoming damage for a cost of 2 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.3">Passive skill. The shield absorbs 60% of incoming damage for a cost of 1 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.4">Passive skill. The shield absorbs 65% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.5">Passive skill. The shield absorbs 70% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+
+	<string name="skills.priest.remedy">Remedy</string>
+	<string name="skills.priest.remedy.create">The Priest regains health more effectively from all sources.</string>
+	<string name="skills.priest.remedy.1">Passive skill. The Priest regains health 50% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.2">Passive skill. The Priest regains health 100% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.3">Passive skill. The Priest regains health 150% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.4">Passive skill. The Priest regains health 200% more effectively from all sources.</string>
 
 	<string name="skills.priest.consecrated-ground">Consecrated Ground</string>
+	<string name="skills.priest.consecrated-ground.create">The Priest places a field on the ground that drains health from enemies to allies in the area.</string>
+	<string name="skills.priest.consecrated-ground.1">A field is placed on the ground that lasts for 5 seconds. Enemies in the area take 16 magical damage per second. 25% of the total damage dealt is split between allies in the area.</string>
+	<string name="skills.priest.consecrated-ground.2">A field is placed on the ground that lasts for 5.5 seconds. Enemies in the area take 24 magical damage per second. 25% of the total damage dealt is split between allies in the area.</string>
+	<string name="skills.priest.consecrated-ground.3">A field is placed on the ground that lasts for 6 seconds. Enemies in the area take 32 magical damage per second. 25% of the total damage dealt is split between allies in the area.</string>
+	<string name="skills.priest.consecrated-ground.4">A field is placed on the ground that lasts for 6.5 seconds. Enemies in the area take 40 magical damage per second. 25% of the total damage dealt is split between allies in the area.</string>
 
 	<string name="skills.priest.aura-of-purification">Aura of Purification</string>
+	<string name="skills.priest.aura-of-purification.create">The Priest radiates an aura that slows and lowers the damage of all nearby enemies.</string>
+	<string name="skills.priest.aura-of-purification.1">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 30%. While the aura is active the Priest's mana regen is reduced by 100%.</string>
+	<string name="skills.priest.aura-of-purification.2">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 40%. While the aura is active the Priest's mana regen is reduced by 75%.</string>
+	<string name="skills.priest.aura-of-purification.3">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 50%. While the aura is active the Priest's mana regen is reduced by 50%.</string>
 
 	<string name="skills.priest.celestial-orb">Celestial Orb</string>
+	<string name="skills.priest.celestial-orb.create">An orb rotates around the priest that fires small beams of holy light at nearby enemies.</string>
+	<string name="skills.priest.celestial-orb.1">NOT IMPLEMENTED</string>
+	<string name="skills.priest.celestial-orb.2">NOT IMPLEMENTED</string>
 
 
 	<!-- Ranger -->
@@ -1114,14 +1199,14 @@
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around and fires 16 of your current arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around and fires 16 of your current arrows in quick succession. The Ranger spins around 2 times.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around and fires 16 of your current arrows in quick succession. The Ranger spins around 3 times.</string>
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.1">Passive skill. Piercing arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.2">Passive skill. Piercing arrows have a chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Passive skill. Piercing arrows have a 15% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Passive skill. Piercing arrows have a 30% chance of splitting and seeking a new target.</string>
 
 
 	<!-- Sorcerer -->
@@ -1167,14 +1252,14 @@
 
 	<string name="skills.sorcerer.orb-of-winter">Orb of Winter</string>
 	<string name="skills.sorcerer.orb-of-winter.create">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
-	<string name="skills.sorcerer.orb-of-winter.1">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
-	<string name="skills.sorcerer.orb-of-winter.2">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
-	<string name="skills.sorcerer.orb-of-winter.3">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
+	<string name="skills.sorcerer.orb-of-winter.1">Spawns a slow moving ice orb that moves forward for 3.5 seconds unleashing small ice shards in all directions that deals 16 Hybrid damage.</string>
+	<string name="skills.sorcerer.orb-of-winter.2">Spawns a slow moving ice orb that moves forward for 5 seconds unleashing small ice shards in all directions that deals 22 Hybrid damage.</string>
+	<string name="skills.sorcerer.orb-of-winter.3">Spawns a slow moving ice orb that moves forward for 6.5 seconds unleashing small ice shards in all directions that deals 28 Hybrid damage.</string>
 
 	<string name="skills.sorcerer.shatter">Shatter</string>
 	<string name="skills.sorcerer.shatter.create">Enemies killed by the Sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.1">Passive skill. Enemies killed by the sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.2">Passive skill. Enemies killed by the sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.1">Passive skill. Enemies killed by the sorcerer have a 7.5% chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.2">Passive skill. Enemies killed by the sorcerer have a 15% chance to trigger a Frost Nova at the location of their death.</string>
 
 
 	<!-- Thief -->
@@ -1220,14 +1305,14 @@
 
 	<string name="skills.thief.smoke-bomb">Smoke Bomb</string>
 	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies.</string>
-	<string name="skills.thief.smoke-bomb.1">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
-	<string name="skills.thief.smoke-bomb.2">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
-	<string name="skills.thief.smoke-bomb.3">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
+	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a 75-unit radius for 5 seconds.</string>
+	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a 100-unit radius for 5 seconds.</string>
+	<string name="skills.thief.smoke-bomb.3">The Thief throws a smoke bomb that stuns all enemies in a 125-unit radius for 5 seconds.</string>
 
 	<string name="skills.thief.gold-fever">Gold Fever</string>
-	<string name="skills.thief.gold-fever.create">Killing enemies gives you more gold, and the Thief gains a damage bonus based on the amount of gold you have.</string>
-	<string name="skills.thief.gold-fever.1">Passive skill. Killing enemies gives you more gold and the thief gains a damage bonus based on the amount of gold you have.</string>
-	<string name="skills.thief.gold-fever.2">Passive skill. Killing enemies gives you more gold and the thief gains a damage bonus based on the amount of gold you have.</string>
+	<string name="skills.thief.gold-fever.create">The Thief gains more gold and does more damage based on your current gold.</string>
+	<string name="skills.thief.gold-fever.1">Passive skill. The Thief gains 100% more gold. The Thief gains a damage bonus of 0.01% based on your current gold.</string>
+	<string name="skills.thief.gold-fever.2">Passive skill. The Thief gains 200% more gold. The Thief gains a damage bonus of 0.015% based on your current gold.</string>
 
 
 	<!-- Warlock -->
@@ -1573,19 +1658,38 @@
 	<string name="dialogue.town.npc.greeting-2">Welcome!</string>
 
 	<!-- Town NPC Generic -->
-	<string name="dialogue.town.npc.generic.woman1.1a">We used to be able to\nsee far out over Aridara.</string>
-	<string name="dialogue.town.npc.generic.woman1.1b">Bad fog and thick clouds\nengulf the slopes.</string>
+	<string name="dialogue.town.npc.generic.woman1.1Ra">We used to be\nable to see far\nout over Aridara.</string>
+	<string name="dialogue.town.npc.generic.woman1.1Rb">There used to be\nsuch a great view\nfrom up here.</string>
 
-	<string name="dialogue.town.npc.generic.guard.1a">There's only one way\nout, in a body bag.</string>
-	<string name="dialogue.town.npc.generic.guard.1b">If you enter there's\nno turning back.</string>
-	<string name="dialogue.town.npc.generic.guard.1c">The entrance will be\nbarred from behind you.</string>
+	<string name="dialogue.town.npc.generic.woman2.1Ra">The apothecary left\nto gather supplies\nin the horrible mines.</string>
+	<string name="dialogue.town.npc.generic.woman2.1Rb">There used to be\nsuch a great view\nfrom up here.</string>
 
-	<string name="dialogue.town.npc.generic.ace1.1a">Rumor has it, that it\nalways rains on the\ntop of the Forsaken Spire.</string>
+	<string name="dialogue.town.npc.generic.man1.1Ra">Look, the top of\nthe Spire is all\nshrouded and dark.</string>
+	<string name="dialogue.town.npc.generic.man1.1Rb">Bad fog and thick\nclouds engulf the\ntop of the Spire.</string>
 
-	<string name="dialogue.town.npc.generic.ace2.1a">I'm not going back\ninto those mines.</string>
+	<string name="dialogue.town.npc.generic.man2.1Ra">The barkeep, left to\ntry and find some\nore up in the Tower.</string>
+	<string name="dialogue.town.npc.generic.man2.1Rb">Crooked Wolfram\nleft trying to find material\nto open up his bar again.</string>
+
+	<string name="dialogue.town.npc.generic.man2.2Ra">Perhaps you can help\nWolfram open up his\nbar again?</string>
+	<string name="dialogue.town.npc.generic.man2.2Rb">The Old Drunkard\nused to have some\nsick gambling.</string>
+
+
+	<string name="dialogue.town.npc.generic.guard.1a">If you enter,\nthere's no\nturning back.</string>
+	<string name="dialogue.town.npc.generic.guard.1b">The entrance\nwill be barred\nfrom behind you.</string>
+
+	<string name="dialogue.town.npc.generic.ace1.1Ra">I'm not gonna enter\nthose mines.\nNo chance in hell.</string>
+	<string name="dialogue.town.npc.generic.ace1.1Rb">Yea, like I will ever\ntry and clear out\n those mines.</string>
 
 	<string name="dialogue.town.npc.generic.ace3.1a">Les Calhoun only\ntrains the best!</string>
-	<string name="dialogue.town.npc.generic.ace3.1b">Talk to Les over at\nthe Broken Ace, he'll\nteach you!</string>
+	<string name="dialogue.town.npc.generic.ace3.1b">Talk to Les over at\nthe Broken Ace,\nhe'll teach you!</string>
+
+	<string name="dialogue.town.npc.generic.ace1.name">Revered Champ</string>
+	<string name="dialogue.town.npc.generic.ace1.1Ra">I'm not gonna enter\nthose mines.\nNo chance in hell.</string>
+	<string name="dialogue.town.npc.generic.ace1.1Rb">Yea, like I will ever\ntry and clear out\n those mines.</string>
+
+
+
+
 
 	<!-- Town NPC Specific -->
 	<string name="dialogue.town.npc.fountain.oaf.name">Dumb Oaf</string>
@@ -1596,46 +1700,47 @@
 	<string name="dialogue.town.npc.fountain.oaf.3a">I've thrown so much\nmoney into this now.</string>
 	<string name="dialogue.town.npc.fountain.oaf.3b">I'm almost bankrupt...</string>
 
+
+
+
+
 	<!-- Mayor1 -->
 	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
 	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to it's old glory. (1)</string>
-	<string name="dialogue.town.npc.mayor.1b">See, around 10 years ago some evil\npresence took over the Spire and the\nKeltonite Mines beneath it. (2)</string>
+	<string name="dialogue.town.npc.mayor.1b">See, around 10 years ago some evil\npresence took over the Tower and\nthe Keltonite Mines beneath it. (2)</string>
 	<string name="dialogue.town.npc.mayor.1c">Without access to the mines, the town\ncould not cope for long and it was\neventually abandoned. (3)</string>
-	<string name="dialogue.town.npc.mayor.1d">Now the help from your guild I hope we\nwill be able to start restoring this area\nand eventually take the Spire back too! (4)</string>
-
-
-
-	<string name="dialogue.town.npc.mayor.mines_enter.1a">Don't despair. If you found any ore,\nuse that to upgrade the town to\nmake your next attempt easier!</string>
-	<string name="dialogue.town.npc.mayor.mines_enter.1b">Many heroes have fallen before you. But\ntalk to the prefect if you found any ore,\nhe will make sure you do the right thing.</string>
-	<string name="dialogue.town.npc.mayor.mines_enter.2a">The Duke up in the spire and I used\nto have good relations, but I suspect\nhe has fallen somewhere up there.</string>
-	<string name="dialogue.town.npc.mayor.mines_enter.2b"></string>
-
+	<string name="dialogue.town.npc.mayor.1d">Now with the help from your guild I hope\nwe will be able to start restoring this area\nand eventually take the Tower back too! (4)</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1Ra">It's a tough time for\neveryone right now...</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">These are rough\nand trying times...</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">So you managed to slay the foul beast\ndeep inside the mines? That's great news.</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">That stone golem you just killed have\nbeen killing miners for a long time now.</string>
 
 
 
 
 
 
-	<string name="dialogue.town.npc.mayor.boss1_killed.1a">So you managed to slay\nthe foul beast rooted\ndeep into the mines!</string>
-	<string name="dialogue.town.npc.mayor.boss1_killed.1b">Congratulations, none has been\nable to kill the horrible abomination,\nuntil you showed up!</string>
 
 
-	<string name="dialogue.town.npc.mayor.2a">When the Duke controlled\nthe Spire, this was the midway\nbetween the bigger Shaftlocke \nmines and the desert below.</string>
+
+
+	<string name="dialogue.town.npc.mayor.2a">When the Duke controlled\nthe Tower, this was the midway\nbetween the bigger Shaftlocke \nmines and the desert below.</string>
 
 
 
 	<!-- Guard Marlod 1 -->
 	<string name="dialogue.town.npc.mayor_guard1.name">Guard Marlod</string>
-	<string name="dialogue.town.npc.mayor_guard1.1Ra">Perhaps you can enter the\nmines and help us clear it out?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Ra">Can you enter the mines\nand help us clear it out?</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Rb">Are you strong enough to enter\nand clear out the mines for us?</string>
-	<string name="dialogue.town.npc.mayor_guard1.1Rc">None of us is strong enough to\nrid the mines of all those beasts.\nCould you perhaps assist?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rc">Could you perhaps assist\nus in retaking the mines?</string>
 
 	<!-- Guildmaster Les "Ace" Calhoun -->
 	<string name="dialogue.town.npc.guildmaster.name">Guild Master Calhoun</string>
 	<string name="dialogue.town.npc.guildmaster.1Ra">If you help me rebuild the Guild Hall,\nI'll train you, for a fee of course.\nIt should be in your own interest,\nas a member of this guild.</string>
 
-
-
+	<!-- Prefect Lance Grey -->
+	<string name="dialogue.town.npc.prefect.name">Prefect Grey</string>
+	<string name="dialogue.town.npc.prefect.1Ra">I'm in charge of distributing ore\namongst the merchants around here.\nFeel free to point me in the direction\nyou feel would benefit you the most.</string>
 
 	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
 
@@ -1653,26 +1758,27 @@
 
 	<string name="dialogue.town.npc.oretrader.name">Miner Oliver</string>
 	<string name="dialogue.town.npc.oretrader.1a">Get me out of this hell hole!</string>
-	<string name="dialogue.town.npc.oretrader.1b">Thanks for saving me!\nHelp yourself to this ore,\nI will see you back in town. Hopefully…</string>
+	<string name="dialogue.town.npc.oretrader.1b">Thanks for saving me!\nHelp yourself to this ore, I will\nsee you back in town. Hopefully…</string>
 
 	<string name="dialogue.town.npc.thief.name">Crooked Wolfram</string>
-	<string name="dialogue.town.npc.thief.1a">Help!</string>
-	<string name="dialogue.town.npc.thief.1b">Get me out of here!</string>
-	<string name="dialogue.town.npc.thief.2a">Thanks for letting me out!\nLet's meet back in town for some business.</string>
-	<string name="dialogue.town.npc.thief.3a">I have convinced the mayor\nto open up the old tavern.\nIf I can just come up with some ore...</string>
-	<string name="dialogue.town.npc.thief.3b">I'm sure The Old Drunkard\nwould attract the right kind of crowd.</string>
+	<string name="dialogue.town.npc.thief.1Ra">Hey\nYou!</string>
+	<string name="dialogue.town.npc.thief.1Rb">Over\nhere!</string>
+	<string name="dialogue.town.npc.thief.2">Thanks a lot! I hope\nI'll see you around\nthe town!</string>
+	<string name="dialogue.town.npc.thief.3a">I have convinced the\nmayor to open up the\ntavern. (1)</string>
+	<string name="dialogue.town.npc.thief.3b">But I have not even a\nsingle unit of ore.\nPerhaps you can provide\nsome to Prefect Grey? (2)</string>
 
 
 	<!-- Signs -->
-	<string name="dialogue.sign.chapel">Chapter of Light</string>
+	<string name="dialogue.sign.chapel">Chapter\nof Light</string>
 	<string name="dialogue.sign.townhall">Town Hall</string>
-	<string name="dialogue.sign.guild">The Broken Ace</string>
-	<string name="dialogue.sign.tavern">The Old Drunkard</string>
+	<string name="dialogue.sign.guild">The Broken\nAce</string>
+	<string name="dialogue.sign.tavern">The Old\nDrunkard</string>
 	<string name="dialogue.sign.magic">Spellbreakerz</string>
-	<string name="dialogue.sign.general">Darren's Supplies</string>
-
-
-
+	<string name="dialogue.sign.general">Darren's\nSupplies</string>
+	<string name="dialogue.sign.mines">Outlook\nMines</string>
+	<string name="dialogue.doll.normal">Looks\nplain</string>
+	<string name="dialogue.doll.armor">Looks\narmored</string>
+	<string name="dialogue.doll.magic">Looks\nmagical</string>
 
 
 
