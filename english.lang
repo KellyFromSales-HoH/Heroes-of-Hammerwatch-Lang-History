@@ -10,7 +10,7 @@
 	<string name="hud.levelup">LEVEL UP!</string>
 	<string name="hud.potionrefill">REFILLED!</string>
 	<string name="hud.nokey">NO KEY!</string>
-	<string name="hud.newtitle">TITLE GAINED</string>
+	<string name="hud.newtitle">New title: %title%</string>
 
 	<string name="class.paladin">Paladin</string>
 	<string name="class.paladin.desc">A powerful melee warrior with a lot of survivability.</string>
@@ -1470,9 +1470,9 @@
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">The ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">The ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">The ranger spins around and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around and fires arrows in quick succession.</string>
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
@@ -1535,25 +1535,25 @@
 
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">Twin Daggers</string>
-	<string name="skills.thief.twin-daggers.create"></string>
-	<string name="skills.thief.twin-daggers.1">Normal melee attack. Two swipes per attack.</string>
-	<string name="skills.thief.twin-daggers.2">Normal melee attack. Two swipes per attack.</string>
-	<string name="skills.thief.twin-daggers.3">Normal melee attack. Two swipes per attack.</string>
-	<string name="skills.thief.twin-daggers.4">Normal melee attack. Two swipes per attack.</string>
-	<string name="skills.thief.twin-daggers.5">Normal melee attack. Two swipes per attack.</string>
-	<string name="skills.thief.twin-daggers.6">Normal melee attack. Two swipes per attack.</string>
+	<string name="skills.thief.twin-daggers.create">Quick melee attacks that can destroy most projectiles.</string>
+	<string name="skills.thief.twin-daggers.1">Two quick melee attacks that deal 7 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.2">Two quick melee attacks that deal 9 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.3">Two quick melee attacks that deal 11 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.4">Two quick melee attacks that deal 13 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.5">Two quick melee attacks that deal 15 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.6">Two quick melee attacks that deal 17 Physical damage each.</string>
 
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
-	<string name="skills.thief.throwing-knives.create"></string>
-	<string name="skills.thief.throwing-knives.1">Throws a set of knives in an forward arc.</string>
-	<string name="skills.thief.throwing-knives.2">Throws a set of knives in an forward arc.</string>
-	<string name="skills.thief.throwing-knives.3">Throws a set of knives in an forward arc.</string>
-	<string name="skills.thief.throwing-knives.4">Throws a set of knives in an forward arc.</string>
-	<string name="skills.thief.throwing-knives.5">Throws a set of knives in an forward arc.</string>
-	<string name="skills.thief.throwing-knives.6">Throws a set of knives in an forward arc.</string>
+	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
+	<string name="skills.thief.throwing-knives.1">Throw 4 knives in a 45-degree arc. Each knife deal 10 Physical damage and can pierce up to 4 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 5 knives in a 50-degree arc. Each knife deal 15 Physical damage and can pierce up to 5 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 6 knives in a 55-degree arc. Each knife deal 20 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 7 knives in a 60-degree arc. Each knife deal 25 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 8 knives in a 65-degree arc. Each knife deal 30 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 9 knives in a 70-degree arc. Each knife deal 35 Physical damage and can pierce up to 9 enemies.</string>
 
 	<string name="skills.thief.sidestep">Sidestep</string>
-	<string name="skills.thief.sidestep.create"></string>
+	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
 	<string name="skills.thief.sidestep.1">Passive skill. Grants 5% evasion against all incoming damage.</string>
 	<string name="skills.thief.sidestep.2">Passive skill. Grants 10% evasion against all incoming damage.</string>
 	<string name="skills.thief.sidestep.3">Passive skill. Grants 15% evasion against all incoming damage.</string>
@@ -1561,27 +1561,27 @@
 	<string name="skills.thief.sidestep.5">Passive skill. Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
-	<string name="skills.thief.slice-and-dice.create"></string>
-	<string name="skills.thief.slice-and-dice.1">Passive skill. Each kill grants the thief a temporary attack speed bonus that stacks with itself a set amount of times.</string>
-	<string name="skills.thief.slice-and-dice.2">Passive skill. Each kill grants the thief a temporary attack speed bonus that stacks with itself a set amount of times.</string>
-	<string name="skills.thief.slice-and-dice.3">Passive skill. Each kill grants the thief a temporary attack speed bonus that stacks with itself a set amount of times.</string>
-	<string name="skills.thief.slice-and-dice.4">Passive skill. Each kill grants the thief a temporary attack speed bonus that stacks with itself a set amount of times.</string>
+	<string name="skills.thief.slice-and-dice.create">With each kill the Thief gains a temporary attack speed bonus.</string>
+	<string name="skills.thief.slice-and-dice.1">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stack up to 4 times.</string>
+	<string name="skills.thief.slice-and-dice.2">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stack up to 8 times.</string>
+	<string name="skills.thief.slice-and-dice.3">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stack up to 12 times.</string>
+	<string name="skills.thief.slice-and-dice.4">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stack up to 16 times.</string>
 
 	<string name="skills.thief.grappling-hook">Grappling Hook</string>
-	<string name="skills.thief.grappling-hook.create"></string>
-	<string name="skills.thief.grappling-hook.1">Throws a grappling hook in a forward direction. The thief travels to point of impact stunning all enemies in his path.</string>
-	<string name="skills.thief.grappling-hook.2">Throws a grappling hook in a forward direction. The thief travels to point of impact stunning all enemies in his path.</string>
-	<string name="skills.thief.grappling-hook.3">Throws a grappling hook in a forward direction. The thief travels to point of impact stunning all enemies in his path.</string>
-	<string name="skills.thief.grappling-hook.4">Throws a grappling hook in a forward direction. The thief travels to point of impact stunning all enemies in his path.</string>
+	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact stunning all enemies in its path.</string>
+	<string name="skills.thief.grappling-hook.1">Fire a grappling hook with a range of 130 units. The Thief travels to the point of impact stunning all enemies in its path for 1 second.</string>
+	<string name="skills.thief.grappling-hook.2">Fire a grappling hook with a range of 160 units. The Thief travels to the point of impact stunning all enemies in its path for 1.5 second.</string>
+	<string name="skills.thief.grappling-hook.3">Fire a grappling hook with a range of 190 units. The Thief travels to the point of impact stunning all enemies in its path for 2 second.</string>
+	<string name="skills.thief.grappling-hook.4">Fire a grappling hook with a range of 220 units. The Thief travels to the point of impact stunning all enemies in its path for 2.5 second.</string>
 
-	<string name="skills.thief.smoke-screen">Smoke Screen</string>
-	<string name="skills.thief.smoke-screen.create"></string>
-	<string name="skills.thief.smoke-screen.1">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
-	<string name="skills.thief.smoke-screen.2">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
-	<string name="skills.thief.smoke-screen.3">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
+	<string name="skills.thief.smoke-bomb">Smoke Bomb</string>
+	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies.</string>
+	<string name="skills.thief.smoke-bomb.1">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
+	<string name="skills.thief.smoke-bomb.2">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
+	<string name="skills.thief.smoke-bomb.3">A smoke bomb that creates a large smoke screen around the thief that stuns all enemies.</string>
 
 	<string name="skills.thief.gold-fever">Gold Fever</string>
-	<string name="skills.thief.gold-fever.create"></string>
+	<string name="skills.thief.gold-fever.create">Killing enemies gives you more gold, and the Thief gains a damage bonus based on the amount of gold you have.</string>
 	<string name="skills.thief.gold-fever.1">Passive skill. Killing enemies gives you more gold and the thief gains a damage bonus based on the amount of gold you have.</string>
 	<string name="skills.thief.gold-fever.2">Passive skill. Killing enemies gives you more gold and the thief gains a damage bonus based on the amount of gold you have.</string>
 
