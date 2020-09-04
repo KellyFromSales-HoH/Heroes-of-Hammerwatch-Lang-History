@@ -2608,7 +2608,7 @@
 	<string name="skills.mercenary.explosive-bomb.merc">Drops a bomb at the ground that explodes after 1 second dealing 150 Hybrid damage.</string>
 
 	<string name="skills.mercenary.company-banner">Company Banner</string>
-	<string name="skills.mercenary.company-banner.merc">Places a banner at the ground that lasts for 15 seconds. All allies close to the banner receives a buff that increases Attack and Skill speed by 25%, as well as a Mana Regen by 50%. The banner has 200 Health.</string>
+	<string name="skills.mercenary.company-banner.merc">Places a banner at the ground that lasts for 15 seconds. All allies close to the banner receives a buff that increases Attack and Skill speed by 25%, as well as a Mana Regen by 50%. The banner has 150 Health.</string>
 
 	<string name="skills.mercenary.company-ballista">Company Ballista</string>
 	<string name="skills.mercenary.company-ballista.merc">Places a ballista at the ground that lasts for 12 seconds. Standing close to the ballista makes it fire at nearby enemies. It fires three bolts in a cone, each bolt dealing 20 Physical damage that ignores 20% Armor.</string>
