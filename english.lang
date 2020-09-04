@@ -43,6 +43,15 @@
 	<string name="playermenu.tooltip.potion.title">%num% / %total% CHARGES</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% HP\n+ %mana% MANA</string>
 
+	<string name="playermenu.character.health">HEALTH</string>
+	<string name="playermenu.character.mana">MANA</string>
+	<string name="playermenu.character.armor">ARMOR</string>
+	<string name="playermenu.character.resistance">RESISTANCE</string>
+	<string name="playermenu.character.attackpower">ATTACK POWER</string>
+	<string name="playermenu.character.spellpower"></string>
+	<string name="playermenu.character.attackdamage"></string>
+	<string name="playermenu.character.spelldamage"></string>
+	<string name="playermenu.character.movespeed"></string>
 
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
@@ -153,63 +162,11 @@
 	<string name="endofgame.newgameplus">NEW GAME+</string>
 	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
 
-
-	<!-- OLD -->
-
-	<string name="netricsa.window.title">NETRICSA v2.d</string>
-	<string name="netricsa.window.button.world">MISSION</string>
-	<string name="netricsa.window.button.notes">NOTES</string>
-	<string name="netricsa.window.button.items">ITEMS</string>
-	<string name="netricsa.window.button.enemies">ENEMIES</string>
-	<string name="netricsa.window.button.statistics">STATISTICS</string>
-	<string name="netricsa.window.button.perks">UPGRADES</string>
-	<string name="netricsa.window.deftitle">Welcome to Netricsa</string>
-
-	<string name="netricsa.window.special.objective">OBJECTIVE</string>
-
-	<string name="netricsa.perks.new">New Perks</string>
-	<string name="netricsa.perks.applied">Applied Perks</string>
-	<string name="netricsa.perks.infinite">inf</string>
-	<string name="netricsa.perks.saved">SAVED</string>
-	<string name="netricsa.perks.used">USED</string>
-	<string name="netricsa.perks.wasted">WASTED</string>
-	<string name="netricsa.perks.level">LEVEL</string>
-	<string name="netricsa.perks.removeconfirm">Remove %perk%?</string>
-	<string name="netricsa.perks.buyconfirm">Buy %perk%?</string>
-	<string name="netricsa.perks.stars">STARS</string>
-
-	<string name="netricsa.perks.buy">Buy perk</string>
-	<string name="netricsa.perks.cost">Cost: %cost%</string>
-	<string name="netricsa.perks.titlesuffix.cost">(%points% points)</string>
-	<string name="netricsa.perks.titlesuffix.need">(Need %points% points)</string>
-	<string name="netricsa.perks.titlesuffix.deps">(Need %dep%)</string>
-	<string name="netricsa.perks.titlesuffix.deps-multiple">(Need %count% other perks)</string>
-
-	<string name="netricsa.stats.totalscore">Total score:</string>
-	<string name="netricsa.stats.difficulty">Difficulty:</string>
-	<string name="netricsa.stats.totaltime">Total time:</string>
-	<string name="netricsa.stats.thislevel">This level:</string>
-	<string name="netricsa.stats.deaths">Deaths:</string>
-	<string name="netricsa.stats.score">Score:</string>
-	<string name="netricsa.stats.time">Time:</string>
-	<string name="netricsa.stats.kills">Kills:</string>
-	<string name="netricsa.stats.items">Items:</string>
-	<string name="netricsa.stats.secrets">Secrets:</string>
-	<string name="netricsa.stats.stars">Stars:</string>
-
 	<string name="misc.yes">Yes</string>
 	<string name="misc.no">No</string>
 	<string name="misc.dmg.immortal">SHIELD!</string>
-
-
-	<string name="hud.scoreboard.host">Host</string>
-
-
-
-
 	<string name="dead.respawn">Press USE to respawn</string>
 	<string name="dead.gameover">GAME OVER</string>
-	<string name="dead.restart.use">Press USE to restart level</string>
 	<string name="dead.restart.countdown">Restarting in %countdown%</string>
 	<string name="concept.continue">BEGIN MISSION...</string>
 	<string name="concept.wolf">GET PSYCHED!</string>
@@ -227,70 +184,11 @@
 	<string name="levelend.wait">WAIT...</string>
 	<string name="levelend.ready">READY</string>
 	<string name="levelend.ok">CONTINUE</string>
-	<string name="levelend.score">SCORE</string>
-	<string name="levelend.youarehere">You are here!</string>
 
-	<string name="level.e1m1.fullname">KNEE DEEP IN SAND</string>
-	<string name="level.e1m2.fullname">PUBLIC LIBRARY NO:1</string>
-	<string name="level.e2m1.fullname">PATH OF FEAST/FEAR</string>
-	<string name="level.e2m2.fullname">TROUBLE IN TROY</string>
-	<string name="level.e3m0.fullname">SERIOUS SABOTAGE</string>
-	<string name="level.e3m1.fullname">THE CRADLE OF DEMOCRACY</string>
-	<string name="level.e3m2.fullname">RUNNING UP THAT HILL</string>
-	<string name="level.e4m1.fullname">BIOLOGICAL ILLOGICAL</string>
-	<string name="level.e4m2.fullname">INTERPLANETARY BALLISTIC</string>
 
-	<string name="level.e1m1.shortname">DESERT</string>
-	<string name="level.e1m2.shortname">METROPOLIS</string>
-	<string name="level.e2m1.shortname">VALLEY</string>
-	<string name="level.e2m2.shortname">CITY</string>
-	<string name="level.e3m0.shortname">ISLAND</string>
-	<string name="level.e3m1.shortname">FIELDS</string>
-	<string name="level.e3m2.shortname">MOUNTAIN</string>
-	<string name="level.e4m1.shortname">BIOLABS</string>
-	<string name="level.e4m2.shortname">COMMAND</string>
-
-	<string name="map.earth">EARTH</string>
-
-	<string name="objective.default">\n</string>
-
-	<string name="parts.bar">Parts</string>
-
-	<string name="survival.best">Best wave: %ct%</string>
-	<string name="survival.count">Wave: %ct%</string>
-	<string name="survival.count.total">Wave: %ct% / %total%</string>
-
-	<string name="difficulty.easy">Easy</string>
-	<string name="difficulty.normal">Normal</string>
-	<string name="difficulty.hard">Hard</string>
-	<string name="difficulty.serious">Serious</string>
-
-	<string name="team.red">Team Serious</string>
-	<string name="team.blue">Team Bogus</string>
-	<string name="team.green">Team Green</string>
-	<string name="team.pink">Team Pink</string>
-	<string name="team.yellow">Team Yellow</string>
-	<string name="team.cyan">Team Cyan</string>
-	<string name="team.unknown">Team Unknown</string>
-
-	<string name="deathmatch.winner">%name% wins!</string>
-	<string name="deathmatch.waiting">Next map in: %timeleft%</string>
-
-	<string name="meta.info.need.key_red">Red Keycard required...</string>
-	<string name="meta.info.need.key_blue">Blue Keycard required...</string>
-	<string name="meta.info.need.key_green">Green Keycard required...</string>
-	<string name="meta.info.need.key_yellow">Yellow Keycard required...</string>
-	<string name="meta.info.need.key_eye">Certified Eye required...</string>
 	<string name="meta.info.elsewhere">This opens elsewhere...</string>
 	<string name="meta.info.happened">Something happened...</string>
 
-	<string name="team.autojoin">Autojoin</string>
-
-
-
-	<string name="netricsa.respec">Retrain</string>
-	<string name="netricsa.respec.prompt">Spend %cost% of your used stars to redistribute your perks?</string>
-	<string name="netricsa.perks.disabled">A modifier you are using disabled this perk!</string>
 
 	<string name="hud.extralife">YOU FOUND ANOTHER PAIR OF GLASSES</string>
 	<string name="hud.dead">DEAD</string>
@@ -300,107 +198,49 @@
 	<string name="hud.spectate.help">Press Fire to spectate next player</string>
 	<string name="dead.gameover.spectate">Press Use to spectate</string>
 
-
 	<string name="dead.respawn.countdown">Respawning in %countdown%</string>
-
-	<string name="versus.killannounce.first-blood">FIRST BLOOD</string>
-	<string name="versus.killannounce.multi-0">DOUBLE KILL</string>
-	<string name="versus.killannounce.multi-1">MULTI KILL</string>
-	<string name="versus.killannounce.multi-2">MEGA KILL</string>
-	<string name="versus.killannounce.multi-3">ULTRA KILL</string>
-	<string name="versus.killannounce.multi-4">MONSTER KILL</string>
-	<string name="versus.killannounce.spree-0">KILLING SPREE</string>
-	<string name="versus.killannounce.spree-1">RAMPAGE</string>
-	<string name="versus.killannounce.spree-2">DOMINATING</string>
-	<string name="versus.killannounce.spree-3">UNSTOPPABLE</string>
-	<string name="versus.killannounce.spree-4">GODLIKE</string>
-	<string name="versus.killannounce.spree-5">WICKED SICK</string>
-	<string name="versus.killannounce.spree-6">HOLY SHIT</string>
-	<string name="versus.killannounce.timeleft-0-30">30 SECONDS REMAINING</string>
-	<string name="versus.killannounce.timeleft-1-00">1 MINUTE REMAINING</string>
-	<string name="versus.killannounce.timeleft-2-00">2 MINUTES REMAINING</string>
-	<string name="versus.killannounce.timeleft-5-0">5 MINUTES REMAINING</string>
 
 	<string name="levelcredits.prompt">%level% by %author%</string>
 
-	<string name="levelend.column.player">PLAYER</string>
-	<string name="levelend.column.kills">KILLS</string>
-	<string name="levelend.column.deaths">DEATHS</string>
-	<string name="levelend.column.stars">STARS</string>
-	<string name="levelend.column.items">ITEMS</string>
-	<string name="levelend.close">CLOSE</string>
+	<!-- Colors Everyone -->
+	<string name="color.skin">Skin</string>
 
+	<!-- Colors Paladin -->
+	<string name="color.paladin.body">Body</string>
+	<string name="color.paladin.shoulders">Shoulders</string>
+	<string name="color.paladin.guard">Guard/Cross</string>
 
-	<!-- BUILD 150+ -->
+	<!-- Colors Ranger -->
+	<string name="color.ranger.hood">Hood</string>
+	<string name="color.ranger.cape">Cape</string>
+	<string name="color.ranger.shoulders">Shoulders</string>
 
+	<!-- Colors Sorcerer -->
+	<string name="color.sorc.hat">Hat</string>
+	<string name="color.sorc.robe">Robe</string>
+	<string name="color.sorc.border">Border</string>
 
-	<string name="versus.killannounce.stoppable">STOPPABLE!</string>
-	<string name="level.dm1.fullname">SILOCK</string>
-	<string name="level.dm1.fullname.players">SILOCK (4-8 Players)</string>
-	<string name="level.dm2.fullname">HALLS OF TIME</string>
-	<string name="level.dm2.fullname.players">HALLS OF TIME (6-12 Players)</string>
-	<string name="level.dm3.fullname">OOZE EVOLUTION</string>
-	<string name="level.dm3.fullname.players">OOZE EVOLUTION (2-6 Players)</string>
-	<string name="level.dm4.fullname">DOCKS DISPUTE</string>
-	<string name="level.dm4.fullname.players">DOCKS DISPUTE (4-8 Players)</string>
-	<string name="level.dm5.fullname">THE PIT</string>
-	<string name="level.dm5.fullname.players">THE PIT (4-8 Players)</string>
-	<string name="level.dm6.fullname">VILLA BARILLA</string>
-	<string name="level.dm6.fullname.players">VILLA BARILLA (2-4 Players)</string>
-	<string name="level.survival01.fullname">DESERT STRIKE</string>
-	<string name="level.survival02.fullname">THE WAY STATION</string>
-	<string name="level.survival03.fullname">THE PAIN MAZE</string>
-	<string name="level.survival04.fullname">RING OF FIRE</string>
+	<!-- Colors Thief -->
+	<string name="color.thief.hair">Hair</string>
+	<string name="color.thief.scarf">Scarf</string>
+	<string name="color.thief.jacket">Jacket</string>
 
-	<!-- BUILD 153+ -->
-
-
-	<string name="levelend.stats.time">TIME</string>
-	<string name="levelend.stats.secrets">SECRETS</string>
-	<string name="levelend.stats.restarts">RESTARTS</string>
-	<string name="survival.wave.start">Next wave starts in…</string>
-	<string name="survival.wave.completed">Wave Completed!</string>
-	<string name="survival.fight">FIGHT!</string>
-	<string name="survival.victory">VICTORY!</string>
-	<string name="survival.airstrike">Airstrike incoming!</string>
-	<string name="survival.proceed">Proceed to the next stage!</string>
-	<string name="survival.boss.firestarter">FIRESTARTER</string>
-	<string name="survival.boss.ferdinand">EVIL FERDINAND</string>
-
-	<string name="levelend.restart">RESTART</string>
-
-	<string name="comic.start">SO NO FUN\nOPENING\nCINEMATIC?!</string>
-	<string name="comic.gameover">OR, PERHAPS I\nSHOULD JUST\nRESTART?</string>
-	<string name="comic.win">WHAT A\nGREAT\nGAME!!</string>
-
-	<string name="concept.skipintro">SKIP INTRO...</string>
-
-	<string name="netricsa.stats.personal.level">%player% - LEVEL</string>
-	<string name="netricsa.stats.personal.game">%player% - GAME</string>
-	<string name="netricsa.stats.overall">OVERALL</string>
-	<string name="netricsa.stats.level">Level:</string>
-	<string name="netricsa.stats.leveltime">Level time:</string>
-	<string name="netricsa.stats.levelsecrets">Level secrets:</string>
-	<string name="netricsa.stats.totalsecrets">Total secrets:</string>
-
-	<!-- BUILD 162+ -->
-
-
-	<string name="levelend.header">COMPLETED ON %diff%</string>
-
-	<!-- BUILD 163+ -->
-
-
-	<string name="item.misc.1up">SERIOUS-UP!</string>
-	<string name="item.key.piece">PIECE</string>
-	<string name="item.key.fragment">KEY\nFRAGMENT</string>
-
-	<!-- BUILD 181+ -->
-
-
-	<string name="mod.infinite_ammo">INFINITE AMMO</string>
-	<string name="player.num">PLAYER %num%</string>
 	<string name="gameover.restart">RESTART</string>
+
+	<string name="modifier.list.player">Character</string>
+	<string name="modifier.list.classtitle">Class title: %title%</string>
+	<string name="modifier.list.title">Title: %title%</string>
+	<string name="modifier.list.statue">Statue: %statue%</string>
+	<string name="modifier.list.building">Town: %building% level %level%</string>
+	<string name="hud.accomplishment.done">Accomplishment: %name%</string>
+
+	<string name="playermenu.character.movespeed">Move speed</string>
+	<string name="playermenu.character.spellpower">Spell power</string>
+	<string name="playermenu.character.attackdamage">Attack damage</string>
+	<string name="playermenu.character.spelldamage">Spell damage</string>
+	<string name="modifier.list.player.items">Items</string>
+	<string name="modifier.list.player.skills">Skills</string>
+	<string name="modifier.list.player.upgrades">Upgrades</string>
 
 
 
@@ -440,22 +280,6 @@
 	<string name="menu.controls.playermenu">PLAYER MENU</string>
 
 
-
-
-	<!-- OLD -->
-
-	<string name="menu.logo_text">SERIOUS SAM'S\nBOGUS DETOUR</string>
-
-	<!-- main -->
-	<string name="menu.splayer">SINGLEPLAYER</string>
-	<string name="menu.level">LEVEL</string>
-	<string name="menu.difficulty">DIFFICULTY</string>
-
-	<string name="menu.difficulty.easy">EASY</string>
-	<string name="menu.difficulty.normal">NORMAL</string>
-	<string name="menu.difficulty.hard">HARD</string>
-	<string name="menu.difficulty.serious">SERIOUS</string>
-
 	<string name="menu.mplayer">MULTIPLAYER</string>
 	<string name="menu.mplayer.clobby">CREATE LOBBY</string>
 	<string name="menu.mplayer.slist">SERVERLIST</string>
@@ -468,6 +292,7 @@
 	<string name="menu.accept">ACCEPT</string>
 	<string name="menu.yes">YES</string>
 	<string name="menu.no">NO</string>
+	<string name="menu.controls.mapoverlay">OVERLAY MAP</string>
 
 	<!-- options -> * -->
 	<string name="menu.o.game">GAME</string>
@@ -719,36 +544,6 @@
 	<string name="misc.timeletters.seconds">s</string>
 	<string name="menu.search">SEARCH:</string>
 
-	<!-- Singleplayer -->
-	<string name="menu.splayer.start">START</string>
-	<string name="menu.splayer.campaign">CAMPAIGN</string>
-	<string name="menu.splayer.survival">SURVIVAL</string>
-	<string name="menu.splayer.loadgame">LOAD GAME</string>
-	<string name="menu.splayer.loadgame.desc">Load a previously\nsaved game</string>
-	<string name="menu.loadgame.delete">Delete?</string>
-	<string name="menu.splayer.customgame">CUSTOM GAME</string>
-	<string name="menu.splayer.customgame.desc">Play some bogus\ncustom campaign</string>
-	<string name="menu.splayer.switches">SWITCHES</string>
-	<string name="menu.splayer.switches.desc">Customize the\ngameplay experience</string>
-	<string name="menu.splayer.difficulty">DIFFICULTY:</string>
-	<string name="menu.splayer.difficulty.easy.desc">If you just want to\nfeel like a god.</string>
-	<string name="menu.splayer.difficulty.normal.desc">A difficulty made for\nnormos, kinda easy...</string>
-	<string name="menu.splayer.difficulty.hard.desc">For those who think\nthey're tough.</string>
-	<string name="menu.splayer.difficulty.serious.desc">Are you serious?</string>
-
-	<string name="menu.loadgame.name">SAVE GAME:</string>
-	<string name="menu.loadgame.scenario">SCENARIO:</string>
-	<string name="menu.loadgame.level">LEVEL:</string>
-	<string name="menu.loadgame.gamebegan">GAME BEGAN:</string>
-	<string name="menu.loadgame.lastsaved">LAST SAVED:</string>
-	<string name="menu.loadgame.played">PLAYED:</string>
-	<string name="menu.loadgame">LOAD GAME</string>
-
-	<string name="misc.unknown">Unknown</string>
-	<string name="menu.splayer.custom.crackshell">CRACKSHELL</string>
-	<string name="menu.splayer.custom.workshop">WORKSHOP</string>
-	<string name="menu.splayer.custom.downloaded">DOWNLOADED</string>
-	<string name="menu.splayer.custom.custom">CUSTOM</string>
 
 	<string name="menu.crumb.options.graphics">OPTIONS > GRAPHICS</string>
 	<string name="menu.crumb.options.sound">OPTIONS > SOUND</string>
@@ -757,25 +552,8 @@
 	<string name="menu.lobby.chat.minplayers">You need at least %min% players to start.</string>
 	<string name="menu.lobby.chat.maxplayers">You can have at most %max% players in this scenario.</string>
 
-	<!-- switches -->
-	<string name="menu.switches.title">SWITCHES</string>
-	<string name="mod.hp_regen">HEALTH REGENERATION</string>
-	<string name="mod.friendly_fire">FRIENDLY FIRE</string>
-	<string name="mod.hp_1">1 HEALTH</string>
-	<string name="mod.hp_shared">SHARED HEALTH POOL</string>
-	<string name="mod.no_lives">NO LIVES</string>
-	<string name="mod.instagib">INSTAGIB</string>
-	<string name="mod.team_dm">TEAM DEATHMATCH</string>
-	<string name="mod.tag_it">RABBIT</string>
-	<string name="mod.infinite_lives">INFINITE LIVES</string>
-	<string name="mod.roguelike">BOGUELIKE</string>
-	<string name="mod.vslimit_30">FRAG LIMIT 30</string>
-	<string name="mod.vslimit_50">FRAG LIMIT 50</string>
 
 	<string name="menu.loadgame.rename">RENAME SAVE?</string>
-
-	<!-- BUILD 130+ -->
-
 
 	<string name="menu.controls.layout.sc1">STEAM CONTROLLER 1</string>
 	<string name="menu.controls.layout.sc2">STEAM CONTROLLER 2</string>
@@ -784,12 +562,10 @@
 
 	<string name="menu.controls.scinputs.prompt">Steam Controller bindings have to be modified from the Steam client.</string>
 
-	<!-- BUILD 134+ -->
-
 
 	<string name="menu.automatic">AUTO</string>
-	<string name="g_laser_sight">LASER SIGHT</string>
-	<string name="g_laser_sight.help">Show a laser sight on weapons. Automatic means only when using a gamepad.</string>
+	<string name="g_laser_sight">AIM GUIDE</string>
+	<string name="g_laser_sight.help">Show a thin line to assist in aiming. Automatic means only when using a gamepad.</string>
 
 	<string name="menu.controls.menuup">MENU UP</string>
 	<string name="menu.controls.menudown">MENU DOWN</string>
@@ -816,70 +592,7 @@
 
 	<string name="menu.close">CLOSE</string>
 
-	<!-- BUILD 136+ -->
 
-
-	<string name="g_wheel_accurate">ACCURATE WEAPON SWITCHING</string>
-	<string name="g_wheel_accurate.help">Accurately select which weapon from each weapon group you want to select.</string>
-
-	<string name="g_autoswitch_pickup">AUTOSWITCH PICKUP</string>
-	<string name="g_autoswitch_pickup.help">Automatically switch to new weapons.</string>
-
-	<string name="g_autoswitch_empty">AUTOSWITCH OUT OF AMMO</string>
-	<string name="g_autoswitch_empty.help">Automatically switch to the best available weapon when you run out of ammo.</string>
-
-	<!-- BUILD 137+ -->
-
-
-	<string name="menu.controls.weapon1.help">Pistols, Melee</string>
-	<string name="menu.controls.weapon2.help">Shotgun, Double Shotgun, Auto Shotgun</string>
-	<string name="menu.controls.weapon3.help">Tommy Gun, Minigun</string>
-	<string name="menu.controls.weapon4.help">Rocketlauncher, Devastator</string>
-	<string name="menu.controls.weapon5.help">Laser Cannon, Erasergun</string>
-	<string name="menu.controls.weapon6.help">Cannon, Oozegun</string>
-	<string name="menu.controls.weapon7.help">Scrap Cannon, Slicer</string>
-	<string name="menu.controls.weapon8.help">The Shaft, Flamethrower</string>
-	<string name="netricsa.perks.current">CURRENT</string>
-	<string name="netricsa.perks.next">NEXT</string>
-
-	<!-- BUILD 138+ -->
-
-
-	<string name="mod.header.health">HEALTH</string>
-	<string name="mod.header.lives">LIVES</string>
-	<string name="mod.header.multiplayer">MULTIPLAYER</string>
-	<string name="mod.header.misc">MISC</string>
-
-	<!-- BUILD 142+ -->
-
-
-	<string name="mod.vslimit_5">5 MINUTES</string>
-	<string name="mod.vslimit_10">10 MINUTES</string>
-	<string name="mod.vslimit_15">15 MINUTES</string>
-	<string name="mod.vslimit_20">20 MINUTES</string>
-	<string name="mod.vslimit_inf">INFINITE</string>
-	<string name="mod.koth">KING OF THE HILL</string>
-	<string name="mod.dm">DEATHMATCH</string>
-
-	<!-- BUILD 143+ -->
-
-
-	<string name="mod.header.gamemode">GAMEMODE</string>
-	<string name="mod.header.kills">FRAG LIMIT</string>
-	<string name="mod.header.time">TIME LIMIT</string>
-	<string name="teamswitch.title">CHOOSE TEAM</string>
-	<string name="teamswitch.team0">HOME</string>
-	<string name="teamswitch.team1">AWAY</string>
-	<string name="teamswitch.auto">AUTO</string>
-	<string name="teamswitch.choose">CHOOSE</string>
-	<string name="teamswitch.auto.desc">Choose any side\nat random</string>
-	<string name="hud.scoreboard.name">NAME</string>
-	<string name="hud.scoreboard.kills">KILLS</string>
-	<string name="hud.scoreboard.deaths">DEATHS</string>
-	<string name="hud.scoreboard.score">SCORE</string>
-	<string name="hud.scoreboard.ping">PING</string>
-	<string name="hud.scoreboard.switchteam">SWITCH TEAM</string>
-	<string name="hud.scoreboard.time">TIME</string>
 
 	<string name="menu.controls.move_y.axis1">MOVE UP</string>
 	<string name="menu.controls.move_y.axis2">MOVE DOWN</string>
@@ -887,97 +600,20 @@
 	<string name="menu.controls.move_x.axis2">MOVE RIGHT</string>
 
 	<string name="menu.controls.menuchatall">CHAT</string>
-	<string name="menu.controls.menuchatteam">CHAT TEAM</string>
-	<string name="menu.controls.menuswitchteam">SWITCH TEAM</string>
-
-	<!-- BUILD 144+ -->
-
-
-	<string name="hud.netricsa.button.kbm">PRESS TAB</string>
-	<string name="hud.netricsa.button.gp">PRESS BACK</string>
-
-	<string name="scenario.campaign.fullname">BOGUS CAMPAIGN </string>
-	<string name="scenario.campaign.tag">Sam takes a bogus detour</string>
-	<string name="scenario.campaign.desc">Sam Stone takes a bogus detour around the mediterranean, this is the original single player campaign.</string>
-
-	<string name="scenario.survival.fullname">IMPROBABLE SURVIVAL</string>
-	<string name="scenario.survival.tag">Just a Sam and his will to survive</string>
-	<string name="scenario.survival.desc">Fight for your survival against hordes of enemies!</string>
-
-	<string name="scenario.versus.fullname">PHONY VERSUS</string>
-	<string name="scenario.versus.tag"></string>
-	<string name="scenario.versus.desc">Kill or be killed.\n\nUse switches to change additional game modes from FFA to TDM, TAG or Instagib.</string>
-
-	<string name="menu.lobby.info.difficulty">DIFFICULTY:</string>
-	<string name="menu.lobby.info.switches">SWITCHES:</string>
-	<string name="menu.lobby.info.maxplayers.server">SERVER MAX PLAYERS:</string>
-	<string name="menu.lobby.info.maxplayers.scenario">SCENARIO PLAYER LIMIT:</string>
-
-	<string name="skin.bogus_beret">Bogus Beret</string>
-	<string name="skin.canned_cain">Canned Cain</string>
-	<string name="skin.hilarious_harry">Hilarious Harry</string>
-	<string name="skin.marty_mcparty">Marty McParty</string>
-	<string name="skin.minotaur_mike">Minotaur Mike</string>
-	<string name="skin.ninja_nobody">Ninja Nobody</string>
-	<string name="skin.pirate_pete">Pirate Pete</string>
-	<string name="skin.rocking_ryan">Rocking Ryan</string>
-	<string name="skin.serious_sam">Serious Sam</string>
-	<string name="skin.wild_wyatt">Wild Wyatt</string>
 
 	<string name="menu.crumb.multiplayer.hostoptions">MULTIPLAYER > HOST > SERVER OPTIONS</string>
 
 	<string name="menu.lobby.serveroptions">SERVER OPTIONS</string>
-	<string name="menu.hostoptions.scenario">SCENARIO/LEVEL</string>
-	<string name="menu.hostoptions.desc.scenario">Change scenario\nand level</string>
-	<string name="menu.hostoptions.maxplayers">MAX PLAYERS (LOBBY)</string>
-	<string name="menu.hostoptions.desc.maxplayers">This sets the total amount of players that can be inside\na lobby, a scenario still limits the possible numbers of\nplayers. For example, the campaign has a limit of 4 players\nand the survival and versus have a limit of 12 players.</string>
 	<string name="menu.lobby.gem.activated">Gem Activated</string>
 	<string name="menu.lobby.gem.activated.perfect">Perfect Gem Activated</string>
 	<string name="menu.lobby.gem.deactivated">Gem Deactivated</string>
 
-	<!-- BUILD 149+ -->
-
-
-	<string name="menu.lobby.chat.namechanged">Lobby name was changed to: "%name%"</string>
-	<string name="g_plr_skin">PLAYER SKIN</string>
-	<string name="g_plr_skin.help">The player skin.</string>
-
-	<!-- BUILD 150+ -->
-
-
-	<string name="menu.workshop">WORKSHOP</string>
-	<string name="mod.random_perks">RANDOM PERKS</string>
-	<string name="mod.random_perks.help">A random perk is given to you each time you level up. Stars are replaced with experience pickups.</string>
-	<string name="mod.roguelike.help">An infinite "Boguelike" mode. Next level is picked by random and the difficulty increases for each new level. Everything is a bit more bogus.</string>
-	<string name="mod.speedrun">SPEEDRUN MODE</string>
-	<string name="mod.speedrun.help">All random elements in the levels are removed for consistent speed running.</string>
-	<string name="mod.no_hud">MINIMALISTIC HUD</string>
-	<string name="mod.no_hud.help">Damage numbers, pickup texts, waypoints and most HUD elements are removed.</string>
-	<string name="team.local.us">Us</string>
-	<string name="team.local.them">Them</string>
-	<string name="hud.scoreboard.team">TEAM</string>
-	<string name="mod.header.levels">LEVEL ROTATION</string>
-
-	<!-- BUILD 153+ -->
-
-
 	<string name="g_screenshake">SCREENSHAKE</string>
 	<string name="g_screenshake.help">Controls the amount of screenshake in the game.</string>
-	<string name="g_wheel_number">HOTKEY SWITCH WHEEL</string>
-	<string name="g_wheel_number.help">Show weapon wheel on hotkey switch.</string>
-	<string name="mod.hardcore">HARDCORE</string>
-	<string name="mod.hardcore.help">When you die the game ends, no saving is allowed, no extra lives exists.</string>
 	<string name="v_fullscreen.windowed">BORDERLESS</string>
 	<string name="r_draw_glow">GLOW</string>
 	<string name="r_draw_glow.help">Display glow</string>
 	<string name="menu.cancel">CANCEL</string>
-	<string name="ui_chat_dialog">Allow Audio Taunts</string>
-	<string name="ui_chat_dialog.help">Select to hear audio taunts from other players when they type numbers.</string>
-
-	<string name="menu.loadgame.failed">Couldn't load savegame.</string>
-
-	<!-- BUILD 163+ -->
-
 
 	<string name="menu.controls.layout.ds41">JOYSTICK 1</string>
 	<string name="menu.controls.layout.ds42">JOYSTICK 2</string>
@@ -988,9 +624,6 @@
 	<string name="menu.notifier.joinfailed.host">Failed to create lobby.</string>
 	<string name="menu.loading">LOADING</string>
 
-	<!-- BUILD 181+ -->
-
-
 	<string name="menu.mplayer.splitscreen">SPLITSCREEN</string>
 	<string name="menu.splitscreen.newgame">NEW GAME</string>
 	<string name="menu.splitscreen.noplayers">You can't start without any players!</string>
@@ -998,7 +631,6 @@
 	<string name="menu.splitscreen.join.kbm">PRESS DODGE FOR KEYBOARD</string>
 	<string name="menu.splitscreen.join.gp">PRESS ANY BUTTON FOR CONTROLLER</string>
 	<string name="menu.splitscreen.gameoptions">GAME OPTIONS</string>
-	<string name="menu.controls.lastweapon">LAST WEAPON</string>
 
 
 
@@ -1023,7 +655,19 @@
 	<string name="shop.townhall">PREFECT GREY</string>
 	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
 	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
+	<string name="shop.oretrader">OLIVER, THE ORE TRADER</string>
 
+	<string name="town.building.townhall">Town hall</string>
+	<string name="town.building.guildhall">Guild hall</string>
+	<string name="town.building.generalstore">General store</string>
+	<string name="town.building.blacksmith">Blacksmith</string>
+	<string name="town.building.apothecary">Apothecary</string>
+	<string name="town.building.fountain">Fountain</string>
+	<string name="town.building.magicshop">Magic shop</string>
+	<string name="town.building.chapel">Chapel</string>
+	<string name="town.building.tavern">Tavern</string>
+	<string name="town.building.treasury">Treasury</string>
+	<string name="town.building.oretrader">Ore Trader</string>
 
 	<!-- town hall -->
 	<string name="shop.townhall.townhall-1.name">Town Hall I</string>
@@ -1086,16 +730,16 @@
 	<string name="shop.townhall.generalstore-1.name">General Store I</string>
 	<string name="shop.townhall.generalstore-1.desc">Buy Keys and Items (3 common).</string>
 
-	<string name="shop.townhall.generalstore-2.name">General Store I</string>
+	<string name="shop.townhall.generalstore-2.name">General Store II</string>
 	<string name="shop.townhall.generalstore-2.desc">Buy Keys and Items (2 common, 1 uncommon). Prices are 5% cheaper.</string>
 
-	<string name="shop.townhall.generalstore-3.name">General Store II</string>
+	<string name="shop.townhall.generalstore-3.name">General Store III</string>
 	<string name="shop.townhall.generalstore-3.desc">Buy Keys and Items (3 common, 1 uncommon). Prices are 10% cheaper.</string>
 
-	<string name="shop.townhall.generalstore-4.name">General Store III</string>
+	<string name="shop.townhall.generalstore-4.name">General Store IV</string>
 	<string name="shop.townhall.generalstore-4.desc">Buy Keys and Items (2 common, 1 uncommon, 1 rare). Prices are 15% cheaper.</string>
 
-	<string name="shop.townhall.generalstore-5.name">General Store IV</string>
+	<string name="shop.townhall.generalstore-5.name">General Store V</string>
 	<string name="shop.townhall.generalstore-5.desc">Buy Keys and Items (2 common, 2 uncommon, 1 rare). Prices are 20% cheaper.</string>
 
 	<string name="shop.townhall.guildhall-1.name">Guild Hall I</string>
@@ -1395,9 +1039,9 @@
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
 	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 6 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 7 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 8 health per 5 mana spent.</string>
 
 	<string name="skills.paladin.whirlwind">Whirlwind</string>
 	<string name="skills.paladin.whirlwind.create">A spinning attack that deals damage to all enemies around the Paladin.</string>
@@ -1632,6 +1276,9 @@
 	<string name="item.apothecarys-herbs.name">Apothecary's Herbs</string>
 	<string name="item.apothecarys-herbs.desc">Drinking your Potion triggers a %mspeed%% Movement Speed buff for %dur% seconds.</string>
 
+	<string name="item.blackjack.name">Blackjack</string>
+	<string name="item.blackjack.desc">%chance%% to stun enemies for %dur% seconds on Primary Attack.</string>
+
 	<string name="item.book-of-enlightenment.name">Book of Enlightenment</string>
 	<string name="item.book-of-enlightenment.desc">+%exp%% Experience gained.</string>
 
@@ -1670,9 +1317,6 @@
 
 	<string name="item.heavy-gauntlets.name">Heavy Gauntlets</string>
 	<string name="item.heavy-gauntlets.desc">+%health% Health.</string>
-
-	<string name="item.old-map.name">Old Map</string>
-	<string name="item.old-map.desc">Removes fog of war from the map.</string>
 
 	<string name="item.lesser-sphere-of-life.name">Lesser Sphere of Life</string>
 	<string name="item.lesser-sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
@@ -1803,6 +1447,9 @@
 	<string name="item.monster-manual-undead.name">Monster Manual: Undead</string>
 	<string name="item.monster-manual-undead.desc">+%exp%% Experience gained and +%dmg%% damage to Undead.</string>
 
+	<string name="item.old-map.name">Old Map</string>
+	<string name="item.old-map.desc">Removes fog of war from the map.</string>
+
 	<string name="item.ring-of-transmutation.name">Ring of Transmutation</string>
 	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
 
@@ -1874,7 +1521,7 @@
 	<string name="item.heartseeker.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
 
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
-	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% to cast.</string>
+	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
 
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
 	<string name="item.scepter-of-kings.desc">+%spell% Spell Power.</string>
@@ -1951,16 +1598,17 @@
 
 	<!-- Mayor1 -->
 	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
-	<string name="dialogue.town.npc.mayor.1a">Our mines has fallen into evil\nhands, help us gain\ncontrol of them again!</string>
-	<string name="dialogue.town.npc.mayor.1b">Traveler, please help\nus regain control of\nthe mines again!</string>
-	<string name="dialogue.town.npc.mayor.mines_enter.1a">Don't despair. If you found any ore,\nuse that to upgrade the town to\nmake your next attemept easier!</string>
+	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to it's old glory. (1)</string>
+	<string name="dialogue.town.npc.mayor.1b">See, around 10 years ago some evil\npresence took over the Spire and the\nKeltonite Mines beneath it. (2)</string>
+	<string name="dialogue.town.npc.mayor.1c">Without access to the mines, the town\ncould not cope for long and it was\neventually abandoned. (3)</string>
+	<string name="dialogue.town.npc.mayor.1d">Now the help from your guild I hope we\nwill be able to start restoring this area\nand eventually take the Spire back too! (4)</string>
+
+
+
+	<string name="dialogue.town.npc.mayor.mines_enter.1a">Don't despair. If you found any ore,\nuse that to upgrade the town to\nmake your next attempt easier!</string>
 	<string name="dialogue.town.npc.mayor.mines_enter.1b">Many heroes have fallen before you. But\ntalk to the prefect if you found any ore,\nhe will make sure you do the right thing.</string>
 	<string name="dialogue.town.npc.mayor.mines_enter.2a">The Duke up in the spire and I used\nto have good relations, but I suspect\nhe has fallen somewhere up there.</string>
 	<string name="dialogue.town.npc.mayor.mines_enter.2b"></string>
-
-
-
-
 
 
 
@@ -1973,6 +1621,20 @@
 
 
 	<string name="dialogue.town.npc.mayor.2a">When the Duke controlled\nthe Spire, this was the midway\nbetween the bigger Shaftlocke \nmines and the desert below.</string>
+
+
+
+	<!-- Guard Marlod 1 -->
+	<string name="dialogue.town.npc.mayor_guard1.name">Guard Marlod</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Ra">Perhaps you can enter the\nmines and help us clear it out?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rb">Are you strong enough to enter\nand clear out the mines for us?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rc">None of us is strong enough to\nrid the mines of all those beasts.\nCould you perhaps assist?</string>
+
+	<!-- Guildmaster Les "Ace" Calhoun -->
+	<string name="dialogue.town.npc.guildmaster.name">Guild Master Calhoun</string>
+	<string name="dialogue.town.npc.guildmaster.1Ra">If you help me rebuild the Guild Hall,\nI'll train you, for a fee of course.\nIt should be in your own interest,\nas a member of this guild.</string>
+
+
 
 
 	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
@@ -1993,12 +1655,12 @@
 	<string name="dialogue.town.npc.oretrader.1a">Get me out of this hell hole!</string>
 	<string name="dialogue.town.npc.oretrader.1b">Thanks for saving me!\nHelp yourself to this ore,\nI will see you back in town. Hopefully…</string>
 
-	<string name="dialogue.town.npc.thief.name">Shady Steve</string>
+	<string name="dialogue.town.npc.thief.name">Crooked Wolfram</string>
 	<string name="dialogue.town.npc.thief.1a">Help!</string>
 	<string name="dialogue.town.npc.thief.1b">Get me out of here!</string>
 	<string name="dialogue.town.npc.thief.2a">Thanks for letting me out!\nLet's meet back in town for some business.</string>
 	<string name="dialogue.town.npc.thief.3a">I have convinced the mayor\nto open up the old tavern.\nIf I can just come up with some ore...</string>
-	<string name="dialogue.town.npc.thief.3b">I'm sure the The Old Drunkard\nwould attract the right kind of crowd.</string>
+	<string name="dialogue.town.npc.thief.3b">I'm sure The Old Drunkard\nwould attract the right kind of crowd.</string>
 
 
 	<!-- Signs -->
@@ -2088,6 +1750,23 @@
 	<string name="titles.wizard-6">Magus</string>
 	<string name="titles.wizard-7">Battlemage</string>
 	<string name="titles.wizard-8">Archmage</string>
+
+
+
+	<!-- Achievements -->
+
+
+	<string name="achievement.aberration-killed.name">Aberration Killer</string>
+	<string name="achievement.aberration-killed.desc">Kill 250 Aberrations.</string>
+
+	<string name="achievement.beast-killed.name">Beast Killer</string>
+	<string name="achievement.beast-killed.desc">Kill 250 Beasts.</string>
+
+	<string name="achievement.construct-killed.name">Construct Killer</string>
+	<string name="achievement.construct-killed.desc">Kill 250 Constructs.</string>
+
+	<string name="achievement.undead-killed.name">Undead Killer</string>
+	<string name="achievement.undead-killed.desc">Kill 250 Undead.</string>
 
 
 
