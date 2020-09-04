@@ -184,10 +184,10 @@
 	<string name="item.ore">ORE</string>
 	<string name="item.ore.plural">%num% ORE</string>
 	<string name="misc.store.ore">Sent %num% ore to town</string>
-	<string name="item.diamond.blue">BLUE DIAMOND</string>
-	<string name="item.diamond.blue-small">SMALL BLUE DIAMOND</string>
-	<string name="item.diamond.red">RED DIAMOND</string>
-	<string name="item.diamond.red-small">SMALL RED DIAMOND</string>
+	<string name="item.diamond.blue">DIAMOND</string>
+	<string name="item.diamond.blue-small">DIAMOND</string>
+	<string name="item.diamond.red">DIAMOND</string>
+	<string name="item.diamond.red-small">DIAMOND</string>
 
 	<!-- end of game -->
 	<string name="endofbeta.title">END OF BETA</string>
@@ -228,7 +228,7 @@
 	<string name="meta.info.twomore">2 more to go…</string>
 	<string name="meta.info.onemore">1 more to go…</string>
 	<string name="meta.info.passage">A secret passage has been revealed…</string>
-	<string name="meta.info.ritual.start">…and the great monstrosity\n was summoned!</string>
+	<string name="meta.info.ritual.start">…and the great abomination\n was summoned!</string>
 	<string name="meta.info.ritual.completed">Ritualsequence completed!</string>
 	<string name="meta.info.ritual.failed">Ritual sequence incomplete!</string>
 	<string name="meta.info.ritual.b">Embrace the Dark</string>
@@ -899,13 +899,13 @@
 	<string name="shop.townhall.sculptor-3.desc">Build Level 3 status for ore. 4 slots.</string>
 
 	<string name="shop.townhall.tavern-1.name">Tavern I</string>
-	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling coming soon.</string>
+	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling.</string>
 
 	<string name="shop.townhall.tavern-2.name">Tavern II</string>
-	<string name="shop.townhall.tavern-2.desc">Gambling coming soon.</string>
+	<string name="shop.townhall.tavern-2.desc">Gambling.</string>
 
 	<string name="shop.townhall.tavern-3.name">Tavern III</string>
-	<string name="shop.townhall.tavern-3.desc">Gambling coming soon.</string>
+	<string name="shop.townhall.tavern-3.desc">Gambling.</string>
 
 	<string name="shop.townhall.treasury-1.name">Treasury I</string>
 	<string name="shop.townhall.treasury-1.desc">Conserve 40% of your gold when you die.</string>
@@ -1423,21 +1423,21 @@
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">Twin Daggers</string>
 	<string name="skills.thief.twin-daggers.create">Quick melee attacks that can destroy most projectiles.</string>
-	<string name="skills.thief.twin-daggers.1">Two quick melee attacks that deal 6 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.2">Two quick melee attacks that deal 8 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.3">Two quick melee attacks that deal 10 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.4">Two quick melee attacks that deal 12 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.5">Two quick melee attacks that deal 14 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.6">Two quick melee attacks that deal 16 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.1">Two quick melee attacks that deal 6 Physical damage each. Your movement speed is decreased by 60% while attacking.</string>
+	<string name="skills.thief.twin-daggers.2">Two quick melee attacks that deal 8 Physical damage each. Your movement speed is decreased by 50% while attacking.</string>
+	<string name="skills.thief.twin-daggers.3">Two quick melee attacks that deal 10 Physical damage each. Your movement speed is decreased by 40% while attacking.</string>
+	<string name="skills.thief.twin-daggers.4">Two quick melee attacks that deal 12 Physical damage each. Your movement speed is decreased by 30% while attacking.</string>
+	<string name="skills.thief.twin-daggers.5">Two quick melee attacks that deal 14 Physical damage each. Your movement speed is decreased by 20% while attacking.</string>
+	<string name="skills.thief.twin-daggers.6">Two quick melee attacks that deal 16 Physical damage each. Your movement speed is decreased by 10% while attacking.</string>
 
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
 	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
-	<string name="skills.thief.throwing-knives.1">Throw 4 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 4 enemies.</string>
-	<string name="skills.thief.throwing-knives.2">Throw 5 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 5 enemies.</string>
-	<string name="skills.thief.throwing-knives.3">Throw 6 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 6 enemies.</string>
-	<string name="skills.thief.throwing-knives.4">Throw 7 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 7 enemies.</string>
-	<string name="skills.thief.throwing-knives.5">Throw 8 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 8 enemies.</string>
-	<string name="skills.thief.throwing-knives.6">Throw 9 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.1">Throw 4 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 5 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 5 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 6 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 7 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 8 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 9 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 10 enemies.</string>
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
@@ -1767,7 +1767,7 @@
 	<string name="item.heartseeker.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
 
 	<string name="item.magebane.name">Magebane</string>
-	<string name="item.magebane.desc">%chance%% chance to break Magic Resistance for 2s.</string>
+	<string name="item.magebane.desc">%chance%% chance to break enemies Resistance on your Primary Attack for %sec% seconds.</string>
 
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
 	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
@@ -1776,7 +1776,7 @@
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
 
 	<string name="item.shieldsplitter.name">Shieldsplitter</string>
-	<string name="item.shieldsplitter.desc">%chance%% chance to break Armor for 5s.</string>
+	<string name="item.shieldsplitter.desc">%chance%% chance to break enemies Armor on your Primary Attack for %sec% seconds.</string>
 
 	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
 	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
@@ -1808,13 +1808,42 @@
 	<string name="item.spirit-cloak.desc">When taking damage you turn invulnerable for %dur% second.</string>
 
 
+	<!-- SETS -->
 
 
+	<string name="item.sets.fire-and-ice.name">Fire and Ice</string>
+	<string name="item.sets.fire-and-ice.desc">+%dmg% magical attack damage</string>
 
+	<string name="item.sets.stones-of-midas.name">Stones of Midas</string>
+	<string name="item.sets.stones-of-midas.desc">+%gold% gold when killing an enemy</string>
 
+	<string name="item.sets.monster-brochure.name">Monster Brochure</string>
+	<string name="item.sets.monster-brochure.desc">+%dmg%% damage</string>
 
+	<string name="item.sets.monster-encyclopedia.name">Monster Encyclopedia</string>
+	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% damage</string>
 
+	<string name="item.sets.kings-regalia.name">Kings Regalia</string>
+	<string name="item.sets.kings-regalia.desc">%chance% to crit with </string>
 
+	<string name="item.sets.apothecarys-implements.name">Apothecary's Implements</string>
+	<string name="item.sets.apothecarys-implements.desc.1">+1 potion charge</string>
+	<string name="item.sets.apothecarys-implements.desc.2">2% chance to refill a potion charge when killing an enemy</string>
+
+	<string name="item.sets.journeymans-outfit.name">Journeyman's Outfit</string>
+	<string name="item.sets.journeymans-outfit.desc.1">+%armor% armor</string>
+	<string name="item.sets.journeymans-outfit.desc.2">+%attack% attack power</string>
+	<string name="item.sets.journeymans-outfit.desc.3">%10%% damage reduction</string>
+
+	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
+	<string name="item.sets.disciples-arcana.desc.1">+%res% resistance</string>
+	<string name="item.sets.disciples-arcana.desc.2">+%skill% skill power</string>
+	<string name="item.sets.disciples-arcana.desc.3">spells are %cost%% cheaper to cast</string>
+
+	<string name="item.sets.spheres-of-power.name">Spheres of Power</string>
+	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.2">Combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.3">Greater combo nova</string>
 
 
 
