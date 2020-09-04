@@ -345,7 +345,7 @@
 
 	<!-- intro pop -->
 	<string name="intro.pop.title">CITY OF STONE</string>
-	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arisened. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
+	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arose. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
 
 	<!-- end of game -->
 	<string name="endofgame.town">CONTINUE</string>
@@ -456,7 +456,7 @@
 	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
 	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
 	<string name="temp_buff.gold">The monolith imbues you with gold fever!</string>
-	<string name="temp_buff.attackspeed">The monolith imbues you with nimble limbs!</string>
+	<string name="temp_buff.attackspeed">The monolith imbues you with rapid blows!</string>
 	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
 	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
 
@@ -3079,10 +3079,6 @@
 	<string name="dialogue.town.npc.generic.pali.1e">Here in your world we hide in\ndeep meditation, the side effect\nhowever, is that if the sleep is\ndisturbed...(5)</string>
 	<string name="dialogue.town.npc.generic.pali.1f">...so much energy is\nreleased that we might get\nsucked back into the rift which\nusually means something else\ngets thrown out. (6)</string>
 
-	<!-- NPC Woman2 Census -->
-
-	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
-	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
 	<string name="dialogue.town.npc.generic.guard.1a">If you enter,\nthere's no\nturning back.</string>
 	<string name="dialogue.town.npc.generic.guard.1b">The entrance\nwill be barred\nfrom behind you.</string>
 
@@ -3913,10 +3909,11 @@
 
 	<string name="materials.color.skin.shade.5">Shade 5</string>
 
-	<!-- New 03/13/2019 -->
+	<!-- Post B93 -->
 
 	<string name="stats.max-level-gladiator">Highest Gladiator Level</string>
 	<string name="meta.info.sequencefailed">Sequence failed!</string>
+	<string name="mainmenu.serverlist.mods-allowed">Mods allowed</string>
 
 
 
