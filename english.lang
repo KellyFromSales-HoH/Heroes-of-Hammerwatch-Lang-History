@@ -79,6 +79,8 @@
 	<string name="playermenu.character.lifesteal">LIFESTEAL</string>
 	<string name="playermenu.character.lifesteal.description">Primary Attack: %value%%\n%lists%\n\nSkills: %value-spell%%\n%lists-spell%</string>
 
+	<string name="playermenu.dead">%player% is dead.</string>
+	
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
 	<string name="world.mines">OUTLOOK MINES</string>
@@ -3152,4 +3154,5 @@
 
 
 
+	
 </lang>
