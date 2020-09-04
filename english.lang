@@ -87,6 +87,7 @@
 	<string name="gameover.stats.experience">EXPERIENCE</string>
 	<string name="gameover.stats.timeplayed">TIME PLAYED</string>
 	<string name="gameover.stats.enemieskilled">ENEMIES KILLED</string>
+	<string name="gameover.stats.killer">KILLED BY</string>
 	<string name="gameover.mock.0">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
 	<string name="gameover.mock.1">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
 	<string name="gameover.mock.2">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
@@ -361,6 +362,7 @@
 	<string name="modifier.list.player.skills">Skills</string>
 	<string name="modifier.list.player.upgrades">Upgrades</string>
 	<string name="modifier.list.player.buffs">Buffs</string>
+	<string name="modifier.list.player.titles">Class titles</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -1304,12 +1306,12 @@
 	<!-- Paladin -->
 	<string name="skills.paladin.sword">Sword</string>
 	<string name="skills.paladin.sword.create">Melee attack dealing Physical damage.</string>
-	<string name="skills.paladin.sword.1">Melee attack that deals 12 Physical damage in a 90 degree arc.</string>
-	<string name="skills.paladin.sword.2">Melee attack that deals 15 Physical damage in a 120 degree arc.</string>
-	<string name="skills.paladin.sword.3">Melee attack that deals 18 Physical damage in a 150 degree arc.</string>
-	<string name="skills.paladin.sword.4">Melee attack that deals 21 Physical damage in a 180 degree arc.</string>
-	<string name="skills.paladin.sword.5">Melee attack that deals 24 Physical damage in a 210 degree arc.</string>
-	<string name="skills.paladin.sword.6">Melee attack that deals 27 Physical damage in a 240 degree arc.</string>
+	<string name="skills.paladin.sword.1">Melee attack that deals 16 Physical damage in a 90 degree arc.</string>
+	<string name="skills.paladin.sword.2">Melee attack that deals 19 Physical damage in a 120 degree arc.</string>
+	<string name="skills.paladin.sword.3">Melee attack that deals 22 Physical damage in a 150 degree arc.</string>
+	<string name="skills.paladin.sword.4">Melee attack that deals 25 Physical damage in a 180 degree arc.</string>
+	<string name="skills.paladin.sword.5">Melee attack that deals 28 Physical damage in a 210 degree arc.</string>
+	<string name="skills.paladin.sword.6">Melee attack that deals 31 Physical damage in a 240 degree arc.</string>
 
 	<string name="skills.paladin.charge">Charge</string>
 	<string name="skills.paladin.charge.create">The Paladin charges forward, dealing damage to all enemies in their path.</string>
@@ -1587,18 +1589,18 @@
 
 	<string name="skills.warlock.blood-sacrifice">Blood Sacrifice</string>
 	<string name="skills.warlock.blood-sacrifice.create">The Warlock gains health when killing enemies.</string>
-	<string name="skills.warlock.blood-sacrifice.1">The Warlock have a 20% chance to gain 1 health for each enemy killed.</string>
-	<string name="skills.warlock.blood-sacrifice.2">The Warlock have a 40% chance to gain 1 health for each enemy killed.</string>
-	<string name="skills.warlock.blood-sacrifice.3">The Warlock have a 60% chance to gain 1 health for each enemy killed.</string>
-	<string name="skills.warlock.blood-sacrifice.4">The Warlock have a 80% chance to gain 1 health for each enemy killed.</string>
-	<string name="skills.warlock.blood-sacrifice.5">The Warlock gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.1">The Warlock has a 20% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.2">The Warlock has a 40% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.3">The Warlock has a 60% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.4">The Warlock has a 80% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.5">The Warlock gains 1 health for each enemy killed.</string>
 
 	<string name="skills.warlock.soul-sacrifice">Soul Sacrifice</string>
 	<string name="skills.warlock.soul-sacrifice.create">The Warlock gains mana when killing enemies.</string>
-	<string name="skills.warlock.soul-sacrifice.1">The Warlock gain 1 mana for each enemy killed.</string>
-	<string name="skills.warlock.soul-sacrifice.2">The Warlock gain 2 mana for each enemy killed.</string>
-	<string name="skills.warlock.soul-sacrifice.3">The Warlock gain 3 mana for each enemy killed.</string>
-	<string name="skills.warlock.soul-sacrifice.4">The Warlock gain 4 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.1">The Warlock gains 1 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.2">The Warlock gains 2 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.3">The Warlock gains 3 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.4">The Warlock gains 4 mana for each enemy killed.</string>
 
 	<string name="skills.warlock.summon-gargoyle">Summon Gargoyle</string>
 	<string name="skills.warlock.summon-gargoyle.create">Summons a stationary gargoyle that fires bolts of lightning and stuns nearby enemies.</string>
@@ -2325,17 +2327,77 @@
 	<!-- Achievements -->
 
 
-	<string name="achievement.aberration-killed.name">Aberration Killer</string>
-	<string name="achievement.aberration-killed.desc">Kill 250 Aberrations.</string>
+	<string name="achievement.aberration-killed.name">Excorcists %lvl%</string>
+	<string name="achievement.aberration-killed.desc">Kill 2000 Aberrations.</string>
 
-	<string name="achievement.beast-killed.name">Beast Killer</string>
-	<string name="achievement.beast-killed.desc">Kill 250 Beasts.</string>
+	<string name="achievement.beast-killed.name">Beast Slayers %lvl%</string>
+	<string name="achievement.beast-killed.desc">Kill 1000 Beasts.</string>
 
-	<string name="achievement.construct-killed.name">Construct Killer</string>
+	<string name="achievement.construct-killed.name">Demolishers %lvl%</string>
 	<string name="achievement.construct-killed.desc">Kill 250 Constructs.</string>
 
-	<string name="achievement.undead-killed.name">Undead Killer</string>
-	<string name="achievement.undead-killed.desc">Kill 250 Undead.</string>
+	<string name="achievement.undead-killed.name">Sanctifiers %lvl%</string>
+	<string name="achievement.undead-killed.desc">Kill 2500 Undead.</string>
+
+	<string name="achievement.enemies-killed.name">Killers %lvl%</string>
+	<string name="achievement.enemies-killed.desc"></string>
+
+	<string name="achievement.spent-mana.name">Spellcasters %lvl%</string>
+	<string name="achievement.spent-mana.desc"></string>
+
+	<string name="achievement.spent-gold.name">Big Spenders %lvl%</string>
+	<string name="achievement.spent-gold.desc"></string>
+
+	<string name="achievement.gold-found.name">Gold Diggers %lvl%</string>
+	<string name="achievement.gold-found.desc"></string>
+
+	<string name="achievement.ore-found.name">Miners %lvl%</string>
+	<string name="achievement.ore-found.desc"></string>
+
+	<string name="achievement.combo.name">Combo Streakers %lvl%</string>
+	<string name="achievement.combo.desc"></string>
+
+	<string name="achievement.items-bought.name">Shoppers %lvl%</string>
+	<string name="achievement.items-bought.desc"></string>
+
+	<string name="achievement.items-common.name">Common Looters %lvl%</string>
+	<string name="achievement.items-common.desc"></string>
+
+	<string name="achievement.items-uncommon.name">Uncommon Looters %lvl%</string>
+	<string name="achievement.items-uncommon.desc"></string>
+
+	<string name="achievement.items-rare.name">Rare Looters %lvl%</string>
+	<string name="achievement.items-rare.desc"></string>
+
+	<string name="achievement.items-legendary.name">Legendary Looters %lvl%</string>
+	<string name="achievement.items-legendary.desc"></string>
+
+	<string name="achievement.damage-dealt-max.name">Heavy Hitters %lvl%</string>
+	<string name="achievement.damage-dealt-max.desc"></string>
+
+	<string name="achievement.amount-healed.name">Physicians %lvl%</string>
+	<string name="achievement.amount-healed.desc"></string>
+
+	<string name="achievement.fountain-used.name">Coin Tossers %lvl%</string>
+	<string name="achievement.fountain-used.desc"></string>
+
+	<string name="achievement.well-used.name">Replenishers %lvl%</string>
+	<string name="achievement.well-used.desc"></string>
+
+	<string name="achievement.potion-used.name">Potion Gulpers %lvl%</string>
+	<string name="achievement.potion-used.desc"></string>
+
+	<string name="achievement.chest-bronze.name">Bronze Chest Pillagers %lvl%</string>
+	<string name="achievement.chest-bronze.desc"></string>
+
+	<string name="achievement.chest-silver.name">Silver Chest Pillagers %lvl%</string>
+	<string name="achievement.chest-silver.desc"></string>
+
+	<string name="achievement.chest-gold.name">Gold Chest Pillagers %lvl%</string>
+	<string name="achievement.chest-gold.desc"></string>
+
+	<string name="achievement.chest-ace.name">Ace Chest Pillagers %lvl%</string>
+	<string name="achievement.chest-ace.desc"></string>
 
 
 
