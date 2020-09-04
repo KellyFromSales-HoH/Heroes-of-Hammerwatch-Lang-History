@@ -111,7 +111,7 @@
 	<string name="gameover.sentence.items-picked.one">You picked up 1 item.</string>
 	<string name="gameover.sentence.floors.plural">You visited %num% floors.</string>
 	<string name="gameover.sentence.floors.one">You visited 1 floor.</string>
-	<string name="gameover.sentence.units">You traveled %num%.</string>
+	<string name="gameover.sentence.units">You traveled %meters%.</string>
 	<string name="gameover.sentence.time">Your run ended in %time%</string>
 	<string name="gameover.sentence.ore.one">You wasted 1 ore!</string>
 	<string name="gameover.sentence.ore.plural">You wasted %num% ore!</string>
@@ -129,6 +129,7 @@
 	<string name="stats.items-picked-uncommon">Uncommon items found</string>
 	<string name="stats.items-picked-rare">Rare items found</string>
 	<string name="stats.items-picked-legendary">Legendary items found</string>
+	<string name="stats.sets-completed">Item sets completed</string>
 	<string name="stats.damage-taken">Damage taken</string>
 	<string name="stats.damage-taken-max">Max damage taken</string>
 	<string name="stats.chests-opened">Chests opened</string>
@@ -146,6 +147,7 @@
 	<string name="stats.death-count">Death count</string>
 	<string name="stats.floors-visited">Floors visited</string>
 	<string name="stats.units-traveled">Units traveled</string>
+	<string name="stats.secrets-found">Secrets found</string>
 	<string name="stats.potion-charges-used">Potion charges used</string>
 	<string name="stats.chest-used-wood">Wooden chests opened</string>
 	<string name="stats.chest-used-0">Bronze chests opened</string>
@@ -167,6 +169,7 @@
 	<string name="stats.undead-killed">Undead killed</string>
 	<string name="stats.best-combo">Best combo</string>
 	<string name="stats.amount-healed">Amount healed</string>
+	<string name="stats.amount-healed-pickups">Amount healed by pickups</string>
 	<string name="stats.damage-dealt">Damage dealt</string>
 	<string name="stats.damage-dealt-max">Max damage dealt</string>
 	<string name="stats.damage-dealt-physical">Physical damage dealt</string>
@@ -175,11 +178,20 @@
 	<string name="stats.stun-count">Enemies stunned</string>
 	<string name="stats.crit-count">Critical hits scored</string>
 	<string name="stats.damage-blocked">Damage blocked</string>
+	<string name="stats.damage-returned">Damage returned</string>
 	<string name="stats.evade-amount">Attacks evaded</string>
 	<string name="stats.blessings-purchased">Blessings purchased</string>
 	<string name="stats.buildings-purchased">Building upgrades purchased</string>
 	<string name="stats.gambling-gold-won">Gambling gold won</string>
 	<string name="stats.gambling-gold-lost">Gambling gold lost</string>
+	<string name="stats.max-level-paladin">Highest Paladin Level</string>
+	<string name="stats.max-level-priest">Highest Priest Level</string>
+	<string name="stats.max-level-ranger">Highest Ranger Level</string>
+	<string name="stats.max-level-sorcerer">Highest Sorcerer Level</string>
+	<string name="stats.max-level-thief">Highest Thief Level</string>
+	<string name="stats.max-level-warlock">Highest Warlock Level</string>
+	<string name="stats.max-level-wizard">Highest Wizard Level</string>
+
 
 
 	<!-- misc -->
@@ -721,6 +733,7 @@
 	<string name="menu.lobby.title.hosting">Lobby: Hosting</string>
 	<string name="menu.lobby.title.joining">Lobby</string>
 
+	<string name="menu.lobby.chat.revive">%reviver% revived %revivee%. Their souls are now linked.</string>
 
 	<string name="menu.lobby.ready">READY</string>
 	<string name="menu.lobby.unready">UNREADY</string>
@@ -1374,11 +1387,11 @@
 
 	<string name="skills.paladin.shield">Shield</string>
 	<string name="skills.paladin.shield.create">A sturdy shield that blocks most incoming projectiles. The shield also has a chance to block some incoming damage.</string>
-	<string name="skills.paladin.shield.1">Blocks most incoming projectiles within a 90-degree arc. The shield also has a 25% chance to block 10 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.2">Blocks most incoming projectiles within a 120-degree arc. The shield also has a 25% chance to block 15 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.3">Blocks most incoming projectiles within a 150-degree arc. The shield also has a 25% chance to block 20 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.4">Blocks most incoming projectiles within a 180-degree arc. The shield also has a 25% chance to block 25 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.5">Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 30 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.1">Blocks most incoming projectiles within a 90-degree arc. The shield also has a 25% chance to block 5 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.2">Blocks most incoming projectiles within a 120-degree arc. The shield also has a 25% chance to block 10 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.3">Blocks most incoming projectiles within a 150-degree arc. The shield also has a 25% chance to block 15 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.4">Blocks most incoming projectiles within a 180-degree arc. The shield also has a 25% chance to block 20 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.5">Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 25 Physical or Magical damage.</string>
 
 	<string name="skills.paladin.stunning-blows">Stunning Blows</string>
 	<string name="skills.paladin.stunning-blows.create">Primary attack have a chance of stunning enemies for a few seconds.</string>
@@ -1389,10 +1402,10 @@
 
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
-	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 6 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 7 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 8 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 5 health per 6 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 6 health per 7 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 7 health per 8 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 8 health per 9 mana spent. Faster rate of healing.</string>
 
 	<string name="skills.paladin.whirlwind">Whirlwind</string>
 	<string name="skills.paladin.whirlwind.create">A spinning attack that deals damage to all enemies around the Paladin.</string>
@@ -1418,12 +1431,12 @@
 
 	<string name="skills.priest.holy-light">Holy Light</string>
 	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
-	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 Magical damage and will heal allies for 4.</string>
-	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 18 Magical damage and will heal allies for 5.</string>
-	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 6.</string>
-	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 30 Magical damage and will heal allies for 7.</string>
-	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 36 Magical damage and will heal allies for 8.</string>
-	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 42 Magical damage and will heal allies for 9.</string>
+	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 Magical damage and will heal allies for 3.</string>
+	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 18 Magical damage and will heal allies for 3.</string>
+	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 4.</string>
+	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 30 Magical damage and will heal allies for 4.</string>
+	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 36 Magical damage and will heal allies for 5.</string>
+	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 42 Magical damage and will heal allies for 5.</string>
 
 	<string name="skills.priest.divine-protection">Divine Protection</string>
 	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
@@ -2311,6 +2324,7 @@
 	<string name="guildhall.tab.accomplishments">ACCOMPLISHMENTS</string>
 	<string name="guildhall.tab.beastiary">BESTIARY</string>
 	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
+	<string name="guildhall.stats.lifetime">LIFETIME</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2470,6 +2484,21 @@
 	<!-- Accomplishments -->
 
 
+	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
+	<string name="accomplishment.boss-1-killed-class.desc">Kill the 1st Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-2-killed-class.name">Breakers of Chains %lvl%</string>
+	<string name="accomplishment.boss-2-killed-class.desc">Kill the 2nd Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-3-killed-class.name">Abolishers of Evil %lvl%</string>
+	<string name="accomplishment.boss-3-killed-class.desc">Kill the 3rd Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-4-killed-class.name">Establishers of Order %lvl%</string>
+	<string name="accomplishment.boss-4-killed-class.desc">Kill the 4th Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-5-killed-class.name">Restorers of Peace %lvl%</string>
+	<string name="accomplishment.boss-5-killed-class.desc">Kill the 5th Boss with %requirement% different classes.</string>
+
 	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
 
@@ -2515,6 +2544,9 @@
 	<string name="accomplishment.items-picked-legendary.name">Legendary Looters %lvl%</string>
 	<string name="accomplishment.items-picked-legendary.desc">Find %requirement% Legendary items.</string>
 
+	<string name="accomplishment.sets-completed.name">Collectors %lvl%</string>
+	<string name="accomplishment.sets-completed.desc">Complete %requirement% item sets.</string>
+
 	<string name="accomplishment.damage-dealt-max.name">Heavy Hitters %lvl%</string>
 	<string name="accomplishment.damage-dealt-max.desc">Deal %requirement% in a single damage instance.</string>
 
@@ -2543,7 +2575,7 @@
 	<string name="accomplishment.max-level-priest.desc">Reach level %requirement% with a Priest.</string>
 
 	<string name="accomplishment.max-level-ranger.name">Hunters Lodge %lvl%</string>
-	<string name="accomplishment.max-level-ranger.desc">Reach level %requirement% with a Priest.</string>
+	<string name="accomplishment.max-level-ranger.desc">Reach level %requirement% with a Ranger.</string>
 
 	<string name="accomplishment.max-level-sorcerer.name">Magicians Circle %lvl%</string>
 	<string name="accomplishment.max-level-sorcerer.desc">Reach level %requirement% with a Sorcerer.</string>
@@ -2569,11 +2601,17 @@
 	<string name="accomplishment.damage-blocked.name">Blockers %lvl%</string>
 	<string name="accomplishment.damage-blocked.desc">Block %requirement% amount of damage.</string>
 
+	<string name="accomplishment.damage-returned.name">Revengers %lvl%</string>
+	<string name="accomplishment.damage-returned.desc">Return %requirement% amount of damage.</string>
+
 	<string name="accomplishment.evade-amount.name">Dodgers %lvl%</string>
 	<string name="accomplishment.evade-amount.desc">Evade %requirement% attacks.</string>
 
 	<string name="accomplishment.amount-healed.name">Physicians %lvl%</string>
 	<string name="accomplishment.amount-healed.desc">Heal for %requirement% health.</string>
+
+	<string name="accomplishment.amount-healed-pickups.name">Gourmands %lvl%</string>
+	<string name="accomplishment.amount-healed-pickups.desc">Heal for %requirement% by health pickups.</string>
 
 	<string name="accomplishment.elevator-used.name">Dispatchers %lvl%</string>
 	<string name="accomplishment.elevator-used.desc">Use an elevator %requirement% times.</string>
@@ -2593,6 +2631,9 @@
 	<string name="accomplishment.buildings-purchased.name">Builders %lvl%</string>
 	<string name="accomplishment.buildings-purchased.desc">Buy %requirement% building upgrades.</string>
 
+	<string name="accomplishment.upgrades-bought.name">Upgraders %lvl%</string>
+	<string name="accomplishment.upgrades-bought.desc">Buy %requirement% character upgrades.</string>
+
 	<string name="accomplishment.gambling-gold-won.name">High Rollers %lvl%</string>
 	<string name="accomplishment.gambling-gold-won.desc">Win %requirement% gold by gambling.</string>
 
@@ -2601,6 +2642,9 @@
 
 	<string name="accomplishment.units-traveled.name">Wanderers %lvl%</string>
 	<string name="accomplishment.units-traveled.desc">Walk for %requirement% meters.</string>
+
+	<string name="accomplishment.secrets-found.name">Detectives %lvl%</string>
+	<string name="accomplishment.secrets-found.desc">Find %requirement% secrets.</string>
 
 
 
