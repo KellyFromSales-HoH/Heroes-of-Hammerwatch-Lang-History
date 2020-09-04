@@ -2091,11 +2091,11 @@
 	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% total damage</string>
 
 	<string name="item.sets.kings-regalia.name">Kings Regalia</string>
-	<string name="item.sets.kings-regalia.desc">%chance% to crit</string>
+	<string name="item.sets.kings-regalia.desc">%speed%% faster attacks and skills</string>
 
 	<string name="item.sets.apothecarys-implements.name">Apothecary's Implements</string>
 	<string name="item.sets.apothecarys-implements.desc.1">+1 potion charge</string>
-	<string name="item.sets.apothecarys-implements.desc.2">%chance% chance to refill a potion charge when killing an enemy</string>
+	<string name="item.sets.apothecarys-implements.desc.2">%chance%% chance to refill a potion charge when killing an enemy</string>
 
 	<string name="item.sets.journeymans-outfit.name">Journeyman's Outfit</string>
 	<string name="item.sets.journeymans-outfit.desc.1">+%armor% armor</string>
@@ -2111,6 +2111,11 @@
 	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
 	<string name="item.sets.spheres-of-power.desc.2">Combo nova</string>
 	<string name="item.sets.spheres-of-power.desc.3">Greater combo nova</string>
+
+	<string name="item.sets.tricksters-ensemble.name">Trickster's Ensemble</string>
+	<string name="item.sets.tricksters-ensemble.desc.1">Gain a movement speed bonus when evading</string>
+	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% evasion</string>
+	<string name="item.sets.tricksters-ensemble.desc.3">Trigger combo when evading</string>
 
 
 
