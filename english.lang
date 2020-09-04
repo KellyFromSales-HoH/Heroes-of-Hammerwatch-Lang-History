@@ -10,7 +10,7 @@
 	<string name="hud.levelup">LEVEL UP!</string>
 	<string name="hud.potionrefill">REFILLED!</string>
 	<string name="hud.nokey">NO KEY!</string>
-	<string name="hud.newtitle">NEW TITLE: %title%</string>
+	<string name="hud.newtitle">TITLE GAINED</string>
 
 	<string name="class.paladin">Paladin</string>
 	<string name="class.paladin.desc">A powerful melee warrior with a lot of survivability.</string>
@@ -138,11 +138,11 @@
 
 	<!-- end of game -->
 	<string name="endofbeta.title">END OF BETA</string>
-	<string name="endofbeta.subtitle">Choose your destiny!</string>
-	<string name="endofgame.town">TO TOWN</string>
-	<string name="endofgame.town.desc">Your character stays on the same difficulty and won't receive a title.</string>
+	<string name="endofbeta.subtitle">Thanks for playing the beta! We will be adding more content as the beta continues.\nFor now you can choose between upgrading your character to New Game+ or keep on playing on the same difficulty level. Town progress is saved.</string>
+	<string name="endofgame.town">CONTINUE</string>
+	<string name="endofgame.town.desc">Head back to town and continue playing on the same difficulty level.</string>
 	<string name="endofgame.newgameplus">NEW GAME+</string>
-	<string name="endofgame.newgameplus.desc">Upgrade your character to New Game+ and earn a new title.</string>
+	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
 
 
 	<!-- OLD -->
@@ -1001,18 +1001,18 @@
 
 	<!-- shop names -->
 	<string name="shop.tier.num">Tier %num%</string>
-	<string name="shop.apothecary">APOTHECARY</string>
-	<string name="shop.blacksmith">BLACKSMITH</string>
-	<string name="shop.chapel">CHAPEL</string>
-	<string name="shop.dungeonstore">DUNGEON STORE</string>
-	<string name="shop.fountain">THE OUTLOOK FOUNTAIN</string>
-	<string name="shop.generalstore">GENERAL STORE</string>
-	<string name="shop.guildhall">GUILD HALL</string>
-	<string name="shop.skills">SKILL MASTER KEVIN STACEY</string>
-	<string name="shop.statues">BOB THE BUILDER</string>
-	<string name="shop.townhall">TOWN HALL</string>
-	<string name="shop.trainer">TRAINER</string>
-	<string name="shop.treasury">TREASURY</string>
+	<string name="shop.apothecary">ELIANDA, THE APOTHECARY</string>
+	<string name="shop.blacksmith">SMITH BARRO</string>
+	<string name="shop.chapel">THE PREACHER</string>
+	<string name="shop.dungeonstore">SHADY OUTCAST MERCHANT</string>
+	<string name="shop.fountain">FOUNTAIN OF FORTUNE</string>
+	<string name="shop.generalstore">DARREN, THE SUPPLIER</string>
+	<string name="shop.guildhall">AAAAAAAAAAAAAAAA</string>
+	<string name="shop.skills">TRAINER CALHOUN</string>
+	<string name="shop.statues">CCCCCCCCCCCCCCCCCC</string>
+	<string name="shop.townhall">PREFECT GREY</string>
+	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
+	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
 
 
 	<!-- town hall -->
@@ -1894,87 +1894,53 @@
 	<string name="dialogue.town.npc.greeting-1">Greetings!</string>
 	<string name="dialogue.town.npc.greeting-2">Welcome!</string>
 
+	<!-- Town NPC Generic -->
+	<string name="dialogue.town.npc.generic.woman1.1a">We used to be able to\nsee far out over Aridara.</string>
+	<string name="dialogue.town.npc.generic.woman1.1b">Bad fog and thick clouds\nengulf the slopes.</string>
 
+	<string name="dialogue.town.npc.generic.guard.1a">There's only one way\nout, in a body bag.</string>
+	<string name="dialogue.town.npc.generic.guard.1b">If you enter there's\nno turning back.</string>
+	<string name="dialogue.town.npc.generic.guard.1c">The entrance will be\nbarred from behind you.</string>
 
+	<string name="dialogue.town.npc.generic.ace1.1a">Rumor has it, that it\nalways rains on the\ntop of the Forsaken Spire.</string>
 
+	<string name="dialogue.town.npc.generic.ace2.1a">I'm not going back\ninto those mines.</string>
 
+	<string name="dialogue.town.npc.generic.ace3.1a">Les Calhoun only\ntrains the best!</string>
+	<string name="dialogue.town.npc.generic.ace3.1b">Talk to Les at over at\nthe Broken Ace, he'll\ntech you!</string>
 
+	<!-- Town NPC Specific -->
+	<string name="dialogue.town.npc.fountain.oaf.name">Dumb Oaf</string>
+	<string name="dialogue.town.npc.fountain.oaf.1a">Once this fountain used to\nbe full of water.</string>
+	<string name="dialogue.town.npc.fountain.oaf.1b">I used to throw a\ncoin or two into this.</string>
+	<string name="dialogue.town.npc.fountain.oaf.2a">The fountain works again!</string>
+	<string name="dialogue.town.npc.fountain.oaf.2b">I threw down a coin there\nand it just disappeared!</string>
+	<string name="dialogue.town.npc.fountain.oaf.3a">I've thrown so much\nmoney into this now.</string>
+	<string name="dialogue.town.npc.fountain.oaf.3b">I'm almost bankrupt...</string>
 
+	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
+	<string name="dialogue.town.npc.mayor.1a">Please enter the mines\nand help us regain control\nover them again!</string>
 
+	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
 
+	<string name="dialogue.town.npc.chapel.man1.1a">Hey, you're not\nthe priest...</string>
+	<string name="dialogue.town.npc.chapel.man1.1b">I hope the priest\nreturns soon!</string>
+	<string name="dialogue.town.npc.chapel.man1.1c">The priest left\na while ago.</string>
 
+	<string name="dialogue.town.npc.smith.name">Smith Barro</string>
+	<string name="dialogue.town.npc.smith.1a">I would love to\nenhance your weapon,\nbut I'm missing ore.</string>
 
+	<string name="dialogue.town.npc.apothecary.name">Elianda</string>
+	<string name="dialogue.town.npc.apothecary.1a">Mixing potions are my speciality,\nbut I'm missing ingredients.</string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- e3m0 -->
-
-
-
-
-
-
-	<!-- e3m1 -->
-
-
-
-
-	<!-- e3m2 -->
-
-
-
-
-
-
-	<!-- e4m1 -->
-
-
-
-
-
-	<!-- e4m2 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- e4m2-boss -->
-
+	<!-- Signs -->
+	<string name="dialogue.sign.chapel">Chapter of Light</string>
+	<string name="dialogue.sign.townhall">Town Hall</string>
+	<string name="dialogue.sign.guild">The Broken Ace</string>
+	<string name="dialogue.sign.tavern">The Old Drunkard</string>
+	<string name="dialogue.sign.magic">Spellbreakerz</string>
+	<string name="dialogue.sign.general">Darrens Supplies</string>
 
 
 
