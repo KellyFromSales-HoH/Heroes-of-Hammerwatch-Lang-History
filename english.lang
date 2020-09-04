@@ -195,6 +195,12 @@
 	<string name="item.diamond.red">DIAMOND</string>
 	<string name="item.diamond.red-small">DIAMOND</string>
 
+	<!-- intro -->
+	<string name="intro.title">THE OUTLOOK</string>
+	<string name="intro.text">Bla bla bla bla</string>
+	<string name="intro.continue">CONTINUE</string>
+
+
 	<!-- end of game -->
 	<string name="endofbeta.title">END OF BETA</string>
 	<string name="endofbeta.subtitle">Thanks for playing the beta! We will be adding more content as the beta continues.\nFor now you can choose between upgrading your character to New Game+ or keep on playing on the same difficulty level. Town progress is saved.</string>
@@ -202,6 +208,10 @@
 	<string name="endofgame.town.desc">Head back to town and continue playing on the same difficulty level.</string>
 	<string name="endofgame.newgameplus">NEW GAME+</string>
 	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
+	<string name="endofgame.title">THE END</string>
+	<string name="endofgame.text">Bla bla bla bla</string>
+	<string name="endofgame.confirm.town">Are you sure you want to go back to town without activating New Game+?</string>
+	<string name="endofgame.confirm.plus">Are you sure you want to activate New Game+?</string>
 
 	<string name="misc.yes">Yes</string>
 	<string name="misc.no">No</string>
@@ -230,12 +240,15 @@
 	<string name="meta.info.elsewhere">This opens elsewhere...</string>
 	<string name="meta.info.happened">Something happened...</string>
 	<string name="meta.info.buttonstuck">Button is stuck…</string>
+	<string name="meta.info.combounlocked">Combo unlocked!</string>
 	<string name="meta.info.sequencecompleted">Sequence completed!</string>
 	<string name="meta.info.twomore">2 more to go…</string>
 	<string name="meta.info.onemore">1 more to go…</string>
 	<string name="meta.info.passage">A secret passage has been revealed…</string>
 	<string name="meta.info.exitrevealed">The exit has been revealed!</string>
 	<string name="meta.info.threatspawned">A great threat was spawned!</string>
+	<string name="meta.info.gatherparty">You must gather your party before venturing forth.</string>
+	<string name="meta.info.ritual.gather">You must gather your party before starting the ritual.</string>
 	<string name="meta.info.ritual.start">…and the great abomination\n was summoned!</string>
 	<string name="meta.info.ritual.completed">Ritual sequence completed!</string>
 	<string name="meta.info.ritual.failed">Ritual sequence incomplete!</string>
@@ -356,6 +369,11 @@
 	<string name="ui_cursor_health.help">Show your current health and mana on the crosshair.</string>
 	<string name="ui_minimap_alpha">MINIMAP ALPHA</string>
 	<string name="ui_minimap_alpha.help">Transparency of the minimap overlay.</string>
+	<string name="ui_draw_plr_names">PLAYER NAMES</string>
+	<string name="ui_draw_plr_names.help">Show player names in multiplayer.</string>
+	<string name="ui_draw_plr_names.onlytown">ONLY TOWN</string>
+	<string name="ui_draw_plr_names_real">REAL PLAYER NAMES</string>
+	<string name="ui_draw_plr_names_real.help">Show real player names instead of hero names in multiplayer.</string>
 
 	<!-- Gambling -->
 	<string name="gambling.house">House</string>
@@ -952,6 +970,15 @@
 	<string name="shop.townhall.magicshop-3.name">Magic Shop III</string>
 	<string name="shop.townhall.magicshop-3.desc">Buy upgrades to your Skills and Resistance.</string>
 
+	<string name="shop.townhall.oretrader-1.name">Ore Trader I</string>
+	<string name="shop.townhall.oretrader-1.desc">Buy and sell ore.</string>
+
+	<string name="shop.townhall.oretrader-2.name">Ore Trader II</string>
+	<string name="shop.townhall.oretrader-2.desc">Buy and sell ore. Better trade rates.</string>
+
+	<string name="shop.townhall.oretrader-3.name">Ore Trader III</string>
+	<string name="shop.townhall.oretrader-3.desc">Buy and sell ore. Better trade rates.</string>
+
 	<string name="shop.townhall.sculptor-1.name">Sculptor I</string>
 	<string name="shop.townhall.sculptor-1.desc">Build Level 1 statues for ore. 2 slots.</string>
 
@@ -1233,12 +1260,14 @@
 
 	<!-- ore trader -->
 	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
-	<string name="shop.oretrader.ore-gold.desc">Buy 1 ore for 1250 gold.</string>
+	<string name="shop.oretrader.ore-gold-1.desc">Buy 1 ore for 1500 gold.</string>
+	<string name="shop.oretrader.ore-gold-2.desc">Buy 1 ore for 1250 gold.</string>
+	<string name="shop.oretrader.ore-gold-3.desc">Buy 1 ore for 1000 gold.</string>
 
 	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
-	<string name="shop.oretrader.gold-ore.desc">Sell 1 ore for 250 gold.</string>
-
-
+	<string name="shop.oretrader.gold-ore-1.desc">Sell 1 ore for 200 gold.</string>
+	<string name="shop.oretrader.gold-ore-2.desc">Sell 1 ore for 350 gold.</string>
+	<string name="shop.oretrader.gold-ore-3.desc">Sell 1 ore for 500 gold.</string>
 
 
 
@@ -1345,11 +1374,11 @@
 
 	<string name="skills.priest.divine-protection">Divine Protection</string>
 	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
-	<string name="skills.priest.divine-protection.1">The shield absorbs 50% of incoming damage for a cost of 4 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.2">The shield absorbs 55% of incoming damage for a cost of 2 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.3">The shield absorbs 60% of incoming damage for a cost of 1 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.4">The shield absorbs 65% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.5">The shield absorbs 70% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.1">The shield absorbs 40% of incoming damage for a cost of 4 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.2">The shield absorbs 45% of incoming damage for a cost of 2 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.3">The shield absorbs 50% of incoming damage for a cost of 1 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.4">The shield absorbs 55% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.5">The shield absorbs 60% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
 
 	<string name="skills.priest.remedy">Remedy</string>
 	<string name="skills.priest.remedy.create">The Priest regains health more effectively from all sources.</string>
@@ -1367,8 +1396,8 @@
 
 	<string name="skills.priest.aura-of-purification">Aura of Purification</string>
 	<string name="skills.priest.aura-of-purification.create">The Priest radiates an aura that slows and lowers the damage of all nearby enemies.</string>
-	<string name="skills.priest.aura-of-purification.1">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 30%. While the aura is active the Priest's mana regen is reduced by 100%.</string>
-	<string name="skills.priest.aura-of-purification.2">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 40%. While the aura is active the Priest's mana regen is reduced by 75%.</string>
+	<string name="skills.priest.aura-of-purification.1">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 30%. While the aura is active the Priest's mana regen is reduced by 90%.</string>
+	<string name="skills.priest.aura-of-purification.2">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 40%. While the aura is active the Priest's mana regen is reduced by 70%.</string>
 	<string name="skills.priest.aura-of-purification.3">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 50%. While the aura is active the Priest's mana regen is reduced by 50%.</string>
 
 	<string name="skills.priest.celestial-orb">Celestial Orbs</string>
@@ -1414,9 +1443,9 @@
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
 	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes enemies for a few seconds.</string>
 	<string name="skills.ranger.grasping-roots.1">Immobilize all enemies in a 100-unit radius around the Ranger for 3 seconds.</string>
-	<string name="skills.ranger.grasping-roots.2">Immobilize all enemies in a 125-unit radius around the Ranger for 3 seconds.</string>
-	<string name="skills.ranger.grasping-roots.3">Immobilize all enemies in a 150-unit radius around the Ranger for 3 seconds.</string>
-	<string name="skills.ranger.grasping-roots.4">Immobilize all enemies in a 175-unit radius around the Ranger for 3 seconds.</string>
+	<string name="skills.ranger.grasping-roots.2">Immobilize all enemies in a 125-unit radius around the Ranger for 4 seconds.</string>
+	<string name="skills.ranger.grasping-roots.3">Immobilize all enemies in a 150-unit radius around the Ranger for 5 seconds.</string>
+	<string name="skills.ranger.grasping-roots.4">Immobilize all enemies in a 175-unit radius around the Ranger for 6 seconds.</string>
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
@@ -1452,10 +1481,10 @@
 	<string name="skills.sorcerer.biting-chill">Biting Chill</string>
 	<string name="skills.sorcerer.biting-chill.create">All Sorcerer skills slow enemies.</string>
 	<string name="skills.sorcerer.biting-chill.1">Slows enemies hit by the Sorcerer's skills by 20% for 2 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.2">Slows enemies hit by the Sorcerer's skills by 35% for 2.5 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.3">Slows enemies hit by the Sorcerer's skills by 50% for 3 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.4">Slows enemies hit by the Sorcerer's skills by 65% for 3.5 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.5">Slows enemies hit by the Sorcerer's skills by 80% for 4 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.2">Slows enemies hit by the Sorcerer's skills by 30% for 2.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.3">Slows enemies hit by the Sorcerer's skills by 40% for 3 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.4">Slows enemies hit by the Sorcerer's skills by 50% for 3.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.5">Slows enemies hit by the Sorcerer's skills by 60% for 4 seconds.</string>
 
 	<string name="skills.sorcerer.ice-barrier">Ice Barrier</string>
 	<string name="skills.sorcerer.ice-barrier.create">Gives the Sorcerer a chance to halve incoming damage and apply Biting Chill to the attacker.</string>
@@ -1467,9 +1496,9 @@
 	<string name="skills.sorcerer.frost-nova">Frost Nova</string>
 	<string name="skills.sorcerer.frost-nova.create">Fires multiple frost shards in all directions around the Sorcerer.</string>
 	<string name="skills.sorcerer.frost-nova.1">Unleash 13 frost shards in all directions around the Sorcerer dealing 12 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.2">Unleash 17 frost shards in all directions around the Sorcerer dealing 14 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.3">Unleash 21 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.4">Unleash 25 frost shards in all directions around the Sorcerer dealing 18 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.2">Unleash 17 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.3">Unleash 21 frost shards in all directions around the Sorcerer dealing 20 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.4">Unleash 25 frost shards in all directions around the Sorcerer dealing 24 Hybrid damage.</string>
 
 	<string name="skills.sorcerer.orb-of-winter">Orb of Winter</string>
 	<string name="skills.sorcerer.orb-of-winter.create">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
@@ -1479,8 +1508,8 @@
 
 	<string name="skills.sorcerer.shatter">Shatter</string>
 	<string name="skills.sorcerer.shatter.create">Enemies killed by the Sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.1">Enemies killed by the sorcerer have a 7.5% chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.2">Enemies killed by the sorcerer have a 15% chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.1">Enemies killed by the sorcerer have a 10% chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.2">Enemies killed by the sorcerer have a 20% chance to trigger a Frost Nova at the location of their death.</string>
 
 
 	<!-- Thief -->
