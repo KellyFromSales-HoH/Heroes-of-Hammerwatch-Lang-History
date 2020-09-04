@@ -1833,7 +1833,7 @@
 	<string name="item.sets.journeymans-outfit.name">Journeyman's Outfit</string>
 	<string name="item.sets.journeymans-outfit.desc.1">+%armor% armor</string>
 	<string name="item.sets.journeymans-outfit.desc.2">+%attack% attack power</string>
-	<string name="item.sets.journeymans-outfit.desc.3">%10%% damage reduction</string>
+	<string name="item.sets.journeymans-outfit.desc.3">%reduction%% damage reduction</string>
 
 	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
 	<string name="item.sets.disciples-arcana.desc.1">+%res% resistance</string>
