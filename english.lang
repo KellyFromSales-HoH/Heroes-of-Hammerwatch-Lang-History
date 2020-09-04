@@ -353,6 +353,8 @@
 	<string name="ui_speechbubble_alpha.help">Transparency of speechbubbles.</string>
 	<string name="ui_cursor_health">CURSOR STATS</string>
 	<string name="ui_cursor_health.help">Show your current health and mana on the crosshair.</string>
+	<string name="ui_minimap_alpha">MINIMAP ALPHA</string>
+	<string name="ui_minimap_alpha.help">Transparency of the minimap overlay.</string>
 
 	<!-- Gambling -->
 	<string name="gambling.house">House</string>
@@ -907,7 +909,7 @@
 	<string name="shop.townhall.fountain-1.name">Fountain I</string>
 	<string name="shop.townhall.fountain-1.desc">Throw gold in the fountain to have something happen (good or bad, amazing or terrible).</string>
 
-	<string name="shop.townhall.fountain-2.name">Fountain I</string>
+	<string name="shop.townhall.fountain-2.name">Fountain II</string>
 	<string name="shop.townhall.fountain-2.desc">Higher chance of something good happening.</string>
 
 	<string name="shop.townhall.generalstore-1.name">General Store I</string>
@@ -1227,6 +1229,16 @@
 
 	<string name="shop.magicshop.spellcritdamage-2.name">Skill Crit Damage II</string>
 	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
+
+	<!-- ore trader -->
+	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
+	<string name="shop.oretrader.ore-gold.desc">Buy 1 ore for 1250 gold.</string>
+
+	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
+	<string name="shop.oretrader.gold-ore.desc">Sell 1 ore for 250 gold.</string>
+
+
+
 
 
 	<!-- fountain -->
