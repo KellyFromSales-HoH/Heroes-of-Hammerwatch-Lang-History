@@ -544,6 +544,8 @@
 	<string name="mainmenu.host.ngp">Start on NG+</string>
 	<string name="mainmenu.host.downscaling">Downscaling</string>
 	<string name="mainmenu.host.downscaling.description">Scales class title bonuses and hero level stats down to the current NG+.</string>
+	<string name="mainmenu.host.allowmodded">Allow modded profiles</string>
+	<string name="mainmenu.host.allowmodded.description">Allows players with modded profiles to join your lobby.</string>
 	<string name="mainmenu.serverlist.title">SERVERLIST</string>
 	<string name="mainmenu.serverlist.level-restriction.both">Required hero level: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">Minimum hero level: %min%</string>
@@ -554,6 +556,7 @@
 	<string name="mainmenu.serverlist.mods.one">1 mod</string>
 	<string name="mainmenu.serverlist.mods.plural">%num% mods</string>
 	<string name="mainmenu.serverlist.mods.dontmatch">Your enabled mods don't match!</string>
+	<string name="mainmenu.serverlist.mod-restriction">Modded profiles are not allowed to join.</string>
 	<string name="mainmenu.multiplayer.disabled">Multiplayer is currently unavailabe, try again later.</string>
 	<string name="mainmenu.multiplayer.disabled.mods">Multiplayer is disabled due to having an unpacked mod enabled.</string>
 
@@ -873,6 +876,9 @@
 	<string name="menu.notifier.lostconnection">Connection lost.</string>
 	<string name="menu.notifier.joinfailed.mods">Failed to join lobby because you don't have the same mods enabled. The host has enabled %num%: %mods%</string>
 	<string name="menu.notifier.joinfailed.level">Failed to join lobby because the character is outside of the level requirements. (Minimum %min%, maximum %max%)</string>
+	<string name="menu.notifier.joinfailed.allowedmods">Failed to join lobby because the host has chosen not to allow modded profiles.</string>
+
+
 
 	<string name="misc.autosave">Autosave</string>
 	<string name="misc.timeletters.hours">h</string>
