@@ -35,6 +35,7 @@
 	<string name="playermenu.character.keys">KEYS</string>
 	<string name="playermenu.character.items">ITEMS</string>
 	<string name="playermenu.character.potionskills">POTION / SKILLS</string>
+	<string name="playermenu.character.base">Base: %value%</string>
 
 	<string name="playermenu.tooltip.exp">EXPERIENCE</string>
 	<string name="playermenu.tooltip.exp.total">TOTAL:</string>
@@ -45,12 +46,18 @@
 
 	<string name="playermenu.character.health">HEALTH</string>
 	<string name="playermenu.character.mana">MANA</string>
+	<string name="playermenu.character.healthregen">HEALTH REGEN</string>
+	<string name="playermenu.character.manaregen">MANA REGEN</string>
 	<string name="playermenu.character.armor">ARMOR</string>
+	<string name="playermenu.character.armor.description">Decreases physical damage taken by %value%%.</string>
 	<string name="playermenu.character.resistance">RESISTANCE</string>
+	<string name="playermenu.character.resistance.description">Decreases magical damage taken by %value%%.</string>
 	<string name="playermenu.character.attackpower">ATTACK POWER</string>
-	<string name="playermenu.character.spellpower">SPELL POWER</string>
-	<string name="playermenu.character.attackdamage"></string>
-	<string name="playermenu.character.spelldamage"></string>
+	<string name="playermenu.character.attackpower.description">Increases damage done by primary attack by %value%%.</string>
+	<string name="playermenu.character.spellpower">SKILL POWER</string>
+	<string name="playermenu.character.spellpower.description">Increases damage done by skills and items by %value%%.</string>
+	<string name="playermenu.character.attackdamage">ATTACK EFFECTS</string>
+	<string name="playermenu.character.spelldamage">SKILL EFFECTS</string>
 	<string name="playermenu.character.movespeed">MOVE SPEED</string>
 
 	<!-- acts -->
@@ -72,10 +79,15 @@
 	<string name="gameover.stats.goldfound">GOLD FOUND</string>
 	<string name="gameover.stats.goldstored">SENT TO TOWN</string>
 	<string name="gameover.stats.orefound">ORE FOUND</string>
+	<string name="gameover.stats.orestored">SENT TO TOWN</string>
 	<string name="gameover.stats.experience">EXPERIENCE</string>
 	<string name="gameover.stats.timeplayed">TIME PLAYED</string>
 	<string name="gameover.stats.enemieskilled">ENEMIES KILLED</string>
 	<string name="gameover.mock.0">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.1">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.2">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.3">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.4">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
 	<string name="gameover.sentence.unused-potion.none">You used all of your potions.</string>
 	<string name="gameover.sentence.unused-potion.plural">You had %num% potions left!</string>
 	<string name="gameover.sentence.unused-potion.one">You had 1 potion left!</string>
@@ -96,7 +108,10 @@
 	<string name="gameover.sentence.floors.one">You visited 1 floor.</string>
 	<string name="gameover.sentence.units.plural">You traveled %num% units.</string>
 	<string name="gameover.sentence.units.one">You traveled 1 unit!?</string>
-
+	<string name="gameover.sentence.time">Your run ended in %time%</string>
+	<string name="gameover.sentence.ore.one">You wasted 1 ore!</string>
+	<string name="gameover.sentence.ore.plural">You wasted %num% ore!</string>
+	<string name="gameover.sentence.experience">You lost %num% experience!</string>
 
 	<!-- stats -->
 	<string name="stats.time-played">Time played</string>
@@ -144,17 +159,31 @@
 	<string name="stats.beast-killed">Beasts killed</string>
 	<string name="stats.construct-killed">Constructs killed</string>
 	<string name="stats.undead-killed">Undead killed</string>
+	<string name="stats.best-combo">Best combo</string>
+	<string name="stats.amount-healed">Amount healed</string>
+	<string name="stats.damage-dealt">Damage dealt</string>
+	<string name="stats.damage-dealt-max">Max damage dealt</string>
 
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
 	<string name="misc.dmg.crit2">%dmg%!!</string>
 	<string name="misc.dmg.crit3">%dmg%!!!</string>
+	<string name="misc.dmg.crit4">%dmg%!!!!</string>
+	<string name="misc.dmg.crit5">%dmg%!!!!!</string>
+	<string name="misc.primaryskill">\c7f7f7fPrimary attack\d</string>
+	<string name="misc.activeskill">\c7f7f7fActive skill\d</string>
+	<string name="misc.passiveskill">\c7f7f7fPassive skill\d</string>
+
 	<string name="item.key">KEY</string>
 	<string name="item.key.plural">%num% KEYS</string>
 	<string name="item.ore">ORE</string>
 	<string name="item.ore.plural">%num% ORE</string>
-
+	<string name="misc.store.ore">Sent %num% ore to town</string>
+	<string name="item.diamond.blue">BLUE DIAMOND</string>
+	<string name="item.diamond.blue-small">SMALL BLUE DIAMOND</string>
+	<string name="item.diamond.red">RED DIAMOND</string>
+	<string name="item.diamond.red-small">SMALL RED DIAMOND</string>
 
 	<!-- end of game -->
 	<string name="endofbeta.title">END OF BETA</string>
@@ -190,10 +219,34 @@
 
 	<string name="meta.info.elsewhere">This opens elsewhere...</string>
 	<string name="meta.info.happened">Something happened...</string>
+	<string name="meta.info.buttonstuck">Button is stuck…</string>
 	<string name="meta.info.sequencecompleted">Sequence completed!</string>
 	<string name="meta.info.twomore">2 more to go…</string>
 	<string name="meta.info.onemore">1 more to go…</string>
-
+	<string name="meta.info.passage">A secret passage has been revealed…</string>
+	<string name="meta.info.ritual.start">…and the great monstrosity was summoned!</string>
+	<string name="meta.info.ritual.completed">Ritual stage completed!</string>
+	<string name="meta.info.ritual.failed">Ritual stage incomplete!</string>
+	<string name="meta.info.ritual.b">Embrace the Dark</string>
+	<string name="meta.info.ritual.b1">Summoning Ritual - Stage I\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.b2">Summoning Ritual - Stage II\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.b3">Summoning Ritual - Stage III\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.b4">Summoning Ritual - Stage IV\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.g">Withering Decay</string>
+	<string name="meta.info.ritual.g1">Summoning Ritual - Stage I\nWithering Decay</string>
+	<string name="meta.info.ritual.g2">Summoning Ritual - Stage II\nWithering Decay</string>
+	<string name="meta.info.ritual.g3">Summoning Ritual - Stage III\nWithering Decay</string>
+	<string name="meta.info.ritual.g4">Summoning Ritual - Stage IV\nWithering Decay</string>
+	<string name="meta.info.ritual.r">Blood Pact</string>
+	<string name="meta.info.ritual.r1">Summoning Ritual - Stage I\nBlood Pact</string>
+	<string name="meta.info.ritual.r2">Summoning Ritual - Stage II\nBlood Pact</string>
+	<string name="meta.info.ritual.r3">Summoning Ritual - Stage III\nBlood Pact</string>
+	<string name="meta.info.ritual.r4">Summoning Ritual - Stage IV\nBlood Pact</string>
+	<string name="meta.info.ritual.y">Malign Transformation</string>
+	<string name="meta.info.ritual.y1">Summoning Ritual - Stage I\nMalign Transformation</string>
+	<string name="meta.info.ritual.y2">Summoning Ritual - Stage II\nMalign Transformation</string>
+	<string name="meta.info.ritual.y3">Summoning Ritual - Stage III\nMalign Transformation</string>
+	<string name="meta.info.ritual.y4">Summoning Ritual - Stage IV\nMalign Transformation</string>
 
 	<string name="hud.extralife">YOU FOUND ANOTHER PAIR OF GLASSES</string>
 	<string name="hud.dead">DEAD</string>
@@ -242,7 +295,7 @@
 
 
 
-
+	<string name="gameover.sentence.experience">You lost %num% experience.</string>
 	<string name="gameover.restart">RESTART</string>
 
 	<string name="modifier.list.player">Character</string>
@@ -258,6 +311,56 @@
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
+
+	<!-- Gambling -->
+	<string name="gambling.house">House</string>
+	<string name="gambling.you">You</string>
+	<string name="town.cardgame.battlestatus">%player% vs %house%</string>
+	<string name="gambling.card.wildcard">Spiketrap! (*)</string>
+
+	<string name="gambling.card.1.1">Basic Construct (1)</string>
+	<string name="gambling.card.1.2">Basic Construct (2)</string>
+	<string name="gambling.card.1.3">Basic Construct (3)</string>
+	<string name="gambling.card.1.4">Basic Construct (4)</string>
+	<string name="gambling.card.1.5">Basic Construct (5)</string>
+	<string name="gambling.card.1.6">Basic Construct (6)</string>
+	<string name="gambling.card.1.7">Dummy, Construct (7)</string>
+	<string name="gambling.card.1.8">Rampart, Construct (8)</string>
+	<string name="gambling.card.1.9">Nova, Construct (9)</string>
+	<string name="gambling.card.1.10">Golem, Construct (10)</string>
+
+	<string name="gambling.card.2.1">Basic Beast (1)</string>
+	<string name="gambling.card.2.2">Basic Beast (2)</string>
+	<string name="gambling.card.2.3">Basic Beast (3)</string>
+	<string name="gambling.card.2.4">Basic Beast (4)</string>
+	<string name="gambling.card.2.5">Basic Beast (5)</string>
+	<string name="gambling.card.2.6">Basic Beast (6)</string>
+	<string name="gambling.card.2.7">Bats, Beasts (7)</string>
+	<string name="gambling.card.2.8">Fat Tick, Beast (8)</string>
+	<string name="gambling.card.2.9">Maggot Queen, Beast (9)</string>
+	<string name="gambling.card.2.10">Red Dragon, Beast (10)</string>
+
+	<string name="gambling.card.3.1">Basic Undead (1)</string>
+	<string name="gambling.card.3.2">Basic Undead (2)</string>
+	<string name="gambling.card.3.3">Basic Undead (3)</string>
+	<string name="gambling.card.3.4">Basic Undead (4)</string>
+	<string name="gambling.card.3.5">Basic Undead (5)</string>
+	<string name="gambling.card.3.6">Basic Undead (6)</string>
+	<string name="gambling.card.3.7">Skeleton, Undead (7)</string>
+	<string name="gambling.card.3.8">Lich, Undead (8)</string>
+	<string name="gambling.card.3.9">Warden, Undead (9)</string>
+	<string name="gambling.card.3.10">Wraiths, Undead (10)</string>
+
+	<string name="gambling.card.4.1">Basic Aberration (1)</string>
+	<string name="gambling.card.4.2">Basic Aberration (2)</string>
+	<string name="gambling.card.4.3">Basic Aberration (3)</string>
+	<string name="gambling.card.4.4">Basic Aberration (4)</string>
+	<string name="gambling.card.4.5">Basic Aberration (5)</string>
+	<string name="gambling.card.4.6">Basic Aberration (6)</string>
+	<string name="gambling.card.4.7">Small Eye, Aberration (7)</string>
+	<string name="gambling.card.4.8">Wisp, Aberration (8)</string>
+	<string name="gambling.card.4.9">Man Eater, Aberration (9)</string>
+	<string name="gambling.card.4.10">The Watcher, Aberration (10)</string>
 
 
 
@@ -667,6 +770,7 @@
 	<string name="shop.fountain">FOUNTAIN OF FORTUNE</string>
 	<string name="shop.generalstore">DARREN, THE SUPPLIER</string>
 	<string name="shop.guildhall">AAAAAAAAAAAAAAAA</string>
+	<string name="shop.magicshop">MAGIC SHOP</string>
 	<string name="shop.skills">TRAINER CALHOUN</string>
 	<string name="shop.statues">CCCCCCCCCCCCCCCCCC</string>
 	<string name="shop.townhall">PREFECT GREY</string>
@@ -839,10 +943,10 @@
 	<string name="shop.apothecary.mana-3.name">Mana Draught III</string>
 	<string name="shop.apothecary.mana-3.desc">Increases the amount of mana gained from your potion from 100 to 140.</string>
 
-	<string name="shop.apothecary.heal-pickups-1.name">Spices I</string>
+	<string name="shop.apothecary.heal-pickups-1.name">Invigorating Spices I</string>
 	<string name="shop.apothecary.heal-pickups-1.desc">The effectiveness of health pickups is increased by 50%.</string>
 
-	<string name="shop.apothecary.heal-pickups-2.name">Spices II</string>
+	<string name="shop.apothecary.heal-pickups-2.name">Invigorating Spices II</string>
 	<string name="shop.apothecary.heal-pickups-2.desc">The effectiveness of health pickups is increased by 100%.</string>
 
 	<string name="shop.apothecary.mana-pickups-1.name">Mana Extractor I</string>
@@ -966,6 +1070,10 @@
 
 
 	<!-- chapel -->
+	<string name="shop.chapel.convert">CONVERT - %cost%</string>
+	<string name="shop.chapel.convert.prompt">Do you want to convert for %cost% gold?</string>
+
+
 	<string name="shop.chapel.path.attack.name">Path of the Warrior</string>
 	<string name="shop.chapel.path.attack.desc">Increases damage of your Primary attack by %attack%%.</string>
 
@@ -973,7 +1081,7 @@
 	<string name="shop.chapel.path.defense.desc">Decreases damage taken by %taken%%.</string>
 
 	<string name="shop.chapel.path.spell.name">Path of the Magician</string>
-	<string name="shop.chapel.path.spell.desc">Increases damage of your Spells by %spell%%.</string>
+	<string name="shop.chapel.path.spell.desc">Increases damage of your Skills by %spell%%.</string>
 
 	<string name="shop.chapel.blessing.armor-pierce.name">Blessing of Might</string>
 	<string name="shop.chapel.blessing.armor-pierce.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
@@ -997,10 +1105,10 @@
 	<string name="shop.chapel.symbol.return-damage.desc">Returns %return%% damage to the attacker when hit.</string>
 
 	<string name="shop.chapel.symbol.spell-cost.name">Symbol of Wisdom</string>
-	<string name="shop.chapel.symbol.spell-cost.desc">Decreases the cost of casting your Spells by %cost%%.</string>
+	<string name="shop.chapel.symbol.spell-cost.desc">Decreases the mana cost of your Skills by %cost%%.</string>
 
 	<string name="shop.chapel.symbol.spell-crit.name">Symbol of Focus</string>
-	<string name="shop.chapel.symbol.spell-crit.desc">Increases Critical Damage on your Spells by %damage%%.</string>
+	<string name="shop.chapel.symbol.spell-crit.desc">Increases Critical Damage of your Skills by %damage%%.</string>
 
 
 	<!-- magic shop -->
@@ -1022,38 +1130,48 @@
 	<string name="shop.magicshop.resistance-6.name">Resistance VI</string>
 	<string name="shop.magicshop.resistance-6.desc">+30 to your Resistance.</string>
 
-	<string name="shop.magicshop.spellpower-1.name">Spell Damage I</string>
-	<string name="shop.magicshop.spellpower-1.desc">+5 to your Spell Power.</string>
+	<string name="shop.magicshop.spellpower-1.name">Skill Damage I</string>
+	<string name="shop.magicshop.spellpower-1.desc">+5 to your Skill Power.</string>
 
-	<string name="shop.magicshop.spellpower-2.name">Spell Damage II</string>
-	<string name="shop.magicshop.spellpower-2.desc">+10 to your Spell Power.</string>
+	<string name="shop.magicshop.spellpower-2.name">Skill Damage II</string>
+	<string name="shop.magicshop.spellpower-2.desc">+10 to your Skill Power.</string>
 
-	<string name="shop.magicshop.spellpower-3.name">Spell Damage III</string>
-	<string name="shop.magicshop.spellpower-3.desc">+15 to your Spell Power.</string>
+	<string name="shop.magicshop.spellpower-3.name">Skill Damage III</string>
+	<string name="shop.magicshop.spellpower-3.desc">+15 to your Skill Power.</string>
 
-	<string name="shop.magicshop.spellpower-4.name">Spell Damage IV</string>
-	<string name="shop.magicshop.spellpower-4.desc">+20 to your Spell Power.</string>
+	<string name="shop.magicshop.spellpower-4.name">Skill Damage IV</string>
+	<string name="shop.magicshop.spellpower-4.desc">+20 to your Skill Power.</string>
 
-	<string name="shop.magicshop.spellpower-5.name">Spell Damage V</string>
-	<string name="shop.magicshop.spellpower-5.desc">+25 to your Spell Power.</string>
+	<string name="shop.magicshop.spellpower-5.name">Skill Damage V</string>
+	<string name="shop.magicshop.spellpower-5.desc">+25 to your Skill Power.</string>
 
-	<string name="shop.magicshop.spellpower-6.name">Spell Damage VI</string>
-	<string name="shop.magicshop.spellpower-6.desc">+30 to your Spell Power.</string>
+	<string name="shop.magicshop.spellpower-6.name">Skill Damage VI</string>
+	<string name="shop.magicshop.spellpower-6.desc">+30 to your Skill Power.</string>
 
-	<string name="shop.magicshop.spellcritchance-1.name">Spell Crit Chance I</string>
-	<string name="shop.magicshop.spellcritchance-1.desc">5% chance to deal Critical Damage with Spells.</string>
+	<string name="shop.magicshop.spellcritchance-1.name">Skill Crit Chance I</string>
+	<string name="shop.magicshop.spellcritchance-1.desc">5% chance to deal Critical Damage with Skills.</string>
 
-	<string name="shop.magicshop.spellcritchance-2.name">Spell Crit Chance II</string>
-	<string name="shop.magicshop.spellcritchance-2.desc">10% chance to deal Critical Damage with Spells.</string>
+	<string name="shop.magicshop.spellcritchance-2.name">Skill Crit Chance II</string>
+	<string name="shop.magicshop.spellcritchance-2.desc">10% chance to deal Critical Damage with Skills.</string>
 
-	<string name="shop.magicshop.spellcritchance-3.name">Spell Crit Chance III</string>
-	<string name="shop.magicshop.spellcritchance-3.desc">15% chance to deal Critical Damage with Spells.</string>
+	<string name="shop.magicshop.spellcritchance-3.name">Skill Crit Chance III</string>
+	<string name="shop.magicshop.spellcritchance-3.desc">15% chance to deal Critical Damage with Skills.</string>
 
-	<string name="shop.magicshop.spellcritdamage-1.name">Spell Crit Damage I</string>
-	<string name="shop.magicshop.spellcritdamage-1.desc">Increases Critical Damage on your Spells to 2.5x.</string>
+	<string name="shop.magicshop.spellcritdamage-1.name">Skill Crit Damage I</string>
+	<string name="shop.magicshop.spellcritdamage-1.desc">Increases Critical Damage of your Skills to 2.5x.</string>
 
-	<string name="shop.magicshop.spellcritdamage-2.name">Spell Crit Damage II</string>
-	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage on your Spells to 3x.</string>
+	<string name="shop.magicshop.spellcritdamage-2.name">Skill Crit Damage II</string>
+	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
+
+	<!-- ore trader -->
+	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
+	<string name="shop.oretrader.ore-gold.desc">Buy 1 ore for 2500 gold.</string>
+
+	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
+	<string name="shop.oretrader.gold-ore.desc">Sell 1 ore for 500 gold.</string>
+
+
+
 
 
 	<!-- fountain -->
@@ -1062,6 +1180,21 @@
 	<string name="fountain.something">Something happened.</string>
 	<string name="fountain.great">Something great happened.</string>
 	<string name="fountain.horrible">Something horrible happened.</string>
+
+	<!-- gambling -->
+	<string name="town.cardgame.goldfrom">Your %num%</string>
+	<string name="town.cardgame.goldto">became %num%</string>
+	<string name="town.cardgame.header.win">YOU WIN!</string>
+	<string name="town.cardgame.header.lose">YOU LOSE..</string>
+	<string name="town.cardgame.title">CARDS</string>
+	<string name="town.cardgame.setyourlimits">Set your limits</string>
+	<string name="town.cardgame.flipcards">FLIP CARDS</string>
+	<string name="town.cardgame.outofmoney.1">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.2">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.3">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.4">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.5">You're out of money!</string>
+
 
 
 
@@ -1091,18 +1224,18 @@
 
 	<string name="skills.paladin.shield">Shield</string>
 	<string name="skills.paladin.shield.create">A sturdy shield that blocks most incoming projectiles. The shield also has a chance to block some incoming damage.</string>
-	<string name="skills.paladin.shield.1">Passive skill. Blocks most incoming projectiles within a 90-degree arc. The shield also has a 25% chance to block 10 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.2">Passive skill. Blocks most incoming projectiles within a 120-degree arc. The shield also has a 25% chance to block 15 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.3">Passive skill. Blocks most incoming projectiles within a 150-degree arc. The shield also has a 25% chance to block 20 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.4">Passive skill. Blocks most incoming projectiles within a 180-degree arc. The shield also has a 25% chance to block 25 Physical or Magical damage.</string>
-	<string name="skills.paladin.shield.5">Passive skill. Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 30 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.1">Blocks most incoming projectiles within a 90-degree arc. The shield also has a 25% chance to block 10 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.2">Blocks most incoming projectiles within a 120-degree arc. The shield also has a 25% chance to block 15 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.3">Blocks most incoming projectiles within a 150-degree arc. The shield also has a 25% chance to block 20 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.4">Blocks most incoming projectiles within a 180-degree arc. The shield also has a 25% chance to block 25 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.5">Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 30 Physical or Magical damage.</string>
 
 	<string name="skills.paladin.stunning-blows">Stunning Blows</string>
 	<string name="skills.paladin.stunning-blows.create">Primary attack have a chance of stunning enemies for a few seconds.</string>
-	<string name="skills.paladin.stunning-blows.1">Passive skill. Your primary attacks have a 10% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.2">Passive skill. Your primary attacks have a 15% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.3">Passive skill. Your primary attacks have a 20% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.4">Passive skill. Your primary attacks have a 25% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.1">Your primary attacks have a 10% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.2">Your primary attacks have a 15% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.3">Your primary attacks have a 20% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.4">Your primary attacks have a 25% chance to stun enemies for 2.5 seconds.</string>
 
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
@@ -1119,8 +1252,8 @@
 
 	<string name="skills.paladin.juggernaut">Juggernaut</string>
 	<string name="skills.paladin.juggernaut.create">When colliding with enemies the Paladin deals damage and has a chance to trigger Stunning Blows.</string>
-	<string name="skills.paladin.juggernaut.1">Passive skill. When colliding with enemies the Paladin deals 20 Physical damage and has a chance to trigger Stunning Blows.</string>
-	<string name="skills.paladin.juggernaut.2">Passive skill. When colliding with enemies the Paladin deals 80 Physical damage and has a chance to trigger Stunning Blows.</string>
+	<string name="skills.paladin.juggernaut.1">When colliding with enemies the Paladin deals 20 Physical damage and has a chance to trigger Stunning Blows.</string>
+	<string name="skills.paladin.juggernaut.2">When colliding with enemies the Paladin deals 80 Physical damage and has a chance to trigger Stunning Blows.</string>
 
 
 	<!-- Priest -->
@@ -1136,26 +1269,26 @@
 	<string name="skills.priest.holy-light">Holy Light</string>
 	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
 	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 Magical damage and will heal allies for 4.</string>
-	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 17 Magical damage and will heal allies for 5.</string>
-	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 22 Magical damage and will heal allies for 6.</string>
-	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 27 Magical damage and will heal allies for 7.</string>
-	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 32 Magical damage and will heal allies for 8.</string>
-	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 37 Magical damage and will heal allies for 9.</string>
+	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 18 Magical damage and will heal allies for 5.</string>
+	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 6.</string>
+	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 30 Magical damage and will heal allies for 7.</string>
+	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 36 Magical damage and will heal allies for 8.</string>
+	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 42 Magical damage and will heal allies for 9.</string>
 
 	<string name="skills.priest.divine-protection">Divine Protection</string>
 	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
-	<string name="skills.priest.divine-protection.1">Passive skill. The shield absorbs 50% of incoming damage for a cost of 4 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.2">Passive skill. The shield absorbs 55% of incoming damage for a cost of 2 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.3">Passive skill. The shield absorbs 60% of incoming damage for a cost of 1 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.4">Passive skill. The shield absorbs 65% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.5">Passive skill. The shield absorbs 70% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.1">The shield absorbs 50% of incoming damage for a cost of 4 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.2">The shield absorbs 55% of incoming damage for a cost of 2 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.3">The shield absorbs 60% of incoming damage for a cost of 1 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.4">The shield absorbs 65% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.5">The shield absorbs 70% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
 
 	<string name="skills.priest.remedy">Remedy</string>
 	<string name="skills.priest.remedy.create">The Priest regains health more effectively from all sources.</string>
-	<string name="skills.priest.remedy.1">Passive skill. The Priest regains health 50% more effectively from all sources.</string>
-	<string name="skills.priest.remedy.2">Passive skill. The Priest regains health 100% more effectively from all sources.</string>
-	<string name="skills.priest.remedy.3">Passive skill. The Priest regains health 150% more effectively from all sources.</string>
-	<string name="skills.priest.remedy.4">Passive skill. The Priest regains health 200% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.1">The Priest regains health 50% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.2">The Priest regains health 100% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.3">The Priest regains health 150% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.4">The Priest regains health 200% more effectively from all sources.</string>
 
 	<string name="skills.priest.consecrated-ground">Consecrated Ground</string>
 	<string name="skills.priest.consecrated-ground.create">The Priest places a field on the ground that damages enemies and heals allies for 25% of the damage dealt.</string>
@@ -1197,18 +1330,18 @@
 
 	<string name="skills.ranger.dodge">Dodge</string>
 	<string name="skills.ranger.dodge.create">The Ranger has a chance to evade incoming attacks.</string>
-	<string name="skills.ranger.dodge.1">Passive skill. Grants 5% evasion against all incoming damage.</string>
-	<string name="skills.ranger.dodge.2">Passive skill. Grants 10% evasion against all incoming damage.</string>
-	<string name="skills.ranger.dodge.3">Passive skill. Grants 15% evasion against all incoming damage.</string>
-	<string name="skills.ranger.dodge.4">Passive skill. Grants 20% evasion against all incoming damage.</string>
-	<string name="skills.ranger.dodge.5">Passive skill. Grants 25% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.1">Grants 5% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.2">Grants 10% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.3">Grants 15% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.4">Grants 20% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.5">Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.ranger.deadly-aim">Deadly Aim</string>
 	<string name="skills.ranger.deadly-aim.create">Primary attack have a chance of dealing critical strikes.</string>
-	<string name="skills.ranger.deadly-aim.1">Passive skill. Primary attacks have a 5% chance to be critical hits.</string>
-	<string name="skills.ranger.deadly-aim.2">Passive skill. Primary attacks have a 10% chance to be critical hits.</string>
-	<string name="skills.ranger.deadly-aim.3">Passive skill. Primary attacks have a 15% chance to be critical hits.</string>
-	<string name="skills.ranger.deadly-aim.4">Passive skill. Primary attacks have a 20% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.1">Primary attacks have a 5% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.2">Primary attacks have a 10% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.3">Primary attacks have a 15% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.4">Primary attacks have a 20% chance to be critical hits.</string>
 
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
 	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes enemies for a few seconds.</string>
@@ -1225,8 +1358,8 @@
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.1">Passive skill. Piercing arrows have a 15% chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.2">Passive skill. Piercing arrows have a 30% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 15% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 30% chance of splitting and seeking a new target.</string>
 
 
 	<!-- Sorcerer -->
@@ -1250,18 +1383,18 @@
 
 	<string name="skills.sorcerer.biting-chill">Biting Chill</string>
 	<string name="skills.sorcerer.biting-chill.create">All Sorcerer skills slow enemies.</string>
-	<string name="skills.sorcerer.biting-chill.1">Passive skill. Slows enemies hit by the Sorcerer's skills by 20% for 2 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.2">Passive skill. Slows enemies hit by the Sorcerer's skills by 35% for 3 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.3">Passive skill. Slows enemies hit by the Sorcerer's skills by 50% for 4 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.4">Passive skill. Slows enemies hit by the Sorcerer's skills by 65% for 5 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.5">Passive skill. Slows enemies hit by the Sorcerer's skills by 80% for 6 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.1">Slows enemies hit by the Sorcerer's skills by 20% for 2 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.2">Slows enemies hit by the Sorcerer's skills by 35% for 2.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.3">Slows enemies hit by the Sorcerer's skills by 50% for 3 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.4">Slows enemies hit by the Sorcerer's skills by 65% for 3.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.5">Slows enemies hit by the Sorcerer's skills by 80% for 4 seconds.</string>
 
 	<string name="skills.sorcerer.ice-barrier">Ice Barrier</string>
 	<string name="skills.sorcerer.ice-barrier.create">Gives the Sorcerer a chance to halve incoming damage and apply Biting Chill to attackers.</string>
-	<string name="skills.sorcerer.ice-barrier.1">Passive skill. Gives a 15% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.2">Passive skill. Gives a 30% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.3">Passive skill. Gives a 45% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.4">Passive skill. Gives a 60% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.1">Gives a 15% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.2">Gives a 30% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.3">Gives a 45% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.4">Gives a 60% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
 
 	<string name="skills.sorcerer.frost-nova">Frost Nova</string>
 	<string name="skills.sorcerer.frost-nova.create">Fires multiple frost shards in all directions around the Sorcerer.</string>
@@ -1278,19 +1411,19 @@
 
 	<string name="skills.sorcerer.shatter">Shatter</string>
 	<string name="skills.sorcerer.shatter.create">Enemies killed by the Sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.1">Passive skill. Enemies killed by the sorcerer have a 7.5% chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.2">Passive skill. Enemies killed by the sorcerer have a 15% chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.1">Enemies killed by the sorcerer have a 7.5% chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.2">Enemies killed by the sorcerer have a 15% chance to trigger a Frost Nova at the location of their death.</string>
 
 
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">Twin Daggers</string>
 	<string name="skills.thief.twin-daggers.create">Quick melee attacks that can destroy most projectiles.</string>
-	<string name="skills.thief.twin-daggers.1">Two quick melee attacks that deal 7 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.2">Two quick melee attacks that deal 9 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.3">Two quick melee attacks that deal 11 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.4">Two quick melee attacks that deal 13 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.5">Two quick melee attacks that deal 15 Physical damage each.</string>
-	<string name="skills.thief.twin-daggers.6">Two quick melee attacks that deal 17 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.1">Two quick melee attacks that deal 6 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.2">Two quick melee attacks that deal 8 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.3">Two quick melee attacks that deal 10 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.4">Two quick melee attacks that deal 12 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.5">Two quick melee attacks that deal 14 Physical damage each.</string>
+	<string name="skills.thief.twin-daggers.6">Two quick melee attacks that deal 16 Physical damage each.</string>
 
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
 	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
@@ -1303,18 +1436,18 @@
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
-	<string name="skills.thief.sidestep.1">Passive skill. Grants 5% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.2">Passive skill. Grants 10% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.3">Passive skill. Grants 15% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.4">Passive skill. Grants 20% evasion against all incoming damage.</string>
-	<string name="skills.thief.sidestep.5">Passive skill. Grants 25% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.1">Grants 5% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.2">Grants 10% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.3">Grants 15% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.4">Grants 20% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.5">Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
 	<string name="skills.thief.slice-and-dice.create">With each kill the Thief gains a temporary attack speed bonus.</string>
-	<string name="skills.thief.slice-and-dice.1">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stacks up to 4 times.</string>
-	<string name="skills.thief.slice-and-dice.2">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stacks up to 8 times.</string>
-	<string name="skills.thief.slice-and-dice.3">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stacks up to 12 times.</string>
-	<string name="skills.thief.slice-and-dice.4">Passive skill. Each kill grants the Thief a temporary attack speed bonus that stacks up to 16 times.</string>
+	<string name="skills.thief.slice-and-dice.1">Each kill grants the Thief a temporary attack speed bonus that stacks up to 4 times.</string>
+	<string name="skills.thief.slice-and-dice.2">Each kill grants the Thief a temporary attack speed bonus that stacks up to 7 times.</string>
+	<string name="skills.thief.slice-and-dice.3">Each kill grants the Thief a temporary attack speed bonus that stacks up to 10 times.</string>
+	<string name="skills.thief.slice-and-dice.4">Each kill grants the Thief a temporary attack speed bonus that stacks up to 13 times.</string>
 
 	<string name="skills.thief.grappling-hook">Grappling Hook</string>
 	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact stunning all enemies in its path.</string>
@@ -1331,8 +1464,8 @@
 
 	<string name="skills.thief.gold-fever">Gold Fever</string>
 	<string name="skills.thief.gold-fever.create">The Thief gains more gold and does more damage based on your current gold.</string>
-	<string name="skills.thief.gold-fever.1">Passive skill. The Thief gains 50% more gold. The Thief gains a damage bonus of 0.001% based on your current gold.</string>
-	<string name="skills.thief.gold-fever.2">Passive skill. The Thief gains 100% more gold. The Thief gains a damage bonus of 0.002% based on your current gold.</string>
+	<string name="skills.thief.gold-fever.1">The Thief gains 50% more gold. The Thief gains a damage bonus of 0.001% based on your current gold.</string>
+	<string name="skills.thief.gold-fever.2">The Thief gains 100% more gold. The Thief gains a damage bonus of 0.002% based on your current gold.</string>
 
 
 	<!-- Warlock -->
@@ -1469,13 +1602,13 @@
 	<string name="item.scroll-of-magic-missile.desc">%chance%% chance of unleashing a magic missile at a random enemy when casting a spell.</string>
 
 	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
-	<string name="item.serrated-scimitar.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
+	<string name="item.serrated-scimitar.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
 
 	<string name="item.slippery-cloak.name">Slippery Cloak</string>
 	<string name="item.slippery-cloak.desc">+%evasion%% Evasion.</string>
 
 	<string name="item.spell-book.name">Spell Book</string>
-	<string name="item.spell-book.desc">+%spell% Spell Power.</string>
+	<string name="item.spell-book.desc">+%spell% Skill Power.</string>
 
 	<string name="item.spiked-flail.name">Spiked Flail</string>
 	<string name="item.spiked-flail.desc">+%dmg% Physical damage on Primary Attack.</string>
@@ -1503,6 +1636,9 @@
 
 	<string name="item.adventurers-garb.name">Adventurer's Garb</string>
 	<string name="item.adventurers-garb.desc">+%health% Health and +%mana% Mana.</string>
+
+	<string name="item.apothecarys-mortar-pestle.name">Apothecary's Mortar & Pestle</string>
+	<string name="item.apothecarys-mortar-pestle.desc">Potions increase Armor and Magical Resistance with %eff%% for 5s.</string>
 
 	<string name="item.apothecarys-satchel.name">Apothecary's Satchel</string>
 	<string name="item.apothecarys-satchel.desc">Potions are %eff%% more effective.</string>
@@ -1559,7 +1695,7 @@
 	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
 
 	<string name="item.robe-of-arch-magi.name">Robe of the Arch-Magi</string>
-	<string name="item.robe-of-arch-magi.desc">+%spell% Spell Power and +%res% Resistance.</string>
+	<string name="item.robe-of-arch-magi.desc">+%spell% Skill Power and +%res% Resistance.</string>
 
 	<string name="item.scarab-of-protection.name">Scarab of Protection</string>
 	<string name="item.scarab-of-protection.desc">A nova of poison darts is released when taking damage.</string>
@@ -1580,7 +1716,7 @@
 	<string name="item.sphere-of-nova.desc">During Combo a nova is unleashed every second dealing %dmg% Magical damage.</string>
 
 	<string name="item.staff-of-unstable-casting.name">Staff of Unstable Casting</string>
-	<string name="item.staff-of-unstable-casting.desc">+%chance%% chance to score a Critical Hit with Spells.</string>
+	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
 
 	<string name="item.stinger.name">Stinger</string>
 	<string name="item.stinger.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
@@ -1605,10 +1741,10 @@
 	<string name="item.armor-of-kings.desc">+%armor% Armor.</string>
 
 	<string name="item.crown-of-kings.name">Crown of Kings</string>
-	<string name="item.crown-of-kings.desc">+%health% Health and +%mana% Mana.</string>
+	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
 
 	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
-	<string name="item.dragonscale-mail.desc">+%armor% Armor and +%res% Magic Resistance.</string>
+	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
 
 	<string name="item.flametongue.name">Flametongue</string>
 	<string name="item.flametongue.desc">+%dmg% Magical damage on Primary Attack. Primary attack also applies burning.</string>
@@ -1623,16 +1759,22 @@
 	<string name="item.greater-sphere-of-regen.desc">During combo you gain +%hregen% Health Regen and +%mregen% Mana Regen.</string>
 
 	<string name="item.heartseeker.name">Heartseeker</string>
-	<string name="item.heartseeker.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
+	<string name="item.heartseeker.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
+
+	<string name="item.magebane.name">Magebane</string>
+	<string name="item.magebane.desc">%chance%% chance to break Magic Resistance for 2s.</string>
 
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
 	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
 
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
-	<string name="item.scepter-of-kings.desc">+%spell% Spell Power.</string>
+	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
+
+	<string name="item.shieldsplitter.name">Shieldsplitter</string>
+	<string name="item.shieldsplitter.desc">%chance%% chance to break Armor for 5s.</string>
 
 	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
-	<string name="item.sphere-of-champions.desc">Increases Attack and Spell Power with %atk% during combo.</string>
+	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
 
 	<string name="item.staff-of-volatile-casting.name">Staff of Volatile Casting</string>
 	<string name="item.staff-of-volatile-casting.desc">+%chance%% chance to score a Critical Hit with Spells.</string>
@@ -1641,7 +1783,7 @@
 	<string name="item.sword-kings.desc">+%atk% Attack Power.</string>
 
 	<string name="item.talisman-of-conflagration.name">Talisman of Conflagration</string>
-	<string name="item.talisman-of-conflagration.desc">Enemies have a +%chance%% chance  to explode in fire when killed.</string>
+	<string name="item.talisman-of-conflagration.desc">Enemies have a %chance%% chance  to explode in fire when killed.</string>
 
 
 
@@ -1653,6 +1795,9 @@
 
 	<!-- LEGENDARY -->
 
+
+	<string name="item.descending-destruction.name">Descending Destruction</string>
+	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack.</string>
 
 	<string name="item.spirit-cloak.name">Spirit Cloak</string>
 	<string name="item.spirit-cloak.desc">When taking damage you turn invulnerable for %dur% second.</string>
@@ -1671,21 +1816,35 @@
 	<!-- Dialogue -->
 
 
+	<!-- NPC Random Greetings -->
 
+	<string name="dialogue.town.npc.geneic.greeting.1Ra">Greetings!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rb">Welcome!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rc">Good Day!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rd">Howdy!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Re">Salutation!</string>
 
-	<!-- Town NPC -->
-	<string name="dialogue.town.npc.greeting-1">Greetings!</string>
-	<string name="dialogue.town.npc.greeting-2">Welcome!</string>
+	<!-- NPC Woman1 Environment -->
 
-	<!-- Town NPC Generic -->
-	<string name="dialogue.town.npc.generic.woman1.1Ra">We used to be\nable to see far\nout over Aridara.</string>
+	<string name="dialogue.town.npc.generic.woman1.1Ra">Even if it's almost 10\nyears ago I remember\nthat you could see\nall the way to Sunspot!</string>
 	<string name="dialogue.town.npc.generic.woman1.1Rb">There used to be\nsuch a great view\nfrom up here.</string>
+	<string name="dialogue.town.npc.generic.woman1.2">Snow never stayed this\nfar into the summer, now it\nseems it never really melts.</string>
+	<string name="dialogue.town.npc.generic.woman1.3">It seems the bad\nweather originate from\nthe top of the tower.</string>
+	<string name="dialogue.town.npc.generic.woman1.4">I heard others tried to\nreach the top before,\nbut they never returned?</string>
+	<string name="dialogue.town.npc.generic.woman1.5a">Perhaps you will find\nwhat you are looking\nfor on top of the tower! (1)</string>
+	<string name="dialogue.town.npc.generic.woman1.5b">But be careful, it's\nprobably really slippery\nand cold up there. (2)</string>
 
-	<string name="dialogue.town.npc.generic.woman2.1Ra">The apothecary left\nto gather supplies\nin the horrible mines.</string>
-	<string name="dialogue.town.npc.generic.woman2.1Rb">There used to be\nsuch a great view\nfrom up here.</string>
+	<!-- NPC Man1 Locations -->
 
-	<string name="dialogue.town.npc.generic.man1.1Ra">Look, the top of\nthe Tower is all\nshrouded and dark.</string>
-	<string name="dialogue.town.npc.generic.man1.1Rb">Bad fog and thick\nclouds engulf the\ntop of the Tower.</string>
+	<string name="dialogue.town.npc.generic.man1.1">The Outlook used to be\nthe midway between the\nbigger Shaftlock mines\nand the desert below.</string>
+	<string name="dialogue.town.npc.generic.man1.2">Some of the worst\ncriminals in the realm\nhave been jailed in the\nTower prison.</string>
+	<string name="dialogue.town.npc.generic.man1.3Ra">Duke Delany was too lazy\nto walk all those stairs to\nthe top, so he just settled\naround the armory.</string>
+	<string name="dialogue.town.npc.generic.man1.3Rb">Duke 'Lazy' Delany\nis probably rotting\naway somewhere\nin the armory.</string>
+	<string name="dialogue.town.npc.generic.man1.4">No one really knows why\nthe great Archive of books\nwas built so maze-like...</string>
+	<string name="dialogue.town.npc.generic.man1.5">The Chamber floors were\nbuilt for the sitting Duke, but\nonly the first Duke actually\nlived up there.</string>
+	<string name="dialogue.town.npc.generic.man1.6">What did you ever find up there?\nRumor has it that a great beast\nhas taking a liking to the top, but\nyeah, that's just rumors.</string>
+
+	<!-- NPC Man2 Gambler -->
 
 	<string name="dialogue.town.npc.generic.man2.1Ra">The barkeep, left to\ntry and find some\nore up in the Tower.</string>
 	<string name="dialogue.town.npc.generic.man2.1Rb">Crooked Wolfram left\ntrying to find material\nto open up his bar again.</string>
@@ -1695,7 +1854,25 @@
 	<string name="dialogue.town.npc.generic.man2.3Rb">Hey, I'm a high\nroller, so don't\ntake me on!</string>
 	<string name="dialogue.town.npc.generic.man2.4Ra">You some kind\nof shill or what?</string>
 	<string name="dialogue.town.npc.generic.man2.4Rb">Don't count your\ncards in here son!</string>
+	<string name="dialogue.town.npc.generic.man2.2Rb">The Old Drunkard\nused to have some\nsick gambling.</string>
+	<string name="dialogue.town.npc.generic.man2.3Ra">Heard about\nme? They call\nme The Player!</string>
+	<string name="dialogue.town.npc.generic.man2.3Rb">Hey, I'm a high\nroller, so don't\ntake me on!</string>
+	<string name="dialogue.town.npc.generic.man2.4Ra">You some kind\nof shill or what?</string>
+	<string name="dialogue.town.npc.generic.man2.4Rb">Don't count your\ncards in here son!</string>
 
+	<!-- NPC Woman2 Census -->
+
+	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
+	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
+	<string name="dialogue.town.npc.generic.woman2.1b">The mayor, Michael Ross is\nreally trying to get this\ntown back in order. (2)</string>
+	<string name="dialogue.town.npc.generic.woman2.1c">Lance Grey was selected by\nMichael as the town prefect,\ncause of his strong skills in\nadministration and organisation. (3)</string>
+	<string name="dialogue.town.npc.generic.woman2.1d">Smith John Barro apparently\nhad a troubling past before\nhe decided to join us up here. (4)</string>
+	<string name="dialogue.town.npc.generic.woman2.1e">I heard guild master Calhoun is\nsome kind of 'Ace' around the\nrealm, but you should already\nknow that I suppose? (5)</string>
+	<string name="dialogue.town.npc.generic.woman2.1f">Even though trader Darren Epps\nis a fair man, his prices could be\na bit up there. At least his keys\nstay the same price... (6)</string>
+	<string name="dialogue.town.npc.generic.woman2.1g">Elianda, a close friend of mine and\na great apothecary. She should be\naround here somewhere, if not,\nshe might have snuk into the\nmines to restock her supply. (7)</string>
+	<string name="dialogue.town.npc.generic.woman2.1h">Priest Quincy works here for the\nChurch of Light. You know, he\nused to work down at the Sun\nTemple, a long time ago. (8)</string>
+	<string name="dialogue.town.npc.generic.woman2.1i">Barkeep</string>
+	<string name="dialogue.town.npc.generic.woman2.1j">Gamble</string>
 
 
 
@@ -1703,21 +1880,6 @@
 	<string name="dialogue.town.npc.generic.guard.1a">If you enter,\nthere's no\nturning back.</string>
 	<string name="dialogue.town.npc.generic.guard.1b">The entrance\nwill be barred\nfrom behind you.</string>
 
-	<string name="dialogue.town.npc.generic.ace1.1Ra">I'm not gonna enter\nthose mines.\nNo chance in hell.</string>
-	<string name="dialogue.town.npc.generic.ace1.1Rb">Yea, like I will ever\ntry and clear out\n those mines.</string>
-
-	<string name="dialogue.town.npc.generic.ace3.1a">Les Calhoun only\ntrains the best!</string>
-	<string name="dialogue.town.npc.generic.ace3.1b">Talk to Les over at\nthe Broken Ace,\nhe'll teach you!</string>
-
-
-
-
-
-
-
-
-
-	<!-- Town NPC Specific -->
 	<string name="dialogue.town.npc.fountain.oaf.name">Dumb Oaf</string>
 	<string name="dialogue.town.npc.fountain.oaf.1a">Once this fountain\nused to be full of\nwater.</string>
 	<string name="dialogue.town.npc.fountain.oaf.1b">I used to throw a\ncoin or two into this.</string>
@@ -1742,6 +1904,9 @@
 
 
 
+
+
+
 	<!-- Mayor1 -->
 	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
 	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to it's old glory. (1)</string>
@@ -1752,17 +1917,14 @@
 	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">These are rough\nand trying times...</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">So you managed to slay the foul beast\ndeep inside the mines? That's great news.</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">That stone golem you just killed has\nbeen killing miners for a long time now.</string>
-
-
-
-
-
-
-
-
-
-
-	<string name="dialogue.town.npc.mayor.2a">When the Duke controlled\nthe Tower, this was the midway\nbetween the bigger Shaftlocke \nmines and the desert below.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">temp slaying the warden</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">temp slaying the warden2</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">temp slaying liches</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">temp slaying liches2</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">temp slaying eye</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">temp slaying eye2</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">temp slaying dragon</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">temp slaying dragon2</string>
 
 
 
@@ -1779,6 +1941,14 @@
 	<!-- Prefect Lance Grey -->
 	<string name="dialogue.town.npc.prefect.name">Prefect Grey</string>
 	<string name="dialogue.town.npc.prefect.1Ra">I'm in charge of distributing ore\namongst the merchants around here.\nFeel free to point me in the direction\nyou feel would benefit you the most.</string>
+
+	<!-- Darren the Supplier -->
+	<string name="dialogue.town.npc.shopkeep.name">Darren, the Supplier</string>
+	<string name="dialogue.town.npc.shopkeep.1Ra">Hey, name's Darren Epps.\nIt's all about supply and demand\nand right now the demand is high\nand supply is low, so better pay up.</string>
+
+
+
+
 
 	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
 
@@ -1802,9 +1972,22 @@
 	<string name="dialogue.town.npc.thief.1Ra">Hey\nYou!</string>
 	<string name="dialogue.town.npc.thief.1Rb">Over\nhere!</string>
 	<string name="dialogue.town.npc.thief.2">Thanks a lot! I hope\nI'll see you around\nthe town!</string>
-	<string name="dialogue.town.npc.thief.3a">I have convinced the\nmayor to open up the\ntavern. (1)</string>
+	<string name="dialogue.town.npc.thief.3a">I have convinced the\nmayor to open up the\ntavern again. (1)</string>
 	<string name="dialogue.town.npc.thief.3b">But I have not even a\nsingle unit of ore.\nPerhaps you can provide\nsome to Prefect Grey? (2)</string>
+	<string name="dialogue.town.npc.thief.4">Why don't you try your\nluck in any of our fine\ngames? But don't get\nto attached will ya?</string>
 
+
+
+
+	<string name="dialogue.town.npc.wizard.name">Elzbet</string>
+	<string name="dialogue.town.npc.wizard.1Ra">I see...</string>
+	<string name="dialogue.town.npc.wizard.1Rb">Finally...</string>
+	<string name="dialogue.town.npc.wizard.2a">I was looking for some old\nring that might have been\nin the Dukes position, but\nI couldn't find it, strange. (1)</string>
+	<string name="dialogue.town.npc.wizard.2b">Anyway, thanks for clearing\na path for me out of here, I\nwas trying to find a teleport\nspell in this book, but it seems\nsomeone ripped out the chapter. (2)</string>
+	<string name="dialogue.town.npc.wizard.2c">I'm returning to my shop\nnow. I hope I will see you\nthere, I'm a real wiz when\nit comes to spellcraft! (3)</string>
+	<string name="dialogue.town.npc.wizard.3a">Thanks for rescuing\nme, but we still need\nto restore the shop.\nTalk to the prefect\nabout that perhaps?</string>
+	<string name="dialogue.town.npc.wizard.3b">Prefect Grey might\nnot want to allocate\nresources to repair\nthis building until\nthe Town Hall is at\na better stage.</string>
+	<string name="dialogue.town.npc.wizard.4">I'll gladly help a fellow\nspellcaster out, but I\nkinda need to charge\nfor it, ok?</string>
 
 	<!-- Signs -->
 	<string name="dialogue.sign.chapel">Chapter\nof Light</string>
@@ -1822,11 +2005,17 @@
 	<string name="dialogue.player.mines_entrance.1Ra">It's barred...</string>
 	<string name="dialogue.player.mines_entrance.1Rb">Won't budge...</string>
 
-	<string name="dialogue.player.boss_3_painting.1Ra">That's one\ndepressing\npainting...</string>
+	<string name="dialogue.player.painting.2">That's one\ndepressing\npainting...</string>
 
-	<string name="dialogue.player.draft">I feel a draft\nin here...</string>
+	<string name="dialogue.player.closed.1Ra">Seems\nclosed.</string>
+	<string name="dialogue.player.closed.1Rb">The Door\nis locked.</string>
+	<string name="dialogue.player.closed.1Rc">Can't go\nin there...</string>
 
-	<string name="dialogue.player.closed">Seems\nclosed.</string>
+	<string name="dialogue.player.apothecary">These pots\nlooks empty...</string>
+
+	<string name="dialogue.player.books.1">This collection\nof books is not\nvery impressive.</string>
+
+	<string name="dialogue.player.theduke">Looks like Duke\nDelany died in\nhorrible agony.</string>
 
 
 
