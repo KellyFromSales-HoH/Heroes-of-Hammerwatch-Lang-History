@@ -93,11 +93,20 @@
 	<string name="stats.time-played">Time played</string>
 	<string name="stats.enemies-killed">Enemies killed</string>
 	<string name="stats.items-bought">Items purchased</string>
-	<string name="stats.items-picked">Items picked up</string>
+	<string name="stats.items-bought-common">Common items bought</string>
+	<string name="stats.items-bought-uncommon">Uncommon items bought</string>
+	<string name="stats.items-bought-rare">Rare items bought</string>
+	<string name="stats.items-picked">Items found</string>
+	<string name="stats.items-picked-common">Common items found</string>
+	<string name="stats.items-picked-uncommon">Uncommon items found</string>
+	<string name="stats.items-picked-rare">Rare items found</string>
+	<string name="stats.items-picked-legendary">Legendary items found</string>
 	<string name="stats.damage-taken">Damage taken</string>
 	<string name="stats.chests-opened">Chests opened</string>
 	<string name="stats.fountain-used">Fountain used</string>
 	<string name="stats.well-used">Well used</string>
+	<string name="stats.gold-found">Gold found</string>
+	<string name="stats.ore-found">Ore found</string>
 	<string name="stats.gold-stored">Total gold stored</string>
 	<string name="stats.ores-stored">Total ore stored</string>
 	<string name="stats.spent-gold">Total gold spent</string>
@@ -108,16 +117,16 @@
 	<string name="stats.floors-visited">Floors visited</string>
 	<string name="stats.units-traveled">Units traveled</string>
 	<string name="stats.potion-charges-used">Potion charges used</string>
-	<string name="stats.chest-used-wood">Wooden chests used</string>
-	<string name="stats.chest-used-0">Bronze chests used</string>
-	<string name="stats.chest-used-1">Silver chests used</string>
-	<string name="stats.chest-used-2">Gold chests used</string>
-	<string name="stats.chest-used-3">Ace chests used</string>
+	<string name="stats.chest-used-wood">Wooden chests opened</string>
+	<string name="stats.chest-used-0">Bronze chests opened</string>
+	<string name="stats.chest-used-1">Silver chests opened</string>
+	<string name="stats.chest-used-2">Gold chests opened</string>
+	<string name="stats.chest-used-3">Ace chests opened</string>
 	<string name="stats.key-found-0">Bronze keys found</string>
 	<string name="stats.key-found-1">Silver keys found</string>
 	<string name="stats.key-found-2">Gold keys found</string>
 	<string name="stats.key-found-3">Ace keys found</string>
-	<string name="stats.boss-1-killed">Stone golem boss killed</string>
+	<string name="stats.boss-1-killed">First boss killed</string>
 	<string name="stats.boss-2-killed">Second boss killed</string>
 	<string name="stats.boss-3-killed">Third boss killed</string>
 	<string name="stats.boss-4-killed">Fourth boss killed</string>
@@ -411,6 +420,7 @@
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">CHOOSE HERO</string>
 	<string name="mainmenu.character.select.name">%name% the %class%</string>
+	<string name="mainmenu.character.select.play">PLAY!</string>
 
 	<!-- character creation -->
 	<string name="mainmenu.character.create.title">CHARACTER CREATOR</string>
@@ -1359,7 +1369,7 @@
 	<string name="skills.paladin.sword.6">Melee attack that deals 27 Physical damage in a 240 degree arc.</string>
 
 	<string name="skills.paladin.charge">Charge</string>
-	<string name="skills.paladin.charge.create">The Paladin charges forward dealing damage to all enemies in his path.</string>
+	<string name="skills.paladin.charge.create">The Paladin charges forward, dealing damage to all enemies in their path.</string>
 	<string name="skills.paladin.charge.1">Dash forward. Enemies in your path take 25 Physical damage.</string>
 	<string name="skills.paladin.charge.2">Dash forward. Enemies in your path take 35 Physical damage.</string>
 	<string name="skills.paladin.charge.3">Dash forward. Enemies in your path take 45 Physical damage.</string>
@@ -1369,25 +1379,25 @@
 
 	<string name="skills.paladin.shield">Shield</string>
 	<string name="skills.paladin.shield.create">A sturdy shield that blocks most incoming projectiles.</string>
-	<string name="skills.paladin.shield.1">Passive skill. Blocks most incoming projectiles within a 120 degree arc.</string>
-	<string name="skills.paladin.shield.2">Passive skill. Blocks most incoming projectiles within a 150 degree arc.</string>
-	<string name="skills.paladin.shield.3">Passive skill. Blocks most incoming projectiles within a 180 degree arc.</string>
-	<string name="skills.paladin.shield.4">Passive skill. Blocks most incoming projectiles within a 210 degree arc.</string>
-	<string name="skills.paladin.shield.5">Passive skill. Blocks most incoming projectiles within a 240 degree arc.</string>
+	<string name="skills.paladin.shield.1">Passive skill. Blocks most incoming projectiles within a 120-degree arc.</string>
+	<string name="skills.paladin.shield.2">Passive skill. Blocks most incoming projectiles within a 150-degree arc.</string>
+	<string name="skills.paladin.shield.3">Passive skill. Blocks most incoming projectiles within a 180-degree arc.</string>
+	<string name="skills.paladin.shield.4">Passive skill. Blocks most incoming projectiles within a 210-degree arc.</string>
+	<string name="skills.paladin.shield.5">Passive skill. Blocks most incoming projectiles within a 240-degree arc.</string>
 
 	<string name="skills.paladin.stunning-blows">Stunning Blows</string>
-	<string name="skills.paladin.stunning-blows.create">The Sword attack has a chance of stunning enemies for a few seconds.</string>
-	<string name="skills.paladin.stunning-blows.1">Passive skill. Your primary attack have a 10% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.2">Passive skill. Your primary attack have a 15% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.3">Passive skill. Your primary attack have a 20% chance to stun enemies for 2.5 seconds.</string>
-	<string name="skills.paladin.stunning-blows.4">Passive skill. Your primary attack have a 25% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.create">Primary attack have a chance of stunning enemies for a few seconds.</string>
+	<string name="skills.paladin.stunning-blows.1">Passive skill. Your primary attacks have a 10% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.2">Passive skill. Your primary attacks have a 15% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.3">Passive skill. Your primary attacks have a 20% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.4">Passive skill. Your primary attacks have a 25% chance to stun enemies for 2.5 seconds.</string>
 
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
-	<string name="skills.paladin.lay-on-hands.1">Heals the paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.2">Heals the paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.3">Heals the paladin and all allies at a rate of 5 health per 5 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.4">Heals the paladin and all allies at a rate of 5 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 5 health per 5 mana spent.</string>
 
 	<string name="skills.paladin.whirlwind">Whirlwind</string>
 	<string name="skills.paladin.whirlwind.create">A spinning attack that deals damage to all enemies around the Paladin.</string>
@@ -1420,15 +1430,15 @@
 	<!-- Ranger -->
 	<string name="skills.ranger.bow">Bow and Arrow</string>
 	<string name="skills.ranger.bow.create">Fires an arrow that pierces enemies.</string>
-	<string name="skills.ranger.bow.1">Fire an arrow that deal 10 Physical damage. Arrows pierce 1 enemy.</string>
-	<string name="skills.ranger.bow.2">Fire an arrow that deal 12 Physical damage. Arrows pierce 2 enemies.</string>
-	<string name="skills.ranger.bow.3">Fire an arrow that deal 14 Physical damage. Arrows pierce 3 enemies.</string>
-	<string name="skills.ranger.bow.4">Fire an arrow that deal 16 Physical damage. Arrows pierce 4 enemies.</string>
-	<string name="skills.ranger.bow.5">Fire an arrow that deal 18 Physical damage. Arrows pierce 5 enemies.</string>
-	<string name="skills.ranger.bow.6">Fire an arrow that deal 20 Physical damage. Arrows pierce 6 enemies.</string>
+	<string name="skills.ranger.bow.1">Fire an arrow that deals 10 Physical damage. Arrows pierce 1 enemy.</string>
+	<string name="skills.ranger.bow.2">Fire an arrow that deals 12 Physical damage. Arrows pierce 2 enemies.</string>
+	<string name="skills.ranger.bow.3">Fire an arrow that deals 14 Physical damage. Arrows pierce 3 enemies.</string>
+	<string name="skills.ranger.bow.4">Fire an arrow that deals 16 Physical damage. Arrows pierce 4 enemies.</string>
+	<string name="skills.ranger.bow.5">Fire an arrow that deals 18 Physical damage. Arrows pierce 5 enemies.</string>
+	<string name="skills.ranger.bow.6">Fire an arrow that deals 20 Physical damage. Arrows pierce 6 enemies.</string>
 
 	<string name="skills.ranger.explosive-bomb">Explosive Bomb</string>
-	<string name="skills.ranger.explosive-bomb.create">Place a bomb that detonates after a few seconds dealing damage in the area.</string>
+	<string name="skills.ranger.explosive-bomb.create">Place a bomb that detonates after 1 second, dealing damage in the area.</string>
 	<string name="skills.ranger.explosive-bomb.1">Place a bomb that detonates after 1 second, dealing 20 Hybrid damage in a 40-unit radius.</string>
 	<string name="skills.ranger.explosive-bomb.2">Place a bomb that detonates after 1 second, dealing 34 Hybrid damage in a 44-unit radius.</string>
 	<string name="skills.ranger.explosive-bomb.3">Place a bomb that detonates after 1 second, dealing 48 Hybrid damage in a 48-unit radius.</string>
@@ -1445,14 +1455,14 @@
 	<string name="skills.ranger.dodge.5">Passive skill. Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.ranger.deadly-aim">Deadly Aim</string>
-	<string name="skills.ranger.deadly-aim.create">Gives the Ranger a chance to deliver critical strikes with the bow attack.</string>
-	<string name="skills.ranger.deadly-aim.1">Passive skill. Grants a 5% chance to critical hit on your primary attack.</string>
-	<string name="skills.ranger.deadly-aim.2">Passive skill. Grants a 10% chance to critical hit on your primary attack.</string>
-	<string name="skills.ranger.deadly-aim.3">Passive skill. Grants a 15% chance to critical hit on your primary attack.</string>
-	<string name="skills.ranger.deadly-aim.4">Passive skill. Grants a 20% chance to critical hit on your primary attack.</string>
+	<string name="skills.ranger.deadly-aim.create">Primary attack have a chance of dealing critical strikes.</string>
+	<string name="skills.ranger.deadly-aim.1">Passive skill. Primary attacks have a 5% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.2">Passive skill. Primary attacks have a 10% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.3">Passive skill. Primary attacks have a 15% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.4">Passive skill. Primary attacks have a 20% chance to be critical hits.</string>
 
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
-	<string name="skills.ranger.grasping-roots.create">Roots sprout from the ground around the Ranger that immobilizes enemies for a few seconds.</string>
+	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes enemies for a few seconds.</string>
 	<string name="skills.ranger.grasping-roots.1">Immobilize all enemies in a 100-unit radius around the Ranger for 3 seconds.</string>
 	<string name="skills.ranger.grasping-roots.2">Immobilize all enemies in a 125-unit radius around the Ranger for 3 seconds.</string>
 	<string name="skills.ranger.grasping-roots.3">Immobilize all enemies in a 150-unit radius around the Ranger for 3 seconds.</string>
@@ -1472,7 +1482,7 @@
 
 	<!-- Sorcerer -->
 	<string name="skills.sorcerer.frost-shard">Frost Shard</string>
-	<string name="skills.sorcerer.frost-shard.create">Fires a frost shard that ricochets of walls and enemies.</string>
+	<string name="skills.sorcerer.frost-shard.create">Fires a frost shard that ricochets off walls and enemies.</string>
 	<string name="skills.sorcerer.frost-shard.1">Fire a frost shard that deal 8 Hybrid damage. Frost shards ricochet 1 time.</string>
 	<string name="skills.sorcerer.frost-shard.2">Fire a frost shard that deal 10 Hybrid damage. Frost shards ricochet up to 2 times.</string>
 	<string name="skills.sorcerer.frost-shard.3">Fire a frost shard that deal 12 Hybrid damage. Frost shards ricochet up to 3 times.</string>
@@ -1481,28 +1491,28 @@
 	<string name="skills.sorcerer.frost-shard.6">Fire a frost shard that deal 18 Hybrid damage. Frost shards ricochet up to 6 times.</string>
 
 	<string name="skills.sorcerer.comet">Comet</string>
-	<string name="skills.sorcerer.comet.create">Summon a comet to strike infront of the Sorcerer that damages and freezes enemies on impact.</string>
-	<string name="skills.sorcerer.comet.1">Drops a comet that deals 40 Hybrid damage split by all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
-	<string name="skills.sorcerer.comet.2">Drops a comet that deals 70 Hybrid damage split by all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
-	<string name="skills.sorcerer.comet.3">Drops a comet that deals 100 Hybrid damage split by all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
-	<string name="skills.sorcerer.comet.4">Drops a comet that deals 130 Hybrid damage split by all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
-	<string name="skills.sorcerer.comet.5">Drops a comet that deals 160 Hybrid damage split by all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
-	<string name="skills.sorcerer.comet.6">Drops a comet that deals 190 Hybrid damage split by all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.create">Summons a comet to strike in front of the Sorcerer that damages and freezes enemies on impact.</string>
+	<string name="skills.sorcerer.comet.1">Drops a comet that deals 40 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.2">Drops a comet that deals 70 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.3">Drops a comet that deals 100 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.4">Drops a comet that deals 130 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.5">Drops a comet that deals 160 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.6">Drops a comet that deals 190 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
 
 	<string name="skills.sorcerer.biting-chill">Biting Chill</string>
-	<string name="skills.sorcerer.biting-chill.create">A slow is applied on enemies with all the Sorcerer's skills.</string>
-	<string name="skills.sorcerer.biting-chill.1">Passive skill. Slows enemies hit by the Sorcerers skills by 20% for 2 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.2">Passive skill. Slows enemies hit by the Sorcerers skills by 35% for 3 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.3">Passive skill. Slows enemies hit by the Sorcerers skills by 50% for 4 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.4">Passive skill. Slows enemies hit by the Sorcerers skills by 65% for 5 seconds.</string>
-	<string name="skills.sorcerer.biting-chill.5">Passive skill. Slows enemies hit by the Sorcerers skills by 80% for 6 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.create">All Sorcerer skills slow enemies.</string>
+	<string name="skills.sorcerer.biting-chill.1">Passive skill. Slows enemies hit by the Sorcerer's skills by 20% for 2 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.2">Passive skill. Slows enemies hit by the Sorcerer's skills by 35% for 3 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.3">Passive skill. Slows enemies hit by the Sorcerer's skills by 50% for 4 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.4">Passive skill. Slows enemies hit by the Sorcerer's skills by 65% for 5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.5">Passive skill. Slows enemies hit by the Sorcerer's skills by 80% for 6 seconds.</string>
 
 	<string name="skills.sorcerer.ice-barrier">Ice Barrier</string>
-	<string name="skills.sorcerer.ice-barrier.create">Grants the Sorcerer to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.1">Passive skill. Grants a 15% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.2">Passive skill. Grants a 30% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.3">Passive skill. Grants a 45% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
-	<string name="skills.sorcerer.ice-barrier.4">Passive skill. Grants a 60% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.create">Gives the Sorcerer a chance to halve incoming damage and apply Biting Chill to attackers.</string>
+	<string name="skills.sorcerer.ice-barrier.1">Passive skill. Gives a 15% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.2">Passive skill. Gives a 30% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.3">Passive skill. Gives a 45% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.4">Passive skill. Gives a 60% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
 
 	<string name="skills.sorcerer.frost-nova">Frost Nova</string>
 	<string name="skills.sorcerer.frost-nova.create">Fires multiple ice shards in all directions around the Sorcerer.</string>
@@ -1518,9 +1528,9 @@
 	<string name="skills.sorcerer.orb-of-winter.3">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
 
 	<string name="skills.sorcerer.shatter">Shatter</string>
-	<string name="skills.sorcerer.shatter.create">Enemies killed by the Sorcerer has a chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.1">Passive skill. Enemies killed by the sorcerer has a chance to trigger a Frost Nova at the location of their death.</string>
-	<string name="skills.sorcerer.shatter.2">Passive skill. Enemies killed by the sorcerer has a chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.create">Enemies killed by the Sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.1">Passive skill. Enemies killed by the sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.2">Passive skill. Enemies killed by the sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
 
 
 	<!-- Thief -->
@@ -1632,7 +1642,7 @@
 	<string name="item.broad-sword.desc">+%atk% Attack Power.</string>
 
 	<string name="item.cape-of-withdrawal.name">Cape of Withdrawal</string>
-	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% movement speed buff for  %dur% seconds.</string>
+	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% movement speed buff for %dur% seconds.</string>
 
 	<string name="item.circlet-of-willpower.name">Circlet of Willpower</string>
 	<string name="item.circlet-of-willpower.desc">When below %health%% Health, spells are %scost%% cheaper to cast.</string>
@@ -1660,6 +1670,9 @@
 
 	<string name="item.heavy-gauntlets.name">Heavy Gauntlets</string>
 	<string name="item.heavy-gauntlets.desc">+%health% Health.</string>
+
+	<string name="item.old-map.name">Old Map</string>
+	<string name="item.old-map.desc">Removes fog of war from the map.</string>
 
 	<string name="item.lesser-sphere-of-life.name">Lesser Sphere of Life</string>
 	<string name="item.lesser-sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
@@ -1706,6 +1719,9 @@
 	<string name="item.sandals-swiftness.name">Sandals of Swiftness</string>
 	<string name="item.sandals-swiftness.desc">+%mspeed% Movement Speed and +%evasion%% Evasion.</string>
 
+	<string name="item.scroll-of-magic-missile.name">Scroll of Magic Missile</string>
+	<string name="item.scroll-of-magic-missile.desc">%chance%% chance of unleashing a magic missile at a random enemy when casting a spell.</string>
+
 	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
 	<string name="item.serrated-scimitar.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
 
@@ -1745,6 +1761,9 @@
 	<string name="item.apothecarys-satchel.name">Apothecary's Satchel</string>
 	<string name="item.apothecarys-satchel.desc">Potions are %eff%% more effective.</string>
 
+	<string name="item.apothecarys-sphere.name">Apothecary's Sphere</string>
+	<string name="item.apothecarys-sphere.desc">Triggers a Combo when using the potion.</string>
+
 	<string name="item.assassins-dagger.name">Assassin's Dagger</string>
 	<string name="item.assassins-dagger.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
 
@@ -1761,10 +1780,13 @@
 	<string name="item.elven-bow.desc">+%atk% Attack Power.</string>
 
 	<string name="item.fancy-plume.name">Fancy Plume</string>
-	<string name="item.fancy-plume.desc">More items in dungeon shops.</string>
+	<string name="item.fancy-plume.desc">Vendors will have more items in dungeon shops.</string>
 
 	<string name="item.full-plate-mail.name">Full Plate Mail</string>
 	<string name="item.full-plate-mail.desc">+%armor% Armor.</string>
+
+	<string name="item.key-ring.name">Key Ring</string>
+	<string name="item.key-ring.desc">%chance%% chance of receiving an extra key when picking up keys.</string>
 
 	<string name="item.greater-ring-rejuvenation.name">Greater Ring of Rejuvenation</string>
 	<string name="item.greater-ring-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
@@ -1781,11 +1803,20 @@
 	<string name="item.monster-manual-undead.name">Monster Manual: Undead</string>
 	<string name="item.monster-manual-undead.desc">+%exp%% Experience gained and +%dmg%% damage to Undead.</string>
 
+	<string name="item.ring-of-transmutation.name">Ring of Transmutation</string>
+	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
+
 	<string name="item.robe-of-arch-magi.name">Robe of the Arch-Magi</string>
 	<string name="item.robe-of-arch-magi.desc">+%spell% Spell Power.</string>
 
+	<string name="item.scarab-of-protection.name">Scarab of Protection</string>
+	<string name="item.scarab-of-protection.desc">A nova of poison darts is released when taking damage.</string>
+
 	<string name="item.seal-of-the-martyr.name">Seal of the Martyr</string>
 	<string name="item.seal-of-the-martyr.desc">Deal 1% more damage for each % Health missing.</string>
+
+	<string name="item.shaftlocke-pickaxe.name">Shaftlocke Pickaxe</string>
+	<string name="item.shaftlocke-pickaxe.desc">%chance%% chance of receiving 1 extra ore when picking up ore.</string>
 
 	<string name="item.sphere-of-life.name">Sphere of Life</string>
 	<string name="item.sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
@@ -1857,8 +1888,8 @@
 	<string name="item.sword-kings.name">Sword of Kings</string>
 	<string name="item.sword-kings.desc">+%atk% Attack Power.</string>
 
-
-
+	<string name="item.talisman-of-conflagration.name">Talisman of Conflagration</string>
+	<string name="item.talisman-of-conflagration.desc">Enemies have a +%chance%% chance  to explode in fire when killed.</string>
 
 
 
@@ -1907,19 +1938,42 @@
 	<string name="dialogue.town.npc.generic.ace2.1a">I'm not going back\ninto those mines.</string>
 
 	<string name="dialogue.town.npc.generic.ace3.1a">Les Calhoun only\ntrains the best!</string>
-	<string name="dialogue.town.npc.generic.ace3.1b">Talk to Les at over at\nthe Broken Ace, he'll\ntech you!</string>
+	<string name="dialogue.town.npc.generic.ace3.1b">Talk to Les over at\nthe Broken Ace, he'll\nteach you!</string>
 
 	<!-- Town NPC Specific -->
 	<string name="dialogue.town.npc.fountain.oaf.name">Dumb Oaf</string>
-	<string name="dialogue.town.npc.fountain.oaf.1a">Once this fountain used to\nbe full of water.</string>
+	<string name="dialogue.town.npc.fountain.oaf.1a">Once this fountain\nused to be full of\nwater.</string>
 	<string name="dialogue.town.npc.fountain.oaf.1b">I used to throw a\ncoin or two into this.</string>
 	<string name="dialogue.town.npc.fountain.oaf.2a">The fountain works again!</string>
 	<string name="dialogue.town.npc.fountain.oaf.2b">I threw down a coin there\nand it just disappeared!</string>
 	<string name="dialogue.town.npc.fountain.oaf.3a">I've thrown so much\nmoney into this now.</string>
 	<string name="dialogue.town.npc.fountain.oaf.3b">I'm almost bankrupt...</string>
 
+	<!-- Mayor1 -->
 	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
-	<string name="dialogue.town.npc.mayor.1a">Please enter the mines\nand help us regain control\nover them again!</string>
+	<string name="dialogue.town.npc.mayor.1a">Our mines has fallen into evil\nhands, help us gain\ncontrol of them again!</string>
+	<string name="dialogue.town.npc.mayor.1b">Traveler, please help\nus regain control of\nthe mines again!</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1a">Don't despair. If you found any ore,\nuse that to upgrade the town to\nmake your next attemept easier!</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1b">Many heroes have fallen before you. But\ntalk to the prefect if you found any ore,\nhe will make sure you do the right thing.</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.2a">The Duke up in the spire and I used\nto have good relations, but I suspect\nhe has fallen somewhere up there.</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.2b"></string>
+
+
+
+
+
+
+
+
+
+
+
+	<string name="dialogue.town.npc.mayor.boss1_killed.1a">So you managed to slay\nthe foul beast rooted\ndeep into the mines!</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1b">Congratulations, none has been\nable to kill the horrible abomination,\nuntil you showed up!</string>
+
+
+	<string name="dialogue.town.npc.mayor.2a">When the Duke controlled\nthe Spire, this was the midway\nbetween the bigger Shaftlocke \nmines and the desert below.</string>
+
 
 	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
 
@@ -1931,7 +1985,20 @@
 	<string name="dialogue.town.npc.smith.1a">I would love to\nenhance your weapon,\nbut I'm missing ore.</string>
 
 	<string name="dialogue.town.npc.apothecary.name">Elianda</string>
-	<string name="dialogue.town.npc.apothecary.1a">Mixing potions are my speciality,\nbut I'm missing ingredients.</string>
+	<string name="dialogue.town.npc.apothecary.0a">Hey! Got trapped in here trying to refill\nmy supply by this magic spring.\nDon't forget to fill your own flask and\nI hope you visit me back in town.</string>
+
+	<string name="dialogue.town.npc.apothecary.1a">Mixing potions is my speciality,\nbut I'm missing ingredients.</string>
+
+	<string name="dialogue.town.npc.oretrader.name">Miner Oliver</string>
+	<string name="dialogue.town.npc.oretrader.1a">Get me out of this hell hole!</string>
+	<string name="dialogue.town.npc.oretrader.1b">Thanks for saving me!\nHelp yourself to this ore,\nI will see you back in town. Hopefully…</string>
+
+	<string name="dialogue.town.npc.thief.name">Shady Steve</string>
+	<string name="dialogue.town.npc.thief.1a">Help!</string>
+	<string name="dialogue.town.npc.thief.1b">Get me out of here!</string>
+	<string name="dialogue.town.npc.thief.2a">Thanks for letting me out!\nLet's meet back in town for some business.</string>
+	<string name="dialogue.town.npc.thief.3a">I have convinced the mayor\nto open up the old tavern.\nIf I can just come up with some ore...</string>
+	<string name="dialogue.town.npc.thief.3b">I'm sure the The Old Drunkard\nwould attract the right kind of crowd.</string>
 
 
 	<!-- Signs -->
@@ -1940,20 +2007,7 @@
 	<string name="dialogue.sign.guild">The Broken Ace</string>
 	<string name="dialogue.sign.tavern">The Old Drunkard</string>
 	<string name="dialogue.sign.magic">Spellbreakerz</string>
-	<string name="dialogue.sign.general">Darrens Supplies</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<string name="dialogue.sign.general">Darren's Supplies</string>
 
 
 
@@ -2034,156 +2088,6 @@
 	<string name="titles.wizard-6">Magus</string>
 	<string name="titles.wizard-7">Battlemage</string>
 	<string name="titles.wizard-8">Archmage</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
