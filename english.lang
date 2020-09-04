@@ -1294,12 +1294,12 @@
 
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
 	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
-	<string name="skills.thief.throwing-knives.1">Throw 5 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 4 enemies.</string>
-	<string name="skills.thief.throwing-knives.2">Throw 6 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 5 enemies.</string>
-	<string name="skills.thief.throwing-knives.3">Throw 7 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 6 enemies.</string>
-	<string name="skills.thief.throwing-knives.4">Throw 8 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 7 enemies.</string>
-	<string name="skills.thief.throwing-knives.5">Throw 9 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 8 enemies.</string>
-	<string name="skills.thief.throwing-knives.6">Throw 10 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.1">Throw 4 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 4 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 5 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 5 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 6 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 7 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 8 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 9 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 9 enemies.</string>
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
@@ -1684,8 +1684,8 @@
 	<string name="dialogue.town.npc.generic.woman2.1Ra">The apothecary left\nto gather supplies\nin the horrible mines.</string>
 	<string name="dialogue.town.npc.generic.woman2.1Rb">There used to be\nsuch a great view\nfrom up here.</string>
 
-	<string name="dialogue.town.npc.generic.man1.1Ra">Look, the top of\nthe Spire is all\nshrouded and dark.</string>
-	<string name="dialogue.town.npc.generic.man1.1Rb">Bad fog and thick\nclouds engulf the\ntop of the Spire.</string>
+	<string name="dialogue.town.npc.generic.man1.1Ra">Look, the top of\nthe Tower is all\nshrouded and dark.</string>
+	<string name="dialogue.town.npc.generic.man1.1Rb">Bad fog and thick\nclouds engulf the\ntop of the Tower.</string>
 
 	<string name="dialogue.town.npc.generic.man2.1Ra">The barkeep, left to\ntry and find some\nore up in the Tower.</string>
 	<string name="dialogue.town.npc.generic.man2.1Rb">Crooked Wolfram left\ntrying to find material\nto open up his bar again.</string>
@@ -1822,9 +1822,11 @@
 	<string name="dialogue.player.mines_entrance.1Ra">It's barred...</string>
 	<string name="dialogue.player.mines_entrance.1Rb">Won't budge...</string>
 
-
+	<string name="dialogue.player.boss_3_painting.1Ra">That's one\ndepressing\npainting...</string>
 
 	<string name="dialogue.player.draft">I feel a draft\nin here...</string>
+
+	<string name="dialogue.player.closed">Seems\nclosed.</string>
 
 
 
