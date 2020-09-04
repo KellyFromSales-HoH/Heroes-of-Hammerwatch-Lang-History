@@ -269,15 +269,15 @@
 	<string name="random_stuff.deposit_ore">Do you want to send your ore to town?</string>
 	<string name="random_stuff.rejuvenate">The imp healed you and refilled your potion!</string>
 
-	<string name="random_buff.lower_hp">The glowing stone asks for a sacrifice of %amount% max health. Do you agree?</string>
-	<string name="random_buff.lower_armor">The glowing stone asks for a sacrifice of %amount% armor. Do you agree?</string>
-	<string name="random_buff.lower_resistance">The glowing stone asks for a sacrifice of %amount% resistance. Do you agree?</string>
-	<string name="random_buff.no_experience">The glowing stone asks for a sacrifice of %amount%% experience. Do you agree?</string>
-	<string name="random_buff.no_gold">The glowing stone asks for a sacrifice of %amount%% gold gain. Do you agree?</string>
-	<string name="random_buff.lower_hp_regen">The glowing stone asks for a sacrifice of %amount% health regen. Do you agree?</string>
-	<string name="random_buff.lower_mp_regen">The glowing stone asks for a sacrifice of %amount% mana regen. Do you agree?</string>
-	<string name="random_buff.take_damage">The glowing stone asks for a sacrifice of %amount% health. Do you agree?</string>
-	<string name="random_buff.lower_damage">The glowing stone asks for a sacrifice of %amount%% damage regen. Do you agree?</string>
+	<string name="random_buff.lower_hp">The inscription reads:\nSacrifice %amount% max health. Do you agree?</string>
+	<string name="random_buff.lower_armor">The inscription reads:\nSacrifice %amount% armor. Do you agree?</string>
+	<string name="random_buff.lower_resistance">The inscription reads:\nSacrifice %amount% resistance. Do you agree?</string>
+	<string name="random_buff.no_experience">The inscription reads:\nSacrifice %amount%% experience gain. Do you agree?</string>
+	<string name="random_buff.no_gold">The inscription reads:\nSacrifice %amount%% gold gain. Do you agree?</string>
+	<string name="random_buff.lower_hp_regen">The inscription reads:\nSacrifice %amount% health regen. Do you agree?</string>
+	<string name="random_buff.lower_mp_regen">The inscription reads:\nSacrifice %amount% mana regen. Do you agree?</string>
+	<string name="random_buff.take_damage">The inscription reads:\nSacrifice %amount% health. Do you agree?</string>
+	<string name="random_buff.lower_damage">The inscription reads:\nSacrifice %amount%% damage. Do you agree?</string>
 
 	<string name="hud.extralife">YOU FOUND ANOTHER PAIR OF GLASSES</string>
 	<string name="hud.dead">DEAD</string>
@@ -1228,16 +1228,6 @@
 	<string name="shop.magicshop.spellcritdamage-2.name">Skill Crit Damage II</string>
 	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
 
-	<!-- ore trader -->
-	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
-	<string name="shop.oretrader.ore-gold.desc">Buy 1 ore for 2500 gold.</string>
-
-	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
-	<string name="shop.oretrader.gold-ore.desc">Sell 1 ore for 500 gold.</string>
-
-
-
-
 
 	<!-- fountain -->
 	<string name="fountain.good">Something good happened.</string>
@@ -1492,12 +1482,12 @@
 
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
 	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
-	<string name="skills.thief.throwing-knives.1">Throw 4 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 5 enemies.</string>
-	<string name="skills.thief.throwing-knives.2">Throw 5 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 6 enemies.</string>
-	<string name="skills.thief.throwing-knives.3">Throw 6 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 7 enemies.</string>
-	<string name="skills.thief.throwing-knives.4">Throw 7 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 8 enemies.</string>
-	<string name="skills.thief.throwing-knives.5">Throw 8 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 9 enemies.</string>
-	<string name="skills.thief.throwing-knives.6">Throw 9 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 10 enemies.</string>
+	<string name="skills.thief.throwing-knives.1">Throw 5 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 5 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 6 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 7 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 8 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 9 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 10 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 10 enemies.</string>
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
@@ -1694,7 +1684,7 @@
 	<string name="item.great-helm.desc">+%armor% Armor.</string>
 
 	<string name="item.greaves-of-the-barbarian.name">Greaves of the Barbarian</string>
-	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy has a %chance% of triggering a %mspeed%% movement speed buff for %dur% seconds.</string>
+	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy has a %chance%% chance of triggering a %mspeed%% Movement Speed buff for %dur% seconds.</string>
 
 	<string name="item.heavy-gauntlets.name">Heavy Gauntlets</string>
 	<string name="item.heavy-gauntlets.desc">+%health% Health.</string>
