@@ -360,6 +360,7 @@
 	<string name="modifier.list.player.items">Items</string>
 	<string name="modifier.list.player.skills">Skills</string>
 	<string name="modifier.list.player.upgrades">Upgrades</string>
+	<string name="modifier.list.player.buffs">Buffs</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -1350,7 +1351,7 @@
 	<string name="skills.paladin.juggernaut">Juggernaut</string>
 	<string name="skills.paladin.juggernaut.create">When colliding with enemies the Paladin deals damage and has a chance to trigger Stunning Blows.</string>
 	<string name="skills.paladin.juggernaut.1">When colliding with enemies the Paladin deals 20 Physical damage and has a chance to trigger Stunning Blows.</string>
-	<string name="skills.paladin.juggernaut.2">When colliding with enemies the Paladin deals 80 Physical damage and has a chance to trigger Stunning Blows.</string>
+	<string name="skills.paladin.juggernaut.2">When colliding with enemies the Paladin deals 50 Physical damage and has a chance to trigger Stunning Blows.</string>
 
 
 	<!-- Priest -->
@@ -1441,11 +1442,11 @@
 	<string name="skills.ranger.deadly-aim.4">Primary attacks have a 20% chance to be critical hits.</string>
 
 	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
-	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes enemies for a few seconds.</string>
-	<string name="skills.ranger.grasping-roots.1">Immobilize all enemies in a 100-unit radius around the Ranger for 3 seconds.</string>
-	<string name="skills.ranger.grasping-roots.2">Immobilize all enemies in a 125-unit radius around the Ranger for 4 seconds.</string>
-	<string name="skills.ranger.grasping-roots.3">Immobilize all enemies in a 150-unit radius around the Ranger for 5 seconds.</string>
-	<string name="skills.ranger.grasping-roots.4">Immobilize all enemies in a 175-unit radius around the Ranger for 6 seconds.</string>
+	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes and reduces armor of enemies.</string>
+	<string name="skills.ranger.grasping-roots.1">Immobilize all enemies around the Ranger for 2 seconds. Enemies caught by the roots have their Armor reduced by 10%.</string>
+	<string name="skills.ranger.grasping-roots.2">Immobilize all enemies around the Ranger for 3 seconds. Enemies caught by the roots have their Armor reduced by 15%.</string>
+	<string name="skills.ranger.grasping-roots.3">Immobilize all enemies around the Ranger for 4 seconds. Enemies caught by the roots have their Armor reduced by 20%.</string>
+	<string name="skills.ranger.grasping-roots.4">Immobilize all enemies around the Ranger for 5 seconds. Enemies caught by the roots have their Armor reduced by 25%.</string>
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
@@ -1654,10 +1655,10 @@
 
 	<string name="skills.wizard.blast-wave">Blast Wave</string>
 	<string name="skills.wizard.blast-wave.create">Unleash a heavy blast wave around the Wizard that deals damage and applies confusion to enemies.</string>
-	<string name="skills.wizard.blast-wave.1">Unleash a blast wave around the Wizard that deals 6 Magical damage. Enemies are also confused and slowed by 30% for 2 seconds.</string>
-	<string name="skills.wizard.blast-wave.2">Unleash a blast wave around the Wizard that deals 12 Magical damage. Enemies are also confused and slowed by 30% for 3 seconds.</string>
-	<string name="skills.wizard.blast-wave.3">Unleash a blast wave around the Wizard that deals 20 Magical damage. Enemies are also confused and slowed by 30% for 4 seconds.</string>
-	<string name="skills.wizard.blast-wave.4">Unleash a blast wave around the Wizard that deals 30 Magical damage. Enemies are also confused and slowed by 30% for 5 seconds.</string>
+	<string name="skills.wizard.blast-wave.1">Unleash a blast wave around the Wizard that deals 6 Magical damage. Enemies are also confused and slowed by 30% for 2.5 seconds.</string>
+	<string name="skills.wizard.blast-wave.2">Unleash a blast wave around the Wizard that deals 12 Magical damage. Enemies are also confused and slowed by 40% for 3 seconds.</string>
+	<string name="skills.wizard.blast-wave.3">Unleash a blast wave around the Wizard that deals 20 Magical damage. Enemies are also confused and slowed by 50% for 3.5 seconds.</string>
+	<string name="skills.wizard.blast-wave.4">Unleash a blast wave around the Wizard that deals 30 Magical damage. Enemies are also confused and slowed by 60% for 4 seconds.</string>
 
 	<string name="skills.wizard.meteor-shower">Meteor Shower</string>
 	<string name="skills.wizard.meteor-shower.create">Evokes a shower of meteors to strike the ground around the Wizard dealing heavy Hybrid damage.</string>
@@ -1777,7 +1778,7 @@
 	<string name="item.sandals-swiftness.desc">+%mspeed% Movement Speed and +%evasion%% Evasion.</string>
 
 	<string name="item.scroll-of-magic-missile.name">Scroll of Magic Missile</string>
-	<string name="item.scroll-of-magic-missile.desc">%chance%% chance of unleashing a magic missile at a random enemy when casting a spell.</string>
+	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when casting a spell. The missile has a cooldown of 2 seconds.</string>
 
 	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
 	<string name="item.serrated-scimitar.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
@@ -1869,6 +1870,9 @@
 	<string name="item.old-map.name">Old Map</string>
 	<string name="item.old-map.desc">Removes fog of war from the map.</string>
 
+	<string name="item.rapier-of-retaliation.name">Rapier of Retaliation</string>
+	<string name="item.rapier-of-retaliation.desc">+%evasion%% Evasion. When evading an attack you gain a %dmg%% damage buff for %sec% seconds.</string>
+
 	<string name="item.ring-of-transmutation.name">Ring of Transmutation</string>
 	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
 
@@ -1899,6 +1903,9 @@
 	<string name="item.stinger.name">Stinger</string>
 	<string name="item.stinger.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
 
+	<string name="item.talisman-of-decay.name">Talisman of Decay</string>
+	<string name="item.talisman-of-decay.desc">Nearby enemies take %taken%% more damage.</string>
+
 	<string name="item.tower-shield.name">Tower Shield</string>
 	<string name="item.tower-shield.desc">%chance%% chance to Block %block% Physical damage.</string>
 
@@ -1918,11 +1925,20 @@
 	<string name="item.armor-of-kings.name">Armor of Kings</string>
 	<string name="item.armor-of-kings.desc">+%armor% Armor.</string>
 
+	<string name="item.cape-of-the-flamewalker.name">Cape of the Flamewalker</string>
+	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage per second.</string>
+
 	<string name="item.crown-of-kings.name">Crown of Kings</string>
 	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
 
 	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
 	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
+
+	<string name="item.duelists-edge.name">Duelist's Edge</string>
+	<string name="item.duelists-edge.desc">+%evasion%% Evasion. When evading an attack you return %dmg% Physical damage to the attacker and applies bleeding.</string>
+
+	<string name="item.earthsplitter.name">Earthsplitter</string>
+	<string name="item.earthsplitter.desc">%chance%% chance to release two earth spikes on your primary attack, dealing %dmg% Physical damage.</string>
 
 	<string name="item.flametongue.name">Flametongue</string>
 	<string name="item.flametongue.desc">+%dmg% Magical damage on Primary Attack. Primary attack also applies burning.</string>
@@ -1948,8 +1964,8 @@
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
 
-	<string name="item.shieldsplitter.name">Shieldsplitter</string>
-	<string name="item.shieldsplitter.desc">%chance%% chance to break enemies Armor on your Primary Attack for %sec% seconds.</string>
+	<string name="item.shieldbreaker.name">Shieldbreaker</string>
+	<string name="item.shieldbreaker.desc">%chance%% chance to break enemies Armor on your Primary Attack for %sec% seconds.</string>
 
 	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
 	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
