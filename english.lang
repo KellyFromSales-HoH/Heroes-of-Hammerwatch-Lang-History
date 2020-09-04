@@ -111,8 +111,7 @@
 	<string name="gameover.sentence.items-picked.one">You picked up 1 item.</string>
 	<string name="gameover.sentence.floors.plural">You visited %num% floors.</string>
 	<string name="gameover.sentence.floors.one">You visited 1 floor.</string>
-	<string name="gameover.sentence.units.plural">You traveled %num% units.</string>
-	<string name="gameover.sentence.units.one">You traveled 1 unit!?</string>
+	<string name="gameover.sentence.units">You traveled %num%.</string>
 	<string name="gameover.sentence.time">Your run ended in %time%</string>
 	<string name="gameover.sentence.ore.one">You wasted 1 ore!</string>
 	<string name="gameover.sentence.ore.plural">You wasted %num% ore!</string>
@@ -306,7 +305,7 @@
 	<string name="random_buff.take_damage">The inscription reads:\nSacrifice %amount% health. Do you agree?</string>
 	<string name="random_buff.lower_damage">The inscription reads:\nSacrifice %amount%% damage. Do you agree?</string>
 
-	<string name="random_buff.lower_hp">The shrine rewards you with %amount%% max health.</string>
+	<string name="random_buff.more_hp">The shrine rewards you with %amount%% max health.</string>
 	<string name="random_buff.more_armor">The shrine rewards you with %amount% armor and resistance.</string>
 	<string name="random_buff.more_experience">The shrine rewards you with %amount%% experience gain.</string>
 	<string name="random_buff.more_gold">The shrine rewards you with %amount%% gold gain.</string>
@@ -315,7 +314,7 @@
 	<string name="random_buff.more_mp_regen">The shrine rewards you with %amount% mana regen.</string>
 	<string name="random_buff.more_damage">The shrine rewards you with %amount%% damage.</string>
 
-	<string name="dead.respawn.countdown">Respawning in %countdown%</string>
+
 
 	<string name="levelcredits.prompt">%level% by %author%</string>
 
@@ -357,9 +356,9 @@
 	<string name="color.wizard.border">Border</string>
 	<string name="color.wizard.staff">Staff</string>
 
-
-
-
+	<string name="hud.spectate.who">Spectating %name&</string>
+	<string name="hud.spectate.help">Press Fire to spectate next player</string>
+	<string name="dead.gameover.spectate">Press Use to spectate</string>
 
 	<string name="gameover.sentence.experience">You lost %num% experience.</string>
 	<string name="gameover.restart">RESTART</string>
@@ -441,7 +440,7 @@
 	<string name="gambling.card.4.9">Man Eater, Aberration (9)</string>
 	<string name="gambling.card.4.10">The Watcher, Aberration (10)</string>
 
-
+	<string name="stats.category.0classes">Classes</string>
 	<string name="stats.category.1combat">Combat</string>
 	<string name="stats.category.2time">Time</string>
 	<string name="stats.category.3vitality">Vitality</string>
@@ -857,86 +856,64 @@
 
 
 
-	<!-- bestiary -->
-	<string name="bestiary.type.beast">BEASTS</string>
-	<string name="bestiary.type.undead">UNDEAD</string>
-	<string name="bestiary.type.aberration">ABERRATIONS</string>
-	<string name="bestiary.type.construct">CONSTRUCTS</string>
 
-	<string name="bestiary.name.bosses.golem">Rock Golem</string>
-	<string name="bestiary.name.bosses.warden">Warden</string>
-	<string name="bestiary.name.bosses.wraith_scythe">Scythe Wraith</string>
-	<string name="bestiary.name.bosses.wraith_staff">Staff Wraith</string>
-	<string name="bestiary.name.bosses.wraith_mage">Mage Wraith</string>
-	<string name="bestiary.name.bosses.eye">Watcher</string>
-	<string name="bestiary.name.bosses.dragon">Dragon</string>
-	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
-	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
-	<string name="bestiary.name.spawner_bats">Bat Tree Stump</string>
-	<string name="bestiary.name.spawner_eye">Mother Eye</string>
-	<string name="bestiary.name.spawner_maggot">Maggot Incubator</string>
-	<string name="bestiary.name.spawner_skeleton_1">Skeleton Pit</string>
-	<string name="bestiary.name.spawner_skeleton_2">Skeleton Guardian Pit</string>
-	<string name="bestiary.name.spawner_tick">Tick Nest</string>
-	<string name="bestiary.name.spawner_wisp">Wisp Tree</string>
-	<string name="bestiary.name.banner_bloodlust">Bloodlust Banner</string>
-	<string name="bestiary.name.banner_healing">Healing Banner</string>
-	<string name="bestiary.name.banner_protection">Protection Banner</string>
-	<string name="bestiary.name.bannerman_bloodlust">Bloodlust Bannerman</string>
-	<string name="bestiary.name.bannerman_healing">Healing Bannerman</string>
-	<string name="bestiary.name.bannerman_protection">Protection Bannerman</string>
-	<string name="bestiary.name.bat_1">Bat</string>
-	<string name="bestiary.name.bat_2">Red Bat</string>
-	<string name="bestiary.name.battlemage">Battlemage</string>
-	<string name="bestiary.name.elemental_ice_sword">Ice Elemental</string>
-	<string name="bestiary.name.elemental_ice_ranged">Ranged Ice Elemental</string>
-	<string name="bestiary.name.eye_1">Eye</string>
-	<string name="bestiary.name.eye_1_mb">Monstrous Eye</string>
-	<string name="bestiary.name.eye_1_small">Small Eye</string>
-	<string name="bestiary.name.ghost_paladin">Fallen Paladin</string>
-	<string name="bestiary.name.ghost_priest">Fallen Priest</string>
-	<string name="bestiary.name.ghost_ranger">Fallen Ranger</string>
-	<string name="bestiary.name.ghost_sorcerer">Fallen Sorcerer</string>
-	<string name="bestiary.name.ghost_thief">Fallen Thief</string>
-	<string name="bestiary.name.guardian_1">Skeleton Guardian Berzerker</string>
-	<string name="bestiary.name.lich_1">Lich</string>
-	<string name="bestiary.name.lich_elite">Elite Lich</string>
-	<string name="bestiary.name.lich_mb">Arch-Lich</string>
-	<string name="bestiary.name.lich_frost">Frost Lich</string>
-	<string name="bestiary.name.lich_summ_1">Ghostcaller Lich</string>
-	<string name="bestiary.name.archer_1">Skeleton Archer</string>
-	<string name="bestiary.name.archer_1_elite">Elite Skeleton Archer</string>
-	<string name="bestiary.name.archer_2">Skeleton Archer II</string>
-	<string name="bestiary.name.skeleton_1">Skeleton</string>
-	<string name="bestiary.name.skeleton_1_elite">Elite Skeleton</string>
-	<string name="bestiary.name.skeleton_1_mb">Skeleton Gladiator</string>
-	<string name="bestiary.name.skeleton_1_small">Weak Skeleton</string>
-	<string name="bestiary.name.skeleton_2">Skeleton Guardian</string>
-	<string name="bestiary.name.skeleton_2_elite">Elite Skeleton Guardian</string>
-	<string name="bestiary.name.skeleton_2_small">Weak Skeleton Guardian</string>
-	<string name="bestiary.name.skeleton_1_spear">Skeleton Spearman</string>
-	<string name="bestiary.name.skeleton_2_spear">Skeleton Spearman II</string>
-	<string name="bestiary.name.maggot_1">Maggot</string>
-	<string name="bestiary.name.maggot_1_elite">Spined Maggot</string>
-	<string name="bestiary.name.maggot_1_mb">Massive Maggot</string>
-	<string name="bestiary.name.maggot_1_small">Small Maggot</string>
-	<string name="bestiary.name.tick_1">Tick</string>
-	<string name="bestiary.name.tick_1_elite">Elite Tick</string>
-	<string name="bestiary.name.tick_1_small">Small Tick</string>
-	<string name="bestiary.name.tick_1_small_exploding">Small Exploding Tick</string>
-	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
-	<string name="bestiary.name.tower_battlement_archer_1">Archer Battlement</string>
-	<string name="bestiary.name.tower_battlement_archer_2">Archer Battlement II</string>
-	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
-	<string name="bestiary.name.tower_beamo">Beamo Tower</string>
-	<string name="bestiary.name.tower_flower_1">Flower</string>
-	<string name="bestiary.name.tower_flower_2">Flower II</string>
-	<string name="bestiary.name.tower_nova_1">Nova Tower</string>
-	<string name="bestiary.name.tower_nova_2">Nova Tower II</string>
-	<string name="bestiary.name.trapper">Trapper</string>
-	<string name="bestiary.name.wisp_1">Blue Wisp</string>
-	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
-	<string name="bestiary.name.wisp_2">Red Wisp</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1389,11 +1366,11 @@
 	<string name="skills.paladin.charge">Charge</string>
 	<string name="skills.paladin.charge.create">The Paladin charges forward, dealing damage to all enemies in their path.</string>
 	<string name="skills.paladin.charge.1">Dash forward. Enemies in your path take 25 Physical damage.</string>
-	<string name="skills.paladin.charge.2">Dash forward. Enemies in your path take 35 Physical damage.</string>
-	<string name="skills.paladin.charge.3">Dash forward. Enemies in your path take 45 Physical damage.</string>
-	<string name="skills.paladin.charge.4">Dash forward. Enemies in your path take 55 Physical damage.</string>
-	<string name="skills.paladin.charge.5">Dash forward. Enemies in your path take 65 Physical damage.</string>
-	<string name="skills.paladin.charge.6">Dash forward. Enemies in your path take 75 Physical damage.</string>
+	<string name="skills.paladin.charge.2">Dash forward. Enemies in your path take 35 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.3">Dash forward. Enemies in your path take 45 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.4">Dash forward. Enemies in your path take 55 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.5">Dash forward. Enemies in your path take 65 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.6">Dash forward. Enemies in your path take 75 Physical damage. Increased speed and range of the dash.</string>
 
 	<string name="skills.paladin.shield">Shield</string>
 	<string name="skills.paladin.shield.create">A sturdy shield that blocks most incoming projectiles. The shield also has a chance to block some incoming damage.</string>
@@ -1419,9 +1396,9 @@
 
 	<string name="skills.paladin.whirlwind">Whirlwind</string>
 	<string name="skills.paladin.whirlwind.create">A spinning attack that deals damage to all enemies around the Paladin.</string>
-	<string name="skills.paladin.whirlwind.1">A spinning attack that deals 45 Physical damage to all enemies around the Paladin. Whirlwind lasts for 3 seconds.</string>
-	<string name="skills.paladin.whirlwind.2">A spinning attack that deals 60 Physical damage to all enemies around the Paladin. Whirlwind lasts for 4.5 seconds.</string>
-	<string name="skills.paladin.whirlwind.3">A spinning attack that deals 75 Physical damage to all enemies around the Paladin. Whirlwind lasts for 6 seconds.</string>
+	<string name="skills.paladin.whirlwind.1">A spinning attack that deals 30 Physical damage to all enemies around the Paladin. Whirlwind lasts for 3 seconds.</string>
+	<string name="skills.paladin.whirlwind.2">A spinning attack that deals 40 Physical damage to all enemies around the Paladin. Whirlwind lasts for 4 seconds.</string>
+	<string name="skills.paladin.whirlwind.3">A spinning attack that deals 50 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5 seconds.</string>
 
 	<string name="skills.paladin.juggernaut">Juggernaut</string>
 	<string name="skills.paladin.juggernaut.create">When colliding with enemies the Paladin deals damage and has a chance to trigger Stunning Blows.</string>
@@ -1432,12 +1409,12 @@
 	<!-- Priest -->
 	<string name="skills.priest.smite">Smite</string>
 	<string name="skills.priest.smite.create">A short-ranged area of effect attack that deals both Physical and Magical damage.</string>
-	<string name="skills.priest.smite.1">A short-ranged attack dealing 8 Hybrid damage in a 11-unit radius.</string>
-	<string name="skills.priest.smite.2">A short-ranged attack dealing 10 Hybrid damage in a 12-unit radius.</string>
-	<string name="skills.priest.smite.3">A short-ranged attack dealing 12 Hybrid damage in a 13-unit radius.</string>
-	<string name="skills.priest.smite.4">A short-ranged attack dealing 14 Hybrid damage in a 14-unit radius.</string>
-	<string name="skills.priest.smite.5">A short-ranged attack dealing 16 Hybrid damage in a 15-unit radius.</string>
-	<string name="skills.priest.smite.6">A short-ranged attack dealing 18 Hybrid damage in a 16-unit radius.</string>
+	<string name="skills.priest.smite.1">A short-ranged attack dealing 8 Hybrid damage.</string>
+	<string name="skills.priest.smite.2">A short-ranged attack dealing 10 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.3">A short-ranged attack dealing 12 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.4">A short-ranged attack dealing 14 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.5">A short-ranged attack dealing 16 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.6">A short-ranged attack dealing 18 Hybrid damage. Slightly larger impact area.</string>
 
 	<string name="skills.priest.holy-light">Holy Light</string>
 	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
@@ -1494,12 +1471,12 @@
 
 	<string name="skills.ranger.explosive-bomb">Explosive Bomb</string>
 	<string name="skills.ranger.explosive-bomb.create">Place a bomb that detonates after 1 second, dealing damage in the area.</string>
-	<string name="skills.ranger.explosive-bomb.1">Place a bomb that detonates after 1 second, dealing 20 Hybrid damage in a 40-unit radius.</string>
-	<string name="skills.ranger.explosive-bomb.2">Place a bomb that detonates after 1 second, dealing 34 Hybrid damage in a 44-unit radius.</string>
-	<string name="skills.ranger.explosive-bomb.3">Place a bomb that detonates after 1 second, dealing 48 Hybrid damage in a 48-unit radius.</string>
-	<string name="skills.ranger.explosive-bomb.4">Place a bomb that detonates after 1 second, dealing 62 Hybrid damage in a 52-unit radius.</string>
-	<string name="skills.ranger.explosive-bomb.5">Place a bomb that detonates after 1 second, dealing 76 Hybrid damage in a 56-unit radius.</string>
-	<string name="skills.ranger.explosive-bomb.6">Place a bomb that detonates after 1 second, dealing 90 Hybrid damage in a 60-unit radius.</string>
+	<string name="skills.ranger.explosive-bomb.1">Place a bomb that detonates after 1 second, dealing 20 Hybrid damage.</string>
+	<string name="skills.ranger.explosive-bomb.2">Place a bomb that detonates after 1 second, dealing 34 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.3">Place a bomb that detonates after 1 second, dealing 48 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.4">Place a bomb that detonates after 1 second, dealing 62 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.5">Place a bomb that detonates after 1 second, dealing 76 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.6">Place a bomb that detonates after 1 second, dealing 90 Hybrid damage. Larger area of effect.</string>
 
 	<string name="skills.ranger.dodge">Dodge</string>
 	<string name="skills.ranger.dodge.create">The Ranger has a chance to evade incoming attacks.</string>
@@ -1531,8 +1508,8 @@
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 15% chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 30% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 40% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 60% chance of splitting and seeking a new target.</string>
 
 
 	<!-- Sorcerer -->
@@ -1572,9 +1549,9 @@
 	<string name="skills.sorcerer.frost-nova">Frost Nova</string>
 	<string name="skills.sorcerer.frost-nova.create">Fires multiple frost shards in all directions around the Sorcerer.</string>
 	<string name="skills.sorcerer.frost-nova.1">Unleash 13 frost shards in all directions around the Sorcerer dealing 12 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.2">Unleash 17 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.3">Unleash 21 frost shards in all directions around the Sorcerer dealing 20 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.4">Unleash 25 frost shards in all directions around the Sorcerer dealing 24 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.2">Unleash 16 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.3">Unleash 19 frost shards in all directions around the Sorcerer dealing 20 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.4">Unleash 23 frost shards in all directions around the Sorcerer dealing 24 Hybrid damage.</string>
 
 	<string name="skills.sorcerer.orb-of-winter">Orb of Winter</string>
 	<string name="skills.sorcerer.orb-of-winter.create">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
@@ -1624,16 +1601,16 @@
 
 	<string name="skills.thief.grappling-hook">Grappling Hook</string>
 	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact stunning all enemies in its path.</string>
-	<string name="skills.thief.grappling-hook.1">Fire a grappling hook with a range of 130 units. The Thief travels to the point of impact stunning all enemies in its path for 1 second.</string>
-	<string name="skills.thief.grappling-hook.2">Fire a grappling hook with a range of 160 units. The Thief travels to the point of impact stunning all enemies in its path for 1.5 second.</string>
-	<string name="skills.thief.grappling-hook.3">Fire a grappling hook with a range of 190 units. The Thief travels to the point of impact stunning all enemies in its path for 2 second.</string>
-	<string name="skills.thief.grappling-hook.4">Fire a grappling hook with a range of 220 units. The Thief travels to the point of impact stunning all enemies in its path for 2.5 second.</string>
+	<string name="skills.thief.grappling-hook.1">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 1 second.</string>
+	<string name="skills.thief.grappling-hook.2">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 1.5 seconds. Increased speed and range of grappling hook.</string>
+	<string name="skills.thief.grappling-hook.3">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 2 seconds. Increased speed and range of grappling hook.</string>
+	<string name="skills.thief.grappling-hook.4">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 3 seconds. Increased speed and range of grappling hook.</string>
 
 	<string name="skills.thief.smoke-bomb">Smoke Bomb</string>
 	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies.</string>
-	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a 75-unit radius for 5 seconds.</string>
-	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a 100-unit radius for 5 seconds.</string>
-	<string name="skills.thief.smoke-bomb.3">The Thief throws a smoke bomb that stuns all enemies in a 125-unit radius for 5 seconds.</string>
+	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a large area for 4 seconds.</string>
+	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.5 seconds. Larger area of effect.</string>
+	<string name="skills.thief.smoke-bomb.3">The Thief throws a smoke bomb that stuns all enemies in a large area for 5 seconds. Larger area of effect.</string>
 
 	<string name="skills.thief.gold-fever">Gold Fever</string>
 	<string name="skills.thief.gold-fever.create">The Thief gains more gold and does more damage based on your current gold.</string>
@@ -1691,18 +1668,18 @@
 	<string name="skills.warlock.stormlash">Stormlash</string>
 	<string name="skills.warlock.stormlash.create">All bolts of lightning have a chance to trigger a new weaker bolt of lightning.</string>
 	<string name="skills.warlock.stormlash.1">All bolts of lightning have a 50% chance to trigger a new bolt of lightning dealing 50% damage.</string>
-	<string name="skills.warlock.stormlash.2">All bolts of lightning have a 75% chance to trigger a new bolt of lightning dealing 50% damage.</string>
+	<string name="skills.warlock.stormlash.2">All bolts of lightning have a 75% chance to trigger a new bolt of lightning dealing 75% damage.</string>
 
 
 	<!-- Wizard -->
 	<string name="skills.wizard.fireball">Fireball</string>
 	<string name="skills.wizard.fireball.create">Ranged attack that deals Magical damage in a small area.</string>
-	<string name="skills.wizard.fireball.1">Launch a fireball that deals 8 Magical damage in a 17-unit radius.</string>
-	<string name="skills.wizard.fireball.2">Launch a fireball that deals 10 Magical damage in a 20-unit radius.</string>
-	<string name="skills.wizard.fireball.3">Launch a fireball that deals 12 Magical damage in a 23-unit radius.</string>
-	<string name="skills.wizard.fireball.4">Launch a fireball that deals 14 Magical damage in a 26-unit radius.</string>
-	<string name="skills.wizard.fireball.5">Launch a fireball that deals 16 Magical damage in a 29-unit radius.</string>
-	<string name="skills.wizard.fireball.6">Launch a fireball that deals 18 Magical damage in a 32-unit radius.</string>
+	<string name="skills.wizard.fireball.1">Launch a fireball that deals 8 Magical damage.</string>
+	<string name="skills.wizard.fireball.2">Launch a fireball that deals 10 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.3">Launch a fireball that deals 12 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.4">Launch a fireball that deals 14 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.5">Launch a fireball that deals 16 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.6">Launch a fireball that deals 18 Magical damage. Longer range and larger impact area.</string>
 
 	<string name="skills.wizard.fire-breath">Fire Breath</string>
 	<string name="skills.wizard.fire-breath.create">The Wizard breathes fire in a forward cone dealing heavy Magical damage.</string>
@@ -2325,8 +2302,15 @@
 
 
 
-	<!-- TITLES -->
+	<!-- Guild Hall -->
 
+
+	<!-- Guild Hall Screen -->
+	<string name="guildhall.title">GUILD HALL</string>
+	<string name="guildhall.tab.stats">GUILD & HEROES</string>
+	<string name="guildhall.tab.accomplishments">ACCOMPLISHMENTS</string>
+	<string name="guildhall.tab.beastiary">BESTIARY</string>
+	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2400,154 +2384,223 @@
 	<string name="titles.wizard-7">Battlemage</string>
 	<string name="titles.wizard-8">Archmage</string>
 
+	<!-- bestiary -->
+	<string name="bestiary.type.beast">BEASTS</string>
+	<string name="bestiary.type.undead">UNDEAD</string>
+	<string name="bestiary.type.aberration">ABERRATIONS</string>
+	<string name="bestiary.type.construct">CONSTRUCTS</string>
+
+	<string name="bestiary.name.bosses.golem">Rock Golem</string>
+	<string name="bestiary.name.bosses.warden">Warden</string>
+	<string name="bestiary.name.bosses.wraith_scythe">Scythe Wraith</string>
+	<string name="bestiary.name.bosses.wraith_staff">Staff Wraith</string>
+	<string name="bestiary.name.bosses.wraith_mage">Mage Wraith</string>
+	<string name="bestiary.name.bosses.eye">Watcher</string>
+	<string name="bestiary.name.bosses.dragon">Dragon</string>
+	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
+	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
+	<string name="bestiary.name.spawner_bats">Bat Tree Stump</string>
+	<string name="bestiary.name.spawner_eye">Mother Eye</string>
+	<string name="bestiary.name.spawner_maggot">Maggot Incubator</string>
+	<string name="bestiary.name.spawner_skeleton_1">Skeleton Pit</string>
+	<string name="bestiary.name.spawner_skeleton_2">Skeleton Guardian Pit</string>
+	<string name="bestiary.name.spawner_tick">Tick Nest</string>
+	<string name="bestiary.name.spawner_wisp">Wisp Tree</string>
+	<string name="bestiary.name.banner_bloodlust">Bloodlust Banner</string>
+	<string name="bestiary.name.banner_healing">Healing Banner</string>
+	<string name="bestiary.name.banner_protection">Protection Banner</string>
+	<string name="bestiary.name.bannerman_bloodlust">Bloodlust Bannerman</string>
+	<string name="bestiary.name.bannerman_healing">Healing Bannerman</string>
+	<string name="bestiary.name.bannerman_protection">Protection Bannerman</string>
+	<string name="bestiary.name.bat_1">Bat</string>
+	<string name="bestiary.name.bat_2">Red Bat</string>
+	<string name="bestiary.name.battlemage">Battlemage</string>
+	<string name="bestiary.name.elemental_ice_sword">Ice Elemental</string>
+	<string name="bestiary.name.elemental_ice_ranged">Ranged Ice Elemental</string>
+	<string name="bestiary.name.eye_1">Eye</string>
+	<string name="bestiary.name.eye_1_mb">Monstrous Eye</string>
+	<string name="bestiary.name.eye_1_small">Small Eye</string>
+	<string name="bestiary.name.ghost_paladin">Fallen Paladin</string>
+	<string name="bestiary.name.ghost_priest">Fallen Priest</string>
+	<string name="bestiary.name.ghost_ranger">Fallen Ranger</string>
+	<string name="bestiary.name.ghost_sorcerer">Fallen Sorcerer</string>
+	<string name="bestiary.name.ghost_thief">Fallen Thief</string>
+	<string name="bestiary.name.guardian_1">Skeleton Guardian Berzerker</string>
+	<string name="bestiary.name.lich_1">Lich</string>
+	<string name="bestiary.name.lich_elite">Elite Lich</string>
+	<string name="bestiary.name.lich_mb">Arch-Lich</string>
+	<string name="bestiary.name.lich_frost">Frost Lich</string>
+	<string name="bestiary.name.lich_summ_1">Ghostcaller Lich</string>
+	<string name="bestiary.name.archer_1">Skeleton Archer</string>
+	<string name="bestiary.name.archer_1_elite">Elite Skeleton Archer</string>
+	<string name="bestiary.name.archer_2">Skeleton Archer II</string>
+	<string name="bestiary.name.skeleton_1">Skeleton</string>
+	<string name="bestiary.name.skeleton_1_elite">Elite Skeleton</string>
+	<string name="bestiary.name.skeleton_1_mb">Skeleton Gladiator</string>
+	<string name="bestiary.name.skeleton_1_small">Weak Skeleton</string>
+	<string name="bestiary.name.skeleton_2">Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_elite">Elite Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_small">Weak Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_1_spear">Skeleton Spearman</string>
+	<string name="bestiary.name.skeleton_2_spear">Skeleton Spearman II</string>
+	<string name="bestiary.name.maggot_1">Maggot</string>
+	<string name="bestiary.name.maggot_1_elite">Spined Maggot</string>
+	<string name="bestiary.name.maggot_1_mb">Massive Maggot</string>
+	<string name="bestiary.name.maggot_1_small">Small Maggot</string>
+	<string name="bestiary.name.tick_1">Tick</string>
+	<string name="bestiary.name.tick_1_elite">Elite Tick</string>
+	<string name="bestiary.name.tick_1_small">Small Tick</string>
+	<string name="bestiary.name.tick_1_small_exploding">Small Exploding Tick</string>
+	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
+	<string name="bestiary.name.tower_battlement_archer_1">Archer Battlement</string>
+	<string name="bestiary.name.tower_battlement_archer_2">Archer Battlement II</string>
+	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
+	<string name="bestiary.name.tower_beamo">Beamo Tower</string>
+	<string name="bestiary.name.tower_flower_1">Flower</string>
+	<string name="bestiary.name.tower_flower_2">Flower II</string>
+	<string name="bestiary.name.tower_nova_1">Nova Tower</string>
+	<string name="bestiary.name.tower_nova_2">Nova Tower II</string>
+	<string name="bestiary.name.trapper">Trapper</string>
+	<string name="bestiary.name.wisp_1">Blue Wisp</string>
+	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
+	<string name="bestiary.name.wisp_2">Red Wisp</string>
+
 
 
 	<!-- Accomplishments -->
 
 
 	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
-	<string name="accomplishment.aberration-killed.desc">Kill 2000 Aberrations.</string>
+	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
 
 	<string name="accomplishment.beast-killed.name">Beast Slayers %lvl%</string>
-	<string name="accomplishment.beast-killed.desc">Kill 1000 Beasts.</string>
+	<string name="accomplishment.beast-killed.desc">Kill %requirement% Beasts.</string>
 
 	<string name="accomplishment.construct-killed.name">Demolishers %lvl%</string>
-	<string name="accomplishment.construct-killed.desc">Kill 250 Constructs.</string>
+	<string name="accomplishment.construct-killed.desc">Destroy %requirement% Constructs.</string>
 
 	<string name="accomplishment.undead-killed.name">Sanctifiers %lvl%</string>
-	<string name="accomplishment.undead-killed.desc">Kill 2500 Undead.</string>
+	<string name="accomplishment.undead-killed.desc">Kill %requirement% Undead.</string>
 
 	<string name="accomplishment.enemies-killed.name">Killers %lvl%</string>
-	<string name="accomplishment.enemies-killed.desc"></string>
+	<string name="accomplishment.enemies-killed.desc">Kill %requirement% enemies.</string>
 
 	<string name="accomplishment.spent-mana.name">Spellcasters %lvl%</string>
-	<string name="accomplishment.spent-mana.desc"></string>
+	<string name="accomplishment.spent-mana.desc">Spend %requirement% of mana.</string>
 
 	<string name="accomplishment.spent-gold.name">Big Spenders %lvl%</string>
-	<string name="accomplishment.spent-gold.desc"></string>
+	<string name="accomplishment.spent-gold.desc">Spend %requirement% gold.</string>
 
 	<string name="accomplishment.gold-found.name">Gold Diggers %lvl%</string>
-	<string name="accomplishment.gold-found.desc"></string>
+	<string name="accomplishment.gold-found.desc">Find %requirement% gold.</string>
 
 	<string name="accomplishment.ore-found.name">Miners %lvl%</string>
-	<string name="accomplishment.ore-found.desc"></string>
+	<string name="accomplishment.ore-found.desc">Find %requirement% ore.</string>
 
-	<string name="accomplishment.combo.name">Combo Streakers %lvl%</string>
-	<string name="accomplishment.combo.desc"></string>
+	<string name="accomplishment.best-combo.name">Combo Streakers %lvl%</string>
+	<string name="accomplishment.best-combo.desc">Chain a combo of %requirement% kills.</string>
 
 	<string name="accomplishment.items-bought.name">Shoppers %lvl%</string>
-	<string name="accomplishment.items-bought.desc"></string>
+	<string name="accomplishment.items-bought.desc">Buy %requirement% items.</string>
 
-	<string name="accomplishment.items-common.name">Common Looters %lvl%</string>
-	<string name="accomplishment.items-common.desc"></string>
+	<string name="accomplishment.items-picked-common.name">Common Looters %lvl%</string>
+	<string name="accomplishment.items-picked-common.desc">Find %requirement% Common items.</string>
 
-	<string name="accomplishment.items-uncommon.name">Uncommon Looters %lvl%</string>
-	<string name="accomplishment.items-uncommon.desc"></string>
+	<string name="accomplishment.items-picked-uncommon.name">Uncommon Looters %lvl%</string>
+	<string name="accomplishment.items-picked-uncommon.desc">Find %requirement% Uncommon items.</string>
 
-	<string name="accomplishment.items-rare.name">Rare Looters %lvl%</string>
-	<string name="accomplishment.items-rare.desc"></string>
+	<string name="accomplishment.items-picked-rare.name">Rare Looters %lvl%</string>
+	<string name="accomplishment.items-picked-rare.desc">Find %requirement% Rare items.</string>
 
-	<string name="accomplishment.items-legendary.name">Legendary Looters %lvl%</string>
-	<string name="accomplishment.items-legendary.desc"></string>
+	<string name="accomplishment.items-picked-legendary.name">Legendary Looters %lvl%</string>
+	<string name="accomplishment.items-picked-legendary.desc">Find %requirement% Legendary items.</string>
 
 	<string name="accomplishment.damage-dealt-max.name">Heavy Hitters %lvl%</string>
-	<string name="accomplishment.damage-dealt-max.desc"></string>
+	<string name="accomplishment.damage-dealt-max.desc">Deal %requirement% in a single damage instance.</string>
 
 	<string name="accomplishment.damage-dealt-physical.name">Warriors %lvl%</string>
-	<string name="accomplishment.damage-dealt-physical.desc"></string>
+	<string name="accomplishment.damage-dealt-physical.desc">Deal %requirement% Physical damage.</string>
 
 	<string name="accomplishment.damage-dealt-magical.name">Mages %lvl%</string>
-	<string name="accomplishment.damage-dealt-magical.desc"></string>
+	<string name="accomplishment.damage-dealt-magical.desc">Deal %requirement% Magical damage.</string>
 
-	<string name="accomplishment.amount-healed.name">Physicians %lvl%</string>
-	<string name="accomplishment.amount-healed.desc"></string>
+	<string name="accomplishment.chest-used-0.name">Bronze Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-0.desc">Open %requirement% Bronze chests.</string>
 
-	<string name="accomplishment.fountain-used.name">Coin Tossers %lvl%</string>
-	<string name="accomplishment.fountain-used.desc"></string>
+	<string name="accomplishment.chest-used-1.name">Silver Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-1.desc">Open %requirement% Silver chests.</string>
 
-	<string name="accomplishment.well-used.name">Replenishers %lvl%</string>
-	<string name="accomplishment.well-used.desc"></string>
+	<string name="accomplishment.chest-used-2.name">Gold Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-2.desc">Open %requirement% Gold chests.</string>
 
-	<string name="accomplishment.potion-used.name">Potion Gulpers %lvl%</string>
-	<string name="accomplishment.potion-used.desc"></string>
+	<string name="accomplishment.chest-used-3.name">Ace Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-3.desc">Open %requirement% Ace chests.</string>
 
-	<string name="accomplishment.chest-bronze.name">Bronze Chest Pillagers %lvl%</string>
-	<string name="accomplishment.chest-bronze.desc"></string>
+	<string name="accomplishment.max-level-paladin.name">Knights Chapter %lvl%</string>
+	<string name="accomplishment.max-level-paladin.desc">Reach level %requirement% with a Paladin.</string>
 
-	<string name="accomplishment.chest-silver.name">Silver Chest Pillagers %lvl%</string>
-	<string name="accomplishment.chest-silver.desc"></string>
+	<string name="accomplishment.max-level-priest.name">Holy Order %lvl%</string>
+	<string name="accomplishment.max-level-priest.desc">Reach level %requirement% with a Priest.</string>
 
-	<string name="accomplishment.chest-gold.name">Gold Chest Pillagers %lvl%</string>
-	<string name="accomplishment.chest-gold.desc"></string>
+	<string name="accomplishment.max-level-ranger.name">Hunters Lodge %lvl%</string>
+	<string name="accomplishment.max-level-ranger.desc">Reach level %requirement% with a Priest.</string>
 
-	<string name="accomplishment.chest-ace.name">Ace Chest Pillagers %lvl%</string>
-	<string name="accomplishment.chest-ace.desc"></string>
+	<string name="accomplishment.max-level-sorcerer.name">Magicians Circle %lvl%</string>
+	<string name="accomplishment.max-level-sorcerer.desc">Reach level %requirement% with a Sorcerer.</string>
 
-	<string name="accomplishment.paladin-level.name">Knights Chapter %lvl%</string>
-	<string name="accomplishment.paladin-level.desc"></string>
+	<string name="accomplishment.max-level-thief.name">Thieves Den %lvl%</string>
+	<string name="accomplishment.max-level-thief.desc">Reach level %requirement% with a Thief.</string>
 
-	<string name="accomplishment.priest-level.name">Holy Order %lvl%</string>
-	<string name="accomplishment.priest-level.desc"></string>
+	<string name="accomplishment.max-level-warlock.name">Mystic Cult %lvl%</string>
+	<string name="accomplishment.max-level-warlock.desc">Reach level %requirement% with a Warlock.</string>
 
-	<string name="accomplishment.ranger-level.name">Hunters Lodge %lvl%</string>
-	<string name="accomplishment.ranger-level.desc"></string>
-
-	<string name="accomplishment.sorcerer-level.name">Magicians Circle %lvl%</string>
-	<string name="accomplishment.sorcerer-level.desc"></string>
-
-	<string name="accomplishment.thief-level.name">Thieves Den %lvl%</string>
-	<string name="accomplishment.thief-level.desc"></string>
-
-	<string name="accomplishment.warlock-level.name">Mystic Cult %lvl%</string>
-	<string name="accomplishment.warlock-level.desc"></string>
-
-	<string name="accomplishment.wizard-level.name">Arcane League %lvl%</string>
-	<string name="accomplishment.wizard-level.desc"></string>
+	<string name="accomplishment.max-level-wizard.name">Arcane League %lvl%</string>
+	<string name="accomplishment.max-level-wizard.desc">Reach level %requirement% with a Wizard.</string>
 
 	<string name="accomplishment.lifesteal-amount.name">Blood Hunters %lvl%</string>
-	<string name="accomplishment.lifesteal-amount.desc"></string>
+	<string name="accomplishment.lifesteal-amount.desc">Gain %requirement% health by lifestealing.</string>
 
 	<string name="accomplishment.stun-count.name">Bashers %lvl%</string>
-	<string name="accomplishment.stun-count.desc"></string>
+	<string name="accomplishment.stun-count.desc">Stun %requirement% enemies.</string>
 
 	<string name="accomplishment.crit-count.name">Critical Hitters %lvl%</string>
-	<string name="accomplishment.crit-count.desc"></string>
+	<string name="accomplishment.crit-count.desc">Score %requirement% Critical hits.</string>
 
 	<string name="accomplishment.damage-blocked.name">Blockers %lvl%</string>
-	<string name="accomplishment.damage-blocked.desc"></string>
+	<string name="accomplishment.damage-blocked.desc">Block %requirement% amount of damage.</string>
 
 	<string name="accomplishment.evade-amount.name">Dodgers %lvl%</string>
-	<string name="accomplishment.evade-amount.desc"></string>
+	<string name="accomplishment.evade-amount.desc">Evade %requirement% attacks.</string>
 
 	<string name="accomplishment.amount-healed.name">Physicians %lvl%</string>
-	<string name="accomplishment.amount-healed.desc"></string>
+	<string name="accomplishment.amount-healed.desc">Heal for %requirement% health.</string>
 
 	<string name="accomplishment.elevator-used.name">Dispatchers %lvl%</string>
-	<string name="accomplishment.elevator-used.desc"></string>
+	<string name="accomplishment.elevator-used.desc">Use an elevator %requirement% times.</string>
 
 	<string name="accomplishment.fountain-used.name">Coin Tossers %lvl%</string>
-	<string name="accomplishment.fountain-used.desc"></string>
+	<string name="accomplishment.fountain-used.desc">Use the fountain %requirement% times.</string>
 
 	<string name="accomplishment.well-used.name">Replenishers %lvl%</string>
-	<string name="accomplishment.well-used.desc"></string>
+	<string name="accomplishment.well-used.desc">Use a well %requirement% times.</string>
+
+	<string name="accomplishment.potion-charges-used.name">Potion Gulpers %lvl%</string>
+	<string name="accomplishment.potion-charges-used.desc">Use the potion %requirement% times.</string>
 
 	<string name="accomplishment.blessings-purchased.name">Divine Favors %lvl%</string>
-	<string name="accomplishment.blessings-purchased.desc"></string>
+	<string name="accomplishment.blessings-purchased.desc">Buy %requirement% blessings from the Chapel.</string>
 
 	<string name="accomplishment.buildings-purchased.name">Builders %lvl%</string>
-	<string name="accomplishment.buildings-purchased.desc"></string>
+	<string name="accomplishment.buildings-purchased.desc">Buy %requirement% building upgrades.</string>
 
 	<string name="accomplishment.gambling-gold-won.name">High Rollers %lvl%</string>
-	<string name="accomplishment.gambling-gold-won.desc"></string>
+	<string name="accomplishment.gambling-gold-won.desc">Win %requirement% gold by gambling.</string>
 
 	<string name="accomplishment.floors-visited.name">Explorers %lvl%</string>
-	<string name="accomplishment.floors-visited.desc"></string>
+	<string name="accomplishment.floors-visited.desc">Reach %requirement% new floors.</string>
 
 	<string name="accomplishment.units-traveled.name">Wanderers %lvl%</string>
-	<string name="accomplishment.units-traveled.desc"></string>
-
-	<string name="accomplishment.potion-used.name">Potion Gulpers %lvl%</string>
-	<string name="accomplishment.potion-used.desc"></string>
+	<string name="accomplishment.units-traveled.desc">Walk for %requirement% meters.</string>
 
 
 
