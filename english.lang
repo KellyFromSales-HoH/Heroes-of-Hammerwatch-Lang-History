@@ -10,7 +10,8 @@
 	<string name="hud.levelup">LEVEL UP!</string>
 	<string name="hud.potionrefill">REFILLED!</string>
 	<string name="hud.nokey">NO KEY!</string>
-	<string name="hud.newtitle">New title: %title%</string>
+	<string name="hud.newtitle.character">Class title gained: %title%</string>
+	<string name="hud.newtitle.guild">Guild title gained: %title%</string>
 
 	<string name="class.paladin">Paladin</string>
 	<string name="class.paladin.desc">A powerful melee warrior with a lot of survivability.</string>
@@ -221,7 +222,7 @@
 
 	<!-- intro -->
 	<string name="intro.title">THE OUTLOOK</string>
-	<string name="intro.text">Bla bla bla bla</string>
+	<string name="intro.text">The Outlook, just below the Forsaken Tower, a previously abandoned mining town that that with the help from your guild will be restored to it's previous glory.\n\n(Quick help: Venture into the mines and collect Gold and Ore, use Ore to upgrade your town from the Town Hall, use Gold to buy items and player upgrades and use Skillpoints gained when level up to unlock new skills in the Guildhall. There's much more to explore and find, good luck.)</string>
 	<string name="intro.continue">CONTINUE</string>
 
 
@@ -233,7 +234,7 @@
 	<string name="endofgame.newgameplus">NEW GAME+</string>
 	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
 	<string name="endofgame.title">THE END</string>
-	<string name="endofgame.text">Bla bla bla bla</string>
+	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.\n\n(You can now choose to return to town on the same difficulty with the same hero, OR be the better person and step up your game in NEW GAME PLUS! All Your upgrades and progress will continue into whatever choise you make.)</string>
 	<string name="endofgame.confirm.town">Are you sure you want to go back to town without activating New Game+?</string>
 	<string name="endofgame.confirm.plus">Are you sure you want to activate New Game+?</string>
 
@@ -368,7 +369,7 @@
 	<string name="color.wizard.border">Border</string>
 	<string name="color.wizard.staff">Staff</string>
 
-	<string name="hud.spectate.who">Spectating %name&</string>
+	<string name="hud.spectate.who">Spectating %name%</string>
 	<string name="hud.spectate.help">Press Fire to spectate next player</string>
 	<string name="dead.gameover.spectate">Press Use to spectate</string>
 
@@ -452,14 +453,14 @@
 	<string name="gambling.card.4.9">Man Eater, Aberration (9)</string>
 	<string name="gambling.card.4.10">The Watcher, Aberration (10)</string>
 
-	<string name="stats.category.0classes">Classes</string>
+	<string name="stats.category.0achievements">Achievements</string>
 	<string name="stats.category.1combat">Combat</string>
-	<string name="stats.category.2time">Time</string>
-	<string name="stats.category.3vitality">Vitality</string>
-	<string name="stats.category.4finance">Finance</string>
+	<string name="stats.category.2vitality">Vitality</string>
+	<string name="stats.category.3adventuring">Adventuring</string>
+	<string name="stats.category.4town">Town</string>
 	<string name="stats.category.5items">Items</string>
-	<string name="stats.category.6misc">Misc</string>
-	<string name="stats.category.7achievements">Achievements</string>
+
+
 
 
 	<string name="stats.interface.session">This Run</string>
@@ -511,7 +512,7 @@
 	<string name="menu.controls.attack4">ACTIVE SKILL 4</string>
 	<string name="menu.controls.potion">POTION</string>
 	<string name="menu.controls.playermenu">PLAYER MENU</string>
-
+	<string name="menu.controls.guildmenu">GUILD HALL</string>
 
 	<string name="menu.mplayer">MULTIPLAYER</string>
 	<string name="menu.mplayer.clobby">CREATE LOBBY</string>
@@ -1108,7 +1109,7 @@
 	<string name="shop.apothecary.healing.desc">Increases the amount of healing gained from your potion from %from% to %to%.</string>
 
 	<string name="shop.apothecary.mana.name">Mana Draught %lvl%</string>
-	<string name="shop.apothecary.mana.desc">Increases the amount of mana gained from your potion from 50 to 70.</string>
+	<string name="shop.apothecary.mana.desc">Increases the amount of mana gained from your potion from %from% to %to%.</string>
 
 	<string name="shop.apothecary.heal-pickups.name">Invigorating Spices %lvl%</string>
 	<string name="shop.apothecary.heal-pickups.desc">The effectiveness of health pickups is increased by %num%%.</string>
@@ -1521,8 +1522,8 @@
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 40% chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 60% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 25% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 40% chance of splitting and seeking a new target.</string>
 
 
 	<!-- Sorcerer -->
@@ -2021,7 +2022,7 @@
 	<string name="item.heartseeker.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
 
 	<string name="item.magebane.name">Magebane</string>
-	<string name="item.magebane.desc">%chance%% chance to break enemies Resistance on your Primary Attack for %sec% seconds.</string>
+	<string name="item.magebane.desc">%chance%% chance to lower enemies Resistance by %res%% for %sec% seconds on Primary Attack.</string>
 
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
 	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
@@ -2030,7 +2031,7 @@
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
 
 	<string name="item.shieldbreaker.name">Shieldbreaker</string>
-	<string name="item.shieldbreaker.desc">%chance%% chance to break enemies Armor on your Primary Attack for %sec% seconds.</string>
+	<string name="item.shieldbreaker.desc">%chance%% chance to lower enemies Armor by %armor%% for %sec% seconds on Primary Attack.</string>
 
 	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
 	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
@@ -2061,9 +2062,14 @@
 	<string name="item.descending-destruction.name">Descending Destruction</string>
 	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack.</string>
 
-	<string name="item.spirit-cloak.name">Spirit Cloak</string>
-	<string name="item.spirit-cloak.desc">When taking damage you turn invulnerable for %dur% second.</string>
+	<string name="item.medusas-charm.name">Medusas Charm</string>
+	<string name="item.medusas-charm.desc">Enemies you look at are slowed by %slow%%. Enemies affected by the gaze that hit you are stunned for %stun% seconds.</string>
 
+	<string name="item.spirit-cloak.name">Spirit Cloak</string>
+	<string name="item.spirit-cloak.desc">When taking damage you turn invulnerable for %dur% seconds, with a cooldown of %sec% seconds.</string>
+
+	<string name="item.soul-taker.name">Soul Taker</string>
+	<string name="item.soul-taker.desc">When you kill an enemy, a random enemy of the same type is also killed.</string>
 
 	<!-- SETS -->
 
@@ -2270,7 +2276,7 @@
 	<string name="dialogue.town.npc.thief.2">Thanks a lot! I hope\nI'll see you around\nthe town!</string>
 	<string name="dialogue.town.npc.thief.3a">I have convinced the\nmayor to open up the\ntavern again. (1)</string>
 	<string name="dialogue.town.npc.thief.3b">But I have not even a\nsingle unit of ore.\nPerhaps you can provide\nsome to Prefect Grey? (2)</string>
-	<string name="dialogue.town.npc.thief.4">Why don't you try your\nluck in any of our fine\ngames? But don't get\nto attached will ya?</string>
+	<string name="dialogue.town.npc.thief.4">Why don't you try your\nluck in any of our fine\ngames? But don't get\ntoo attached will ya?</string>
 
 
 
@@ -2283,7 +2289,7 @@
 	<string name="dialogue.town.npc.wizard.2c">I'm returning to my shop\nnow. I hope I will see you\nthere, I'm a real wiz when\nit comes to spellcraft! (3)</string>
 	<string name="dialogue.town.npc.wizard.3a">Thanks for rescuing\nme, but we still need\nto restore the shop.\nTalk to the prefect\nabout that perhaps?</string>
 	<string name="dialogue.town.npc.wizard.3b">Prefect Grey might\nnot want to allocate\nresources to repair\nthis building until\nthe Town Hall is at\na better stage.</string>
-	<string name="dialogue.town.npc.wizard.4">I'll gladly help a fellow\nspellcaster out, but I\nkinda need to charge\nfor it, ok?</string>
+	<string name="dialogue.town.npc.wizard.4">I'll gladly help a fellow\nspellcaster out, but I\nkinda need to charge\nyou for it, ok?</string>
 
 	<!-- Signs -->
 	<string name="dialogue.sign.chapel">Chapter\nof Light</string>
@@ -2404,13 +2410,13 @@
 	<string name="bestiary.type.aberration">ABERRATIONS</string>
 	<string name="bestiary.type.construct">CONSTRUCTS</string>
 
-	<string name="bestiary.name.bosses.golem">Rock Golem</string>
+	<string name="bestiary.name.bosses.golem">Stone Guardian</string>
 	<string name="bestiary.name.bosses.warden">Warden</string>
 	<string name="bestiary.name.bosses.wraith_scythe">Scythe Wraith</string>
 	<string name="bestiary.name.bosses.wraith_staff">Staff Wraith</string>
 	<string name="bestiary.name.bosses.wraith_mage">Mage Wraith</string>
 	<string name="bestiary.name.bosses.eye">Watcher</string>
-	<string name="bestiary.name.bosses.dragon">Dragon</string>
+	<string name="bestiary.name.bosses.dragon">Thundersnow</string>
 	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
 	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
 	<string name="bestiary.name.spawner_bats">Bat Tree Stump</string>
@@ -2428,6 +2434,7 @@
 	<string name="bestiary.name.bannerman_protection">Protection Bannerman</string>
 	<string name="bestiary.name.bat_1">Bat</string>
 	<string name="bestiary.name.bat_2">Red Bat</string>
+	<string name="bestiary.name.bat_3">White Bat</string>
 	<string name="bestiary.name.battlemage">Battlemage</string>
 	<string name="bestiary.name.elemental_ice_sword">Ice Elemental</string>
 	<string name="bestiary.name.elemental_ice_ranged">Ranged Ice Elemental</string>
@@ -2467,7 +2474,7 @@
 	<string name="bestiary.name.tick_1_small_exploding">Small Exploding Tick</string>
 	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
 	<string name="bestiary.name.tower_battlement_archer_1">Archer Battlement</string>
-	<string name="bestiary.name.tower_battlement_archer_2">Archer Battlement II</string>
+	<string name="bestiary.name.tower_battlement_archer_1_elite">Elite Archer Battlement</string>
 	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
 	<string name="bestiary.name.tower_beamo">Beamo Tower</string>
 	<string name="bestiary.name.tower_flower_1">Flower</string>
@@ -2483,6 +2490,13 @@
 
 	<!-- Accomplishments -->
 
+
+	<string name="guildhall.accomplishments.bosses">BOSSES</string>
+	<string name="guildhall.accomplishments.boss-1">STONE GUARDIAN</string>
+	<string name="guildhall.accomplishments.boss-2">WARDEN</string>
+	<string name="guildhall.accomplishments.boss-3">THE THREE WRAITHS</string>
+	<string name="guildhall.accomplishments.boss-4">WATCHER</string>
+	<string name="guildhall.accomplishments.boss-5">THUNDERSNOW</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
 	<string name="accomplishment.boss-1-killed-class.desc">Kill the 1st Boss with %requirement% different classes.</string>
