@@ -209,6 +209,7 @@
 	<string name="misc.elevator.gold">Gold</string>
 	<string name="misc.elevator.ore">Ore</string>
 	<string name="misc.store.gold">Sent %num% gold to town</string>
+	<string name="misc.soulslinked">SOULS LINKED</string>
 
 	<string name="item.key">KEY</string>
 	<string name="item.key.plural">%num% KEYS</string>
@@ -222,7 +223,7 @@
 
 	<!-- intro -->
 	<string name="intro.title">THE OUTLOOK</string>
-	<string name="intro.text">The Outlook, just below the Forsaken Tower, a previously abandoned mining town that that with the help from your guild will be restored to it's previous glory.\n\n(Quick help: Venture into the mines and collect Gold and Ore, use Ore to upgrade your town from the Town Hall, use Gold to buy items and player upgrades and use Skillpoints gained when level up to unlock new skills in the Guildhall. There's much more to explore and find, good luck.)</string>
+	<string name="intro.text">The Outlook, just below the Forsaken Tower. A previously abandoned mining town that with the help from your guild hopefully can be restored to its previous glory.\n\n(Quick help: Venture into the mines and collect Gold and Ore, use Ore to upgrade your town from the Town Hall, use Gold to buy items and player upgrades and use Skillpoints gained when level up to unlock new skills in the Guildhall. There's much more to explore and find, good luck.)</string>
 	<string name="intro.continue">CONTINUE</string>
 
 
@@ -1234,7 +1235,7 @@
 	<!-- chapel -->
 	<string name="shop.chapel.convert">CONVERT - %cost%</string>
 	<string name="shop.chapel.convert.prompt">Do you want to convert for %cost% gold?</string>
-
+	<string name="shop.chapel.convertdisabled">CONVERT</string>
 
 	<string name="shop.chapel.path.attack.name">Path of the Warrior</string>
 	<string name="shop.chapel.path.attack.desc">Increases damage of your Primary attack by %attack%%.</string>
@@ -2148,14 +2149,9 @@
 
 	<!-- NPC Man2 Gambler -->
 
-	<string name="dialogue.town.npc.generic.man2.1Ra">The barkeep, left to\ntry and find some\nore up in the Tower.</string>
+	<string name="dialogue.town.npc.generic.man2.1Ra">The barkeep left to\ntry and find some\nore up in the Tower.</string>
 	<string name="dialogue.town.npc.generic.man2.1Rb">Crooked Wolfram left\ntrying to find material\nto open up his bar again.</string>
 	<string name="dialogue.town.npc.generic.man2.2Ra">Perhaps you can help\nWolfram open up his\nbar again?</string>
-	<string name="dialogue.town.npc.generic.man2.2Rb">The Old Drunkard\nused to have some\nsick gambling.</string>
-	<string name="dialogue.town.npc.generic.man2.3Ra">Heard about\nme? They call\nme The Player!</string>
-	<string name="dialogue.town.npc.generic.man2.3Rb">Hey, I'm a high\nroller, so don't\ntake me on!</string>
-	<string name="dialogue.town.npc.generic.man2.4Ra">You some kind\nof shill or what?</string>
-	<string name="dialogue.town.npc.generic.man2.4Rb">Don't count your\ncards in here son!</string>
 	<string name="dialogue.town.npc.generic.man2.2Rb">The Old Drunkard\nused to have some\nsick gambling.</string>
 	<string name="dialogue.town.npc.generic.man2.3Ra">Heard about\nme? They call\nme The Player!</string>
 	<string name="dialogue.town.npc.generic.man2.3Rb">Hey, I'm a high\nroller, so don't\ntake me on!</string>
@@ -2166,15 +2162,15 @@
 
 	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
 	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
-	<string name="dialogue.town.npc.generic.woman2.1b">The mayor, Michael Ross is\nreally trying to get this\ntown back in order. (2)</string>
-	<string name="dialogue.town.npc.generic.woman2.1c">Lance Grey was selected by\nMichael as the town prefect,\ncause of his strong skills in\nadministration and organisation. (3)</string>
+	<string name="dialogue.town.npc.generic.woman2.1b">The mayor, Michael Ross, is\nreally trying to get this\ntown back in order. (2)</string>
+	<string name="dialogue.town.npc.generic.woman2.1c">Lance Grey was selected by\nMichael as the town prefect\nbecause of his strong skills in\nadministration and organisation. (3)</string>
 	<string name="dialogue.town.npc.generic.woman2.1d">Smith John Barro apparently\nhad a troubling past before\nhe decided to join us up here. (4)</string>
 	<string name="dialogue.town.npc.generic.woman2.1e">I heard guild master Calhoun is\nsome kind of 'Ace' around the\nrealm, but you should already\nknow that I suppose? (5)</string>
 	<string name="dialogue.town.npc.generic.woman2.1f">Even though trader Darren Epps\nis a fair man, his prices could be\na bit up there. At least his keys\nstay the same price... (6)</string>
-	<string name="dialogue.town.npc.generic.woman2.1g">Elianda, a close friend of mine and\na great apothecary. She should be\naround here somewhere, if not,\nshe might have snuk into the\nmines to restock her supply. (7)</string>
+	<string name="dialogue.town.npc.generic.woman2.1g">Elianda, a close friend of mine and\na great apothecary. She should be\naround here somewhere, if not,\nshe might have snuck into the\nmines to restock her supply. (7)</string>
 	<string name="dialogue.town.npc.generic.woman2.1h">Priest Quincy works here for the\nChurch of Light. You know, he\nused to work down at the Sun\nTemple, a long time ago. (8)</string>
-	<string name="dialogue.town.npc.generic.woman2.1i">Barkeep</string>
-	<string name="dialogue.town.npc.generic.woman2.1j">Gamble</string>
+	<string name="dialogue.town.npc.generic.woman2.1i">RESERVED</string>
+	<string name="dialogue.town.npc.generic.woman2.1j">RESERVED</string>
 
 
 
@@ -2186,23 +2182,23 @@
 	<string name="dialogue.town.npc.fountain.oaf.1a">Once this fountain\nused to be full of\nwater.</string>
 	<string name="dialogue.town.npc.fountain.oaf.1b">I used to throw a\ncoin or two into this.</string>
 	<string name="dialogue.town.npc.fountain.oaf.2a">The fountain works again!</string>
-	<string name="dialogue.town.npc.fountain.oaf.2b">I threw down a coin there\nand it just disappeared!</string>
+	<string name="dialogue.town.npc.fountain.oaf.2b">I tossed a coin in there\nand it just disappeared!</string>
 	<string name="dialogue.town.npc.fountain.oaf.3a">I've thrown so much\nmoney into this now.</string>
 	<string name="dialogue.town.npc.fountain.oaf.3b">I'm almost bankrupt...</string>
 
 	<string name="dialogue.town.npc.generic.ace1.name">Revered Champ</string>
 	<string name="dialogue.town.npc.generic.ace1.1Ra">I'm not gonna enter\nthose mines.\nNo chance in hell.</string>
-	<string name="dialogue.town.npc.generic.ace1.1Rb">Yea, like I will ever\ntry and clear out\n those mines.</string>
-	<string name="dialogue.town.npc.generic.ace1.2Ra">Hah, the prison's\nfull of undead!\nI'll be better just\nstaying here!</string>
+	<string name="dialogue.town.npc.generic.ace1.1Rb">Yea, like I will ever\ntry and clear out\nthose mines.</string>
+	<string name="dialogue.town.npc.generic.ace1.2Ra">Hah, the prison is\nfull of undead!\nI'll be better just\nstaying here!</string>
 	<string name="dialogue.town.npc.generic.ace1.2Rb">I heard it's a real\nchore clearing out\nall the undead from\nthe tower prison!</string>
 	<string name="dialogue.town.npc.generic.ace1.3Ra">There's some real\nmenacing guard\nturrets up in the\narmory.</string>
-	<string name="dialogue.town.npc.generic.ace1.3Rb">I rather enter the\nmines than the armory,\nbut hey, that's just me!</string>
-	<string name="dialogue.town.npc.generic.ace1.4Ra">archives temp text</string>
-	<string name="dialogue.town.npc.generic.ace1.4Rb">archives temp text</string>
-	<string name="dialogue.town.npc.generic.ace1.5Ra">chambers temp text</string>
-	<string name="dialogue.town.npc.generic.ace1.5Rb">chambers temp text</string>
-	<string name="dialogue.town.npc.generic.ace1.6Ra">dragon temp text</string>
-	<string name="dialogue.town.npc.generic.ace1.6Rb">dragon temp text</string>
+	<string name="dialogue.town.npc.generic.ace1.3Rb">I'd rather enter the\nmines than the armory,\nbut hey, that's just me!</string>
+	<string name="dialogue.town.npc.generic.ace1.4Ra">I know there's a lot to\nread up there, but that's\nnot a good reason for\nentering the archives.</string>
+	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
+	<string name="dialogue.town.npc.generic.ace1.5Ra">I know Calhoun says it's\na cake walk up there in the\nchambers, but really, it's not!</string>
+	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">Sadly killing the dragon\nis a task for no man, you\nshould just stay here in\ntown, safe - like me.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
 
 
@@ -2211,22 +2207,22 @@
 
 	<!-- Mayor1 -->
 	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
-	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to it's old glory. (1)</string>
+	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to its old glory. (1)</string>
 	<string name="dialogue.town.npc.mayor.1b">See, around 10 years ago some evil\npresence took over the Tower and\nthe Keltonite Mines beneath it. (2)</string>
 	<string name="dialogue.town.npc.mayor.1c">Without access to the mines, the town\ncould not cope for long and it was\neventually abandoned. (3)</string>
-	<string name="dialogue.town.npc.mayor.1d">Now with the help from your guild I hope\nwe will be able to start restoring this area\nand eventually take the Tower back too! (4)</string>
+	<string name="dialogue.town.npc.mayor.1d">Now with the help from your guild I hope\nwe will be able to start restoring this area\nand eventually take the Tower back! (4)</string>
 	<string name="dialogue.town.npc.mayor.mines_enter.1Ra">It's a tough time for\neveryone right now...</string>
 	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">These are rough\nand trying times...</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">So you managed to slay the foul beast\ndeep inside the mines? That's great news.</string>
-	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">That stone golem you just killed has\nbeen killing miners for a long time now.</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">temp slaying the warden</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">temp slaying the warden2</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">temp slaying liches</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">temp slaying liches2</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">temp slaying eye</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">temp slaying eye2</string>
-	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">temp slaying dragon</string>
-	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">temp slaying dragon2</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">That stone golem you just offed has\nbeen killing miners for a long time now.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">The Warden used to be called Peter,\nno longer will he be tormenting\npeople with his crossbow arm.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">I heard you killed the big undead\nwith a crossbow, Warden Peter...</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">Those wraiths you just killed were\nonce mighty warriors that stood by\nDuke Delanys side, protecting him.</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">You entered the resting place of the Dukes\nmost formidable warriors and slayed them?</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">Where all these strange creatures came from\nwe don't know. And that altar should not\nhave summoned that beast.</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">Pierced the big eye have we? You are\nalmost at the top of the tower now son.</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
 
 
 
@@ -2275,7 +2271,7 @@
 	<string name="dialogue.town.npc.thief.1Rb">Over\nhere!</string>
 	<string name="dialogue.town.npc.thief.2">Thanks a lot! I hope\nI'll see you around\nthe town!</string>
 	<string name="dialogue.town.npc.thief.3a">I have convinced the\nmayor to open up the\ntavern again. (1)</string>
-	<string name="dialogue.town.npc.thief.3b">But I have not even a\nsingle unit of ore.\nPerhaps you can provide\nsome to Prefect Grey? (2)</string>
+	<string name="dialogue.town.npc.thief.3b">But I have no ore,\nperhaps you can provide\nsome to Prefect Grey? (2)</string>
 	<string name="dialogue.town.npc.thief.4">Why don't you try your\nluck in any of our fine\ngames? But don't get\ntoo attached will ya?</string>
 
 
@@ -2296,7 +2292,7 @@
 	<string name="dialogue.sign.townhall">Town Hall</string>
 	<string name="dialogue.sign.guild">The Broken\nAce</string>
 	<string name="dialogue.sign.tavern">The Old\nDrunkard</string>
-	<string name="dialogue.sign.magic">Spellbreakerz</string>
+	<string name="dialogue.sign.magic">Wizard's\nWares</string>
 	<string name="dialogue.sign.general">Darren's\nSupplies</string>
 	<string name="dialogue.sign.mines">Outlook\nMines</string>
 	<string name="dialogue.doll.normal">Looks\nplain</string>
@@ -2331,6 +2327,7 @@
 	<string name="guildhall.tab.beastiary">BESTIARY</string>
 	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
 	<string name="guildhall.stats.lifetime">LIFETIME</string>
+	<string name="guildhall.stats.classtitles">CLASS TITLES</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
