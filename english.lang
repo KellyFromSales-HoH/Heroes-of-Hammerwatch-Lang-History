@@ -119,6 +119,18 @@
 	<string name="gameover.sentence.experience">You lost %num% experience!</string>
 
 	<!-- stats -->
+
+
+	<string name="stats.category.0achievements">Achievements</string>
+	<string name="stats.category.1combat">Combat</string>
+	<string name="stats.category.2vitality">Vitality</string>
+	<string name="stats.category.3adventuring">Adventuring</string>
+	<string name="stats.category.4town">Town</string>
+	<string name="stats.category.5items">Items</string>
+
+	<string name="stats.interface.session">This Run</string>
+	<string name="stats.interface.total">Since Start</string>
+
 	<string name="stats.time-played">Time played</string>
 	<string name="stats.enemies-killed">Enemies killed</string>
 	<string name="stats.items-bought">Items purchased</string>
@@ -183,6 +195,7 @@
 	<string name="stats.evade-amount">Attacks evaded</string>
 	<string name="stats.blessings-purchased">Blessings purchased</string>
 	<string name="stats.buildings-purchased">Building upgrades purchased</string>
+	<string name="stats.upgrades-bought">Character upgrades bought</string>
 	<string name="stats.gambling-gold-won">Gambling gold won</string>
 	<string name="stats.gambling-gold-lost">Gambling gold lost</string>
 	<string name="stats.max-level-paladin">Highest Paladin Level</string>
@@ -453,19 +466,6 @@
 	<string name="gambling.card.4.8">Wisp, Aberration (8)</string>
 	<string name="gambling.card.4.9">Man Eater, Aberration (9)</string>
 	<string name="gambling.card.4.10">The Watcher, Aberration (10)</string>
-
-	<string name="stats.category.0achievements">Achievements</string>
-	<string name="stats.category.1combat">Combat</string>
-	<string name="stats.category.2vitality">Vitality</string>
-	<string name="stats.category.3adventuring">Adventuring</string>
-	<string name="stats.category.4town">Town</string>
-	<string name="stats.category.5items">Items</string>
-
-
-
-
-	<string name="stats.interface.session">This Run</string>
-	<string name="stats.interface.total">Since Start</string>
 
 	<string name="rg_pixel_perfect">PIXEL PERFECT RENDERING</string>
 	<string name="rg_pixel_perfect.help">Gives a more true low-res look, but may cause stuttering.</string>
@@ -2260,7 +2260,7 @@
 	<string name="dialogue.town.npc.apothecary.name">Elianda</string>
 	<string name="dialogue.town.npc.apothecary.0a">Hey! Got trapped in here trying to refill\nmy supply by this magic spring.\nDon't forget to fill your own flask and\nI hope you visit me back in town.</string>
 
-	<string name="dialogue.town.npc.apothecary.1a">Mixing potions is my speciality,\nbut I'm missing ingredients.</string>
+	<string name="dialogue.town.npc.apothecary.1a">Mixing potions is my speciality,\nbut I'm missing ore.</string>
 
 	<string name="dialogue.town.npc.oretrader.name">Miner Oliver</string>
 	<string name="dialogue.town.npc.oretrader.1a">Get me out of this hell hole!</string>
@@ -2328,6 +2328,13 @@
 	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
 	<string name="guildhall.stats.lifetime">LIFETIME</string>
 	<string name="guildhall.stats.classtitles">CLASS TITLES</string>
+	<string name="guildhall.stats.armor">+%amount% armor to all heroes</string>
+	<string name="guildhall.stats.resistance">+%amount% resistance to all heroes</string>
+	<string name="guildhall.stats.attackpower">+%amount% attack power to all heroes</string>
+	<string name="guildhall.stats.spellpower">+%amount% spell power to all heroes</string>
+	<string name="guildhall.stats.healthregen">+%amount% health regen to all heroes</string>
+	<string name="guildhall.stats.manaregen">+%amount% mana regen to all heroes</string>
+	<string name="guildhall.stats.goldgain">+%amount% gold gained by all heroes</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2408,21 +2415,21 @@
 	<string name="bestiary.type.construct">CONSTRUCTS</string>
 
 	<string name="bestiary.name.bosses.golem">Stone Guardian</string>
-	<string name="bestiary.name.bosses.warden">Warden</string>
-	<string name="bestiary.name.bosses.wraith_scythe">Scythe Wraith</string>
-	<string name="bestiary.name.bosses.wraith_staff">Staff Wraith</string>
-	<string name="bestiary.name.bosses.wraith_mage">Mage Wraith</string>
+	<string name="bestiary.name.bosses.warden">The Warden</string>
+	<string name="bestiary.name.bosses.wraith_scythe">Counselor of War</string>
+	<string name="bestiary.name.bosses.wraith_staff">Counselor of Wisdom</string>
+	<string name="bestiary.name.bosses.wraith_mage">Counselor of Magic</string>
 	<string name="bestiary.name.bosses.eye">Watcher</string>
 	<string name="bestiary.name.bosses.dragon">Thundersnow</string>
 	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
 	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
-	<string name="bestiary.name.spawner_bats">Bat Tree Stump</string>
+	<string name="bestiary.name.spawner_bats">Rotten Stump</string>
 	<string name="bestiary.name.spawner_eye">Mother Eye</string>
 	<string name="bestiary.name.spawner_maggot">Maggot Incubator</string>
 	<string name="bestiary.name.spawner_skeleton_1">Skeleton Pit</string>
-	<string name="bestiary.name.spawner_skeleton_2">Skeleton Guardian Pit</string>
+	<string name="bestiary.name.spawner_skeleton_2">Guardian Pit</string>
 	<string name="bestiary.name.spawner_tick">Tick Nest</string>
-	<string name="bestiary.name.spawner_wisp">Wisp Tree</string>
+	<string name="bestiary.name.spawner_wisp">Tree of Silence</string>
 	<string name="bestiary.name.banner_bloodlust">Bloodlust Banner</string>
 	<string name="bestiary.name.banner_healing">Healing Banner</string>
 	<string name="bestiary.name.banner_protection">Protection Banner</string>
@@ -2430,8 +2437,8 @@
 	<string name="bestiary.name.bannerman_healing">Healing Bannerman</string>
 	<string name="bestiary.name.bannerman_protection">Protection Bannerman</string>
 	<string name="bestiary.name.bat_1">Bat</string>
-	<string name="bestiary.name.bat_2">Red Bat</string>
-	<string name="bestiary.name.bat_3">White Bat</string>
+	<string name="bestiary.name.bat_2">Fierce Bat</string>
+	<string name="bestiary.name.bat_3">Albino Bat</string>
 	<string name="bestiary.name.battlemage">Battlemage</string>
 	<string name="bestiary.name.elemental_ice_sword">Ice Elemental</string>
 	<string name="bestiary.name.elemental_ice_ranged">Ranged Ice Elemental</string>
@@ -2443,41 +2450,41 @@
 	<string name="bestiary.name.ghost_ranger">Fallen Ranger</string>
 	<string name="bestiary.name.ghost_sorcerer">Fallen Sorcerer</string>
 	<string name="bestiary.name.ghost_thief">Fallen Thief</string>
-	<string name="bestiary.name.guardian_1">Skeleton Guardian Berzerker</string>
+	<string name="bestiary.name.guardian_1">Guardian Berzerker</string>
 	<string name="bestiary.name.lich_1">Lich</string>
 	<string name="bestiary.name.lich_elite">Elite Lich</string>
 	<string name="bestiary.name.lich_mb">Arch-Lich</string>
 	<string name="bestiary.name.lich_frost">Frost Lich</string>
-	<string name="bestiary.name.lich_summ_1">Ghostcaller Lich</string>
-	<string name="bestiary.name.archer_1">Skeleton Archer</string>
-	<string name="bestiary.name.archer_1_elite">Elite Skeleton Archer</string>
-	<string name="bestiary.name.archer_2">Skeleton Archer II</string>
-	<string name="bestiary.name.skeleton_1">Skeleton</string>
-	<string name="bestiary.name.skeleton_1_elite">Elite Skeleton</string>
-	<string name="bestiary.name.skeleton_1_mb">Skeleton Gladiator</string>
-	<string name="bestiary.name.skeleton_1_small">Weak Skeleton</string>
+	<string name="bestiary.name.lich_summ_1">Ghostcaller</string>
+	<string name="bestiary.name.archer_1">Skeleton Bowman</string>
+	<string name="bestiary.name.archer_1_elite">Elite Skeleton Bowman</string>
+	<string name="bestiary.name.archer_2">Skeleton Marksman</string>
+	<string name="bestiary.name.skeleton_1">Skeleton Soldier</string>
+	<string name="bestiary.name.skeleton_1_elite">Skeleton Warrior</string>
+	<string name="bestiary.name.skeleton_1_mb">Skeleton Captain</string>
+	<string name="bestiary.name.skeleton_1_small">Skeleton Footman</string>
 	<string name="bestiary.name.skeleton_2">Skeleton Guardian</string>
 	<string name="bestiary.name.skeleton_2_elite">Elite Skeleton Guardian</string>
-	<string name="bestiary.name.skeleton_2_small">Weak Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_small">Skeleton Guardian</string>
 	<string name="bestiary.name.skeleton_1_spear">Skeleton Spearman</string>
-	<string name="bestiary.name.skeleton_2_spear">Skeleton Spearman II</string>
+	<string name="bestiary.name.skeleton_2_spear">Strong Skeleton Spearman</string>
 	<string name="bestiary.name.maggot_1">Maggot</string>
 	<string name="bestiary.name.maggot_1_elite">Spined Maggot</string>
 	<string name="bestiary.name.maggot_1_mb">Massive Maggot</string>
-	<string name="bestiary.name.maggot_1_small">Small Maggot</string>
+	<string name="bestiary.name.maggot_1_small">Baby Maggot</string>
 	<string name="bestiary.name.tick_1">Tick</string>
-	<string name="bestiary.name.tick_1_elite">Elite Tick</string>
-	<string name="bestiary.name.tick_1_small">Small Tick</string>
-	<string name="bestiary.name.tick_1_small_exploding">Small Exploding Tick</string>
+	<string name="bestiary.name.tick_1_elite">Spiked Tick</string>
+	<string name="bestiary.name.tick_1_small">Kid Tick</string>
+	<string name="bestiary.name.tick_1_small_exploding">Jumper</string>
 	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
-	<string name="bestiary.name.tower_battlement_archer_1">Archer Battlement</string>
-	<string name="bestiary.name.tower_battlement_archer_1_elite">Elite Archer Battlement</string>
+	<string name="bestiary.name.tower_battlement_archer_1">Manned Battlement</string>
+	<string name="bestiary.name.tower_battlement_archer_1_elite">Elite Manned Battlement</string>
 	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
-	<string name="bestiary.name.tower_beamo">Beamo Tower</string>
-	<string name="bestiary.name.tower_flower_1">Flower</string>
-	<string name="bestiary.name.tower_flower_2">Flower II</string>
+	<string name="bestiary.name.tower_beamo">Beamo Pillar</string>
+	<string name="bestiary.name.tower_flower_1">Man Eater</string>
+	<string name="bestiary.name.tower_flower_2">Big Man Eater</string>
 	<string name="bestiary.name.tower_nova_1">Nova Tower</string>
-	<string name="bestiary.name.tower_nova_2">Nova Tower II</string>
+	<string name="bestiary.name.tower_nova_2">Strong Nova Tower</string>
 	<string name="bestiary.name.trapper">Trapper</string>
 	<string name="bestiary.name.wisp_1">Blue Wisp</string>
 	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
