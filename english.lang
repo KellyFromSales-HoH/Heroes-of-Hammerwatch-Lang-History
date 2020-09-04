@@ -13,6 +13,7 @@
 	<string name="hud.potionrefill">REFILLED!</string>
 	<string name="hud.nokey">NO KEY!</string>
 	<string name="hud.newtitle.character">Class title gained: %title%</string>
+	<string name="hud.newtitle.character.mercenary">Rank gained: %title%</string>
 	<string name="hud.newtitle.guild">Guild title gained: %title%</string>
 	<string name="hud.newngp.town">Forsaken Tower NG+%ngp% unlocked!</string>
 	<string name="hud.newngp.char.first">Forsaken Tower completed!</string>
@@ -113,13 +114,14 @@
 	<string name="playermenu.effects.djinn">Nimbus</string>
 	<string name="playermenu.effects.djinn.desc">Summons Nimbus to fight by your side for a short while when using your potion. Also increases the potency of your potion.</string>
 	<string name="playermenu.effects.mtblocks">Lunar Shield</string>
-	<string name="playermenu.effects.mtblocks.desc">Each stack of your Lunar Shield blocks 50% of one damage instance. Stacks reset at every new floor.</string>
+	<string name="playermenu.effects.mtblocks.desc">Each stack of your Lunar Shield blocks 50% of one damage instance. Stacks reset every new floor.</string>
 
 	<string name="charinfo.ngp">Forsaken Tower: NG+%ngp%</string>
 	<string name="charinfo.ngp.desert">Pyramid of Prophecy: NG+%ngp%</string>
 	<string name="charinfo.arena.rank">Aridara Arena: Rank %rank%</string>
 	<string name="charinfo.ngp.moon">Moon Temple: NG+%ngp%</string>
 	<string name="charinfo.legacy-points">Legacy points: %points%</string>
+	<string name="charinfo.prestige">Prestige: %points%</string>
 
 	<!-- acts -->
 	<string name="world.town">TOWN</string>
@@ -135,9 +137,11 @@
 	<string name="world.acts.5">BATTLEMENTS</string>
 	<string name="world.acts.6">BRIDGE</string>
 	<string name="world.acts.7">TOP</string>
+	<string name="world.pop.desert">ARIDARA</string>
+	<string name="world.pop.pyramid">PYRAMID OF PROPHECY</string>
 	<string name="world.pop.acts.0">DESERT</string>
-	<string name="world.pop.acts.1">LOWER PYRAMID</string>
-	<string name="world.pop.acts.2">UPPER PYRAMID</string>
+	<string name="world.pop.acts.1">LOWER LEVEL</string>
+	<string name="world.pop.acts.2">UPPER LEVEL</string>
 	<string name="world.coliseum">ARIDARA ARENA</string>
 	<string name="world.coliseum.rank">ARIDARA ARENA, RANK %rank%</string>
 	<string name="world.mt">MOON TEMPLE</string>
@@ -166,10 +170,10 @@
 	<string name="level.boss.nerys.short">NERYS</string>
 	<string name="level.boss.wisp">THE ELDER WISP OF BRIGHTMOOR</string>
 	<string name="level.boss.wisp.short">ELDERWISP</string>
-	<string name="level.boss.icewolf">KRILITHS PET ICE WOLF</string>
+	<string name="level.boss.icewolf">KRILITH'S PET ICE WOLF</string>
 	<string name="level.boss.icewolf.short">ICE WOLF</string>
-	<string name="level.boss.agents">BLIGHTS AGENTS - THE ORB THIEVES</string>
-	<string name="level.boss.agents.short">BLIGHTS AGENTS</string>
+	<string name="level.boss.agents">BLIGHT'S AGENTS - THE ORB THIEVES</string>
+	<string name="level.boss.agents.short">BLIGHT'S AGENTS</string>
 
 
 	<string name="level.hellcube">THE TRAIL OF HEROES</string>
@@ -342,7 +346,7 @@
 	<string name="stats.item-dealer-lost">Items lost by gambling</string>
 	<string name="stats.max-level-witch_hunter">Highest Witch Hunter Level</string>
 	<string name="stats.shrines-used">Monoliths used</string>
-
+	<string name="stats.mt-blocks">Moon Shield blocks</string>
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -377,6 +381,7 @@
 	<string name="item.potion.charge">POTION CHARGE</string>
 	<string name="item.potion.curse">-1 CURSE</string>
 	<string name="item.lunar.shield">+1 LUNAR SHIELD</string>
+	<string name="item.artifact.key">Artifact\nKey</string>
 
 	<string name="quality.common">Common</string>
 	<string name="quality.uncommon">Uncommon</string>
@@ -395,14 +400,14 @@
 
 	<!-- intro mt -->
 	<string name="intro.mt.title">MOON TEMPLE</string>
-	<string name="intro.mt.text">North of The Outlook, the Moon Temple, when the priests of this sacred place agreed to guard the Orb of Night as a favour to the Elves, they didn't expect it to eventually corrupt them, turn them into hideous man-eating beasts. Priests from the Sun Temple were asked to construct a magic seal to keep the hideous beasts inside, so the Sun Gates were built.\n\nHowever, when Thundersnow arrived and landed on the top of Shaftlocke Tower, attrition from his ice rain made the gates by the Moon Temple crumble and break down. This lead to not only creatures escaping out but also allowed some foul battlemages sent by Blight the Horrible to sneak, these agents had the mission to steal the Orb for Blight. \n\nAs this can not happen and with most heroes around working to defeat Thundersnow, some mercenaries took it upon themselves to stop the agents. They knew that in the end, when the land was free, they would be rewarded handsomely.</string>
+	<string name="intro.mt.text">The Moon Temple, north of The Outlook. When Thundersnow arrived and landed on the top of Shaftlocke Tower, his ice rain began to wear away at the gates of the Moon Temple, causing them to crumble and break down. This lead to not only creatures escaping but also allowed some foul battlemages sent by Blight the Horrible to sneak in.\n\nBlight can't be allowed to get his grimy hands on the Orb, so these agents must be stopped at all cost.\n\nMercenaries with experience from other regions were called in to assist; they knew that in the end, when the land is set free, they would be rewarded handsomely.</string>
 
 	<!-- end of game -->
 	<string name="endofgame.town">CONTINUE</string>
 	<string name="endofgame.title">THE END</string>
 	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.</string>
 	<string name="endofgame.pop.text">A long time ago, when the Storm of Lifetimes was at its peak, Nerys and Nimbus crossed over from the Magic Planes. Nerys swallowed Nimbus and started to grant his own evil wishes, but he was eventually lured into an oil lamp by an old waning magician and hidden at the top of the pyramid. Over the years the pyramid would sink deeper and deeper into the desert until it was more or less forgotten.\n\nBy rubbing the lamp, you released the weakened Nerys and by slaying him you freed Nimbus. Nimbus will now be in your debt for all eternity. You can call upon him by drinking your potion.</string>
-	<string name="endofgame.mt.text">The four magi has failed, thier attempt to steal the Orb of Night was averted, now Blight won't be able to lay his grubby hands on the powerfull relic.\n\nAs you walk out of the moon temple you feel the effect the orb had on your body, glad that you did not have to stay there any longer you almost feel born again coming out into the daylight. Soon the Sun Gates will be repaired, the mercenary camp will be dismantled and everything goes back to normal around Brightmoor, the only thing left will be the graves of the heroes that died trying before you.\n\nThe effect the orb had on you still lingers in your body though, it will give you some protection from now on. The Lunar Shards gives you one instance of protection per shard, until they are no more. They however gets refreshed when you enter a new level.</string>
+	<string name="endofgame.mt.text">The four magi has failed, their attempt to steal the Orb of Night was averted, now Blight won't be able to lay his grubby hands on the powerful relic.\n\nAs you walk out of the Moon Temple you feel the effect the orb had on your body, glad that you did not have to stay there any longer you almost feel born again coming out into the daylight. Soon the Sun Gates will be repaired, the mercenary camp will be dismantled and everything goes back to normal around Brightmoor, the only thing left will be the graves of the heroes that died trying before you.\n\nThe effect the orb had on you still lingers in your body though, it will give you some protection from now on. The Lunar Shards gives you one instance of protection per shard, until they are no more. They however gets refreshed when you enter a new level.</string>
 
 	<string name="misc.yes">Yes</string>
 	<string name="misc.no">No</string>
@@ -478,6 +483,8 @@
 	<string name="meta.info.rift.2">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 7 Curses)</string>
 	<string name="meta.info.rift.3">Rouse the Djinn to open up a\nrift to the Plane of Semblance.\n\n(Removes 9 Curses)</string>
 	<string name="meta.info.artifactmissing">Missing artifact!</string>
+	<string name="meta.info.orbofnight.on">The Orb of Night overflows!</string>
+	<string name="meta.info.orbofnight.off">The Orb of Night stabilizes for a while...</string>
 
 	<string name="random_stuff.give_item">The imp gave you an item!</string>
 	<string name="random_stuff.give_ore">The imp gave you some ore!</string>
@@ -680,6 +687,7 @@
 	<string name="modifier.list.player.statues">Statues</string>
 	<string name="modifier.list.player.bloodaltar">Blood Rites</string>
 	<string name="modifier.list.player.mercenary">Master at Arms</string>
+	<string name="modifier.list.player.mercenarytitles">Rank</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -698,6 +706,11 @@
 	<string name="ui_txt_enemy_hurt_husk.help">Whether to show damage done to enemies by other players.</string>
 	<string name="ui_txt_enemy_hurt_local">LOCAL DAMAGE NUMBERS</string>
 	<string name="ui_txt_enemy_hurt_local.help">Whether to show damage done to enemies by you.</string>
+	<string name="ui_hud_coop_forced">PLAYER PORTRAIT</string>
+	<string name="ui_hud_coop_forced.help">Makes the player portrait visible, even in single player.</string>
+	<string name="ui_hud_mercenary">MERCENARY INDICATOR</string>
+	<string name="ui_hud_mercenary.help">Shows a visual indicator in the HUD when playing on a mercenary character.</string>
+	<string name="hud.mercenary">MERCENARY</string>
 
 	<string name="ui_minimap_size">SMALL MINIMAP</string>
 	<string name="ui_minimap_size.help">Enable a small map in the top right of your screen.</string>
@@ -840,7 +853,7 @@
 	<string name="mainmenu.character.customize.frames">FRAMES</string>
 	<string name="mainmenu.character.customize.combos">COMBOS</string>
 	<string name="mainmenu.character.customize.gravestones">GRAVESTONES</string>
-	<string name="mainmenu.character.customize.petskins">PET SKINS</string>
+	<string name="mainmenu.character.customize.petskins">COMPANIONS</string>
 	<string name="mainmenu.mercenaryinfo.title">MERCENARY INFO</string>
 
 	<!-- save slots -->
@@ -1142,8 +1155,8 @@
 	<string name="menu.notifier.joinfailed.mods.hostmissing">Missing on host: %missing%</string>
 	<string name="menu.notifier.joinfailed.level">Failed to join lobby because the character is outside of the level requirements. (Minimum %min%, maximum %max%)</string>
 	<string name="menu.notifier.joinfailed.allowedmods">Failed to join lobby because the host has chosen not to allow modded profiles.</string>
-	<string name="menu.notifier.joinfailed.notmercenary">Can't join with this character since this is a mercenary-only lobby.</string>
-	<string name="menu.notifier.joinfailed.mercenary">Can't join with this character since this is a regular non-mercenary lobby.</string>
+	<string name="menu.notifier.joinfailed.notmercenary">Can't join with this character as this is a mercenary-only lobby.</string>
+	<string name="menu.notifier.joinfailed.mercenary">Can't join with this character as this is a regular non-mercenary lobby.</string>
 
 	<string name="misc.autosave">Autosave</string>
 	<string name="misc.timeletters.hours">h</string>
@@ -1264,6 +1277,8 @@
 	<string name="menu.store.pop.owned">Pyramid of Prophecy DLC already owned!</string>
 	<string name="menu.store.wh">Buy the Witch Hunter DLC!</string>
 	<string name="menu.store.wh.owned">Witch Hunter DLC already owned!</string>
+	<string name="menu.store.mt">Buy the Moon Temple DLC!</string>
+	<string name="menu.store.mt.owned">Moon Temple DLC already owned!</string>
 
 	<string name="g_pet_alpha">COMPANION ALPHA</string>
 	<string name="g_pet_alpha.help">Transparency of companions.</string>
@@ -1315,6 +1330,7 @@
 	<string name="shop.menu.restriction.shop-level">Shop level too low.</string>
 	<string name="shop.menu.restriction.player-level">Player level too low.</string>
 	<string name="shop.menu.restriction.player-title">Requires title: %title%</string>
+	<string name="shop.menu.restriction.limit">Limit reached.</string>
 	<string name="town.dungeonsettings.title">DUNGEON SETTINGS</string>
 	<string name="town.dungeonsettings.ngp">Choose between Normal or NG+.</string>
 
@@ -1766,7 +1782,7 @@
 	<string name="fountain.requiredlevel">Required fountain level %level%</string>
 	<string name="fountain.presets.save">Save current state in this preset</string>
 	<string name="fountain.presets.name">Preset %num%</string>
-	<string name="fountain.hardcore.deposit">Mercenary mode disables fountain depositing.</string>
+	<string name="fountain.deposit.hardcore">Mercenary mode disables fountain depositing.</string>
 
 	<!-- gambling -->
 	<string name="town.cardgame.goldfrom">Your %num%</string>
@@ -1964,6 +1980,13 @@
 	<string name="pets.squire-roman.name">Roman</string>
 	<string name="pets.squire-jonas.name">Jonas</string>
 
+	<!-- transport -->
+	<string name="town.transport.title">TRAVEL SERVICES</string>
+	<string name="town.transport.info">Welcome to the Shaftlocke travel services. Choose a destination.</string>
+	<string name="town.transport.outlook">The Outlook</string>
+	<string name="town.transport.pop">City of Stone</string>
+	<string name="town.transport.mt">Mercenary Camp</string>
+
 	<!-- mercenary trainer -->
 	<string name="mercenarytrainer.title">MASTER AT ARMS</string>
 	<string name="mercenarytrainer.skillpoints.name">Skill Points</string>
@@ -1987,7 +2010,7 @@
 
 	<!-- mercenary ledger -->
 	<string name="town.mercenaryledger.title">COMPANY LEDGER</string>
-	<string name="town.mercenaryledger.titlelist">MERCENARY TITLES</string>
+	<string name="town.mercenaryledger.titlelist">MERCENARY RANKS</string>
 	<string name="town.mercenaryledger.titlelist.column2">COUNT</string>
 	<string name="town.mercenaryledger.tab.company">COMPANY</string>
 	<string name="town.mercenaryledger.tab.enlisted">ENLISTED</string>
@@ -2002,14 +2025,14 @@
 	<string name="shop.hardcoreskills.fromclass">From %class%</string>
 
 	<!-- mercenary gravestones -->
-	<string name="town.mercenarygravestone.title">GRAVESTONE</string>
-	<string name="town.mercenarygravestone.reached">Died in the:\n%area%\n %act% - %floor%</string>
+	<string name="town.mercenarygravestone.title">TOMBSTONE</string>
+	<string name="town.mercenarygravestone.reached">Perished in the:\n%area%\n %act% - %floor%</string>
 	<string name="town.mercenarygravestone.earned">Earned %points%</string>
 	<string name="town.mercenarygravestone.earned2">Legacy Points.</string>
 	<string name="town.mercenarygravestone.stats">Lived for %time%. Managed to become level %level%.</string>
 	<string name="town.mercenarygravestone.bosses.singular">Defeated 1 boss.</string>
 	<string name="town.mercenarygravestone.bosses.plural">Defeated %num% bosses.</string>
-	<string name="town.mercenarygravestone.bosses.none">Didn't manage defeat a single boss.</string>
+	<string name="town.mercenarygravestone.bosses.none">Did not defeat a single boss.</string>
 
 	<!-- legacy shop -->
 	<string name="town.legacyshop.title">LEGACY SHOP</string>
@@ -2023,9 +2046,9 @@
 	<string name="town.dungeonsettings.mercenary.insurance.tooltip.title">Life insurance:\n%dungeon%</string>
 
 	<!-- mercenary info -->
-	<string name="town.mercenaryledger.info">Welcome to Mercenary Mode!\n\nReaching level 20 with a class allows you to make a mercenary version of that class (via new character).  Mercenaries are warriors who have already trained for battle, starting at level 20, with 20,000 gold, and have their own personal NG progressions, beginning at NG0.\n\nAs mercenaries, they won’t receive class title buff from your non mercenary characters, or benefits from statues you might have placed. However, mercenaries can still benefit from your town’s generosity.\n\nMercenaries don't learn skills in the same way as non mercenaries, aside from their primary attack which is linked to the class, they can equip skills from across all classes. Unlocking the mercenary version of a class will unlock that class’s skills to be equipped by mercenaries of other classes. Skills can be freely swapped out at any time you're in town!\n\nWhen mercenaries die, they are permanently dead. However, as they live and adventure they will accrue legacy points which, on death, transfer to the town. Legacy Points can be used in the mercenary town to buy cosmetic effects that are usable on all your characters. Although dead, your previous mercenaries adventures will not be forgotten and are detailed in this company ledger. \nMercenaries also have the option to buy insurance before attempting the next challenge. If a mercenary who has life insurance perishes before completing their adventure, any Gold or Ore that is accumulated during the course of that adventure is sent back to town for the benefit of your non-mercenary guild.\n\nAs well as receiving a bonus to Gold and Ore gain, many aspects of the town are tied to your Mercenary Title. The higher your title, the more variety you’ll have when purchasing upgrades, drinks and items. A Mercenaries personal Legacy Point total will define their class title, the more Legacy Points held, the higher the Class Title.</string>
-	<string name="town.mercenaryledger.info.title">Title</string>
-	<string name="town.mercenaryledger.info.legacypoints">Legacy Points</string>
+	<string name="town.mercenaryledger.info">Welcome to Mercenary Mode!\n\nMercenary Mode is a challenging permadeath mode with a unique set of rules.\n\nReaching level 20 with a class unlocks the option to create a mercenary of that class. Mercenaries are warriors already trained for battle, starting at level 20, with 25,000 gold to spend. Each Mercenary have their own personal NG-progression which increases with each completion of either campaign.\n\nWhen a mercenary dies, they stay dead. Upon death you are however rewarded with a number of Legacy Points based on the progress of that mercenary. These Legacy Points can then be spent on unlocking various cosmetic effects usable by all heroes. Although dead, your previous mercenaries will not be forgotten and their progress are detailed in this company ledger, your ten most prestigious mercenaries will also receive their own tombstones outside of camp.\n\nMercenaries don't learn skills in the same way as non mercenaries, aside from their Primary Attack, they can equip skills from all other unlocked mercenary classes. Skills can be freely swapped out at the Mercenary Camp.\n\nYour mercenaries will gain Prestige by adventuring, beating bosses and completing campaigns. Prestige will, in turn determine the Rank of your mercenary. As well as receiving a bonus to Gold and Experience gain, many aspects of the town are tied to your Rank. The higher your Rank, the better upgrades, drinks and items are available to you in town.\n</string>
+	<string name="town.mercenaryledger.info.title">Rank</string>
+	<string name="town.mercenaryledger.info.legacypoints">Prestige</string>
 
 
 
@@ -2057,13 +2080,13 @@
 
 	<string name="skills.paladin.charge">Charge</string>
 	<string name="skills.paladin.charge.create">The Paladin charges forward, dealing damage to all enemies in their path.</string>
-	<string name="skills.paladin.charge.1">Dash forward. Enemies in your path take 25 Physical damage.</string>
-	<string name="skills.paladin.charge.2">Dash forward. Enemies in your path take 35 Physical damage. Increased speed and range of the dash.</string>
-	<string name="skills.paladin.charge.3">Dash forward. Enemies in your path take 45 Physical damage. Increased speed and range of the dash.</string>
-	<string name="skills.paladin.charge.4">Dash forward. Enemies in your path take 55 Physical damage. Increased speed and range of the dash.</string>
-	<string name="skills.paladin.charge.5">Dash forward. Enemies in your path take 65 Physical damage. Increased speed and range of the dash.</string>
-	<string name="skills.paladin.charge.6">Dash forward. Enemies in your path take 75 Physical damage. Increased speed and range of the dash.</string>
-	<string name="skills.paladin.charge.merc">Dash forward. Enemies in your path take 75 Physical damage.</string>
+	<string name="skills.paladin.charge.1">Dash forward. Enemies you collide with take 25 Physical damage and are stunned for 0.5 seconds.</string>
+	<string name="skills.paladin.charge.2">Dash forward. Enemies you collide with take 35 Physical damage and are stunned for 0.5 seconds. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.3">Dash forward. Enemies you collide with take 45 Physical damage and are stunned for 0.5 seconds. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.4">Dash forward. Enemies you collide with take 55 Physical damage and are stunned for 0.5 seconds. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.5">Dash forward. Enemies you collide with take 65 Physical damage and are stunned for 0.5 seconds. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.6">Dash forward. Enemies you collide with take 75 Physical damage and are stunned for 0.5 seconds. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.merc">Dash forward. Enemies you collide with take 75 Physical damage and are stunned for 0.5 seconds.</string>
 
 	<string name="skills.paladin.shield">Shield</string>
 	<string name="skills.paladin.shield.create">A sturdy shield that blocks most incoming projectiles. The shield also has a chance to block Physical damage.</string>
@@ -2132,7 +2155,7 @@
 	<string name="skills.priest.divine-protection.3">The shield absorbs 40% of incoming damage for a cost of 1 mana per damage absorbed.</string>
 	<string name="skills.priest.divine-protection.4">The shield absorbs 45% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
 	<string name="skills.priest.divine-protection.5">The shield absorbs 50% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
-	<string name="skills.priest.divine-protection.merc">The shield absorbs 40% of incoming damage for a cost of 1 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.merc">The shield absorbs %amount%% of incoming damage for a cost of 1 mana per damage absorbed.</string>
 
 	<string name="skills.priest.remedy">Remedy</string>
 	<string name="skills.priest.remedy.create">The Priest regains health more effectively from all sources.</string>
@@ -2215,7 +2238,7 @@
 	<string name="skills.ranger.powershot.1">Charges up three arrows that deal up to 80 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
 	<string name="skills.ranger.powershot.2">Charges up three arrows that deal up to 160 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
 	<string name="skills.ranger.powershot.3">Charges up three arrows that deal up to 240 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
-	<string name="skills.ranger.powershot.merc">Charges up three arrows that deal up to 200 Magical damage. The arrows ignore 50% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
+	<string name="skills.ranger.powershot.merc">Charges up three arrows that deal up to 175 Magical damage. The arrows ignore 25% Resistance and are fully charged after 1 second. Charging increases damage, range and projectile speed.</string>
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
@@ -2583,7 +2606,7 @@
 	<string name="skills.mercenary.explosive-bomb.merc">Drops a bomb at the ground that explodes after 1 second dealing 150 Hybrid damage.</string>
 
 	<string name="skills.mercenary.company-banner">Company Banner</string>
-	<string name="skills.mercenary.company-banner.merc">Places a banner at the ground that lasts for 10 seconds. All allies close to the banner receives a buff that increases Attack and Skill speed by 25%, as well as a Mana Regen by 50%. The banner has 100 Health.</string>
+	<string name="skills.mercenary.company-banner.merc">Places a banner at the ground that lasts for 15 seconds. All allies close to the banner receives a buff that increases Attack and Skill speed by 25%, as well as a Mana Regen by 50%. The banner has 200 Health.</string>
 
 	<string name="skills.mercenary.company-ballista">Company Ballista</string>
 	<string name="skills.mercenary.company-ballista.merc">Places a ballista at the ground that lasts for 12 seconds. Standing close to the ballista makes it fire at nearby enemies. It fires three bolts in a cone, each bolt dealing 20 Physical damage that ignores 20% Armor.</string>
@@ -2893,7 +2916,6 @@
 	<string name="item.spiked-boots.name">Spiked Boots</string>
 	<string name="item.spiked-boots.desc">Deal %dmg% Physical damage when colliding with enemies. Immune to slippery surfaces.</string>
 
-
 	<string name="item.sphere-of-life.name">Sphere of Life</string>
 	<string name="item.sphere-of-life.desc">During Combo you gain +%hregen% Health Regen.</string>
 
@@ -3095,7 +3117,7 @@
 	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack that deals 100 Hybrid damage and applies burning.</string>
 
 	<string name="item.dragons-tail.name">Dragon's Tail</string>
-	<string name="item.dragons-tail.desc">Your damage is increased based on your current gold.\n(1:1000 ratio)</string>
+	<string name="item.dragons-tail.desc">Your damage is increased by %num%% per %gold% gold.</string>
 
 	<string name="item.medusas-charm.name">Medusas Charm</string>
 	<string name="item.medusas-charm.desc">Enemies you look at are slowed by %slow%% and have their Armor reduced by %armor%%. Enemies affected by the gaze that hit you are stunned for %stun% seconds.</string>
@@ -3240,6 +3262,8 @@
 	<string name="drink.the-groovy-ghost.name">The Groovy Ghost</string>
 	<string name="drink.the-groovy-ghost.desc">%pos%% Evasion.\n%neg% Attack Power.</string>
 
+	<string name="drink.snake-blood.name">Snake Blood</string>
+	<string name="drink.snake-blood.desc">Immune to Poison.\n%neg%% Health gained.</string>
 
 	<!-- UNCOMMON -->
 
@@ -3279,6 +3303,9 @@
 
 	<string name="drink.primal-fury.name">Primal Fury</string>
 	<string name="drink.primal-fury.desc">%pos%% Attack speed in Combo.\nNo Mana Regen in Combo.</string>
+
+	<string name="drink.the-smirking-shopkeep.name">The Smirking Shopkeep</string>
+	<string name="drink.the-smirking-shopkeep.desc">You can buy an additional item in dungeon shops.\nItems cost %neg%% more in dungeon shops.</string>
 
 
 	<!-- RARE -->
@@ -3603,7 +3630,7 @@
 	<!-- Guildmaster Les "Ace" Calhoun -->
 	<string name="dialogue.town.npc.guildmaster.name">Guild Master Calhoun</string>
 	<string name="dialogue.town.npc.guildmaster.1Ra">If you help me rebuild the Guild Hall,\nI'll train you, for a fee of course.\nIt should be in your own interest,\nas a member of this guild.</string>
-	<string name="dialogue.town.npc.guildmaster_hc">That's 'Ace' to you kid.\nAnd I won't be disturbed\nby a mercenary. Please\nnever talk to me again.</string>
+	<string name="dialogue.town.npc.guildmaster_hc">That's 'Ace' to you kid,\nand I won't be disturbed\nby a mercenary. Please\nnever talk to me again.</string>
 
 	<!-- Prefect Lance Grey -->
 	<string name="dialogue.town.npc.prefect.name">Prefect Grey</string>
@@ -3681,23 +3708,23 @@
 
 	<!-- Mercenary Trainer -->
 	<string name="dialogue.town.npc.merctrainer.name">Flint</string>
-	<string name="dialogue.town.npc.merctrainer.1a">I train our mercenaries so\nthey are prepared for the\nchallange they are about\nto meet in the Moon Temple.</string>
+	<string name="dialogue.town.npc.merctrainer.1a">I train our mercenaries so\nthey are prepared for the\nchallenge they are about\nto meet in the Moon Temple.</string>
 
 	<!-- Captain Skinner -->
 	<string name="dialogue.town.npc.cptskinner.name">Captain Skinner</string>
-	<string name="dialogue.town.npc.cptskinner.1a">For us mercenaries it's an\nhonor to serve next to you.\nMany have fallen, but we\nwill continue to fight until\nthe last man. We are truly\ncommitted to this task.</string>
-	<string name="dialogue.town.npc.cptskinner_hc.1a">Our mission is to stop Blights\nagents, nothing more. See\nthis job doesn't pay enough\nand I have things to take\ncare of back in Blennow. (1)</string>
+	<string name="dialogue.town.npc.cptskinner.1a">For us mercenaries it's an\nhonor to serve next to you.\nMany have fallen, but we\nwill continue to fight until\nthe last of us. We are truly\ncommitted to this task.</string>
+	<string name="dialogue.town.npc.cptskinner_hc.1a">Our mission is to stop Blight's\nagents, nothing more. See\nthis job doesn't pay enough\nand I have things to take\ncare of back in Blennow. (1)</string>
 	<string name="dialogue.town.npc.cptskinner_hc.1b">And remember, don't\ncome crawling back\nhere if you die. There's\nno money in dying. (2)</string>
 
 	<!-- Disgruntled/Delighted Merc -->
 	<string name="dialogue.town.npc.sadmerc.name">Disgruntled Mercenary</string>
 	<string name="dialogue.town.npc.sadmerc_hc.name">Delighted Mercenary</string>
 	<string name="dialogue.town.npc.sadmerc.1a">Danielle Skinner doesn't want to\nbe here, she was more or less\nforced into this mission cause of\nsome favour she had to repay.\nAnd she draged every one of us\nwith her. (1)</string>
-	<string name="dialogue.town.npc.sadmerc.1b">She didn't like me confronting\nher about it, so she sent me to\nstand by this grave, 'your future\nin front of you' she said. I would\nnever tell a mercenary this, so\nplease don't drop a dime on me. (2)</string>
+	<string name="dialogue.town.npc.sadmerc.1b">She didn't like me confronting\nher about it, so she sent me to\nstand by this grave, 'your future\nin front of you' she said. I would\nnever tell a mercenary this, so\nplease don't rat me out. (2)</string>
 	<string name="dialogue.town.npc.sadmerc_hc.1a">Ahh, life is good as a mercenary.\nAnd it's a good thing we have\nDanielle Skinner, such an\ninspiration to us all and one of\nthe greatest leaders that ever\nwalked the three continents.</string>
 
 	<!-- Generic Snowman 2 -->
-	<string name="dialogue.town.npc.genericsnow.man2.1a">Blight the Horrible can't get\nhis hands on the Orb of Night,\nthat's very important. He\nsent in some agents just after\nthe Sun Gates were destroyed. (1)</string>
+	<string name="dialogue.town.npc.genericsnow.man2.1a">Blight the Horrible mustn't get\nhis hands on the Orb of Night,\nthat's very important. He\nsent in some agents just after\nthe Sun Gates were destroyed. (1)</string>
 	<string name="dialogue.town.npc.genericsnow.man2.1b">Our mission here is to stop them\nfrom stealing the orb. Cause If\nthe Orb is moved out of the\ntemple it will corrupt us all and\nmake Blight even stronger. (2)</string>
 
 	<!-- Generic Snowman 3 -->
@@ -3817,7 +3844,7 @@
 
 	<string name="dialogue.player.desert.minerazed">A razed mine\nentrance...</string>
 
-	<string name="dialogue.player.snow.mercgrave">Someone named\n'A Nobody' apparently\ndidn't make it very\nfar. Poor sap, sad.</string>
+	<string name="dialogue.player.snow.mercgrave">Someone named\n'A Nobody' apparently\ndidn't make it very\nfar. Poor bastard, sad.</string>
 
 
 
@@ -3842,8 +3869,8 @@
 	<string name="guildhall.stats.goldgain">+%amount% Gold gained by all heroes</string>
 	<string name="guildhall.stats.critmul">+%amount% Crit damage to all heroes</string>
 	<string name="guildhall.stats.critmulspell">+%amount% Skill Crit damage to all heroes</string>
-	<string name="guildhall.stats.empty">There is no statistics yet!</string>
-	<string name="guildhall.stats.companylegacypoints">Company lifetime legacy points:</string>
+	<string name="guildhall.stats.empty">There are no statistics yet!</string>
+	<string name="guildhall.stats.companylegacypoints">Company Lifetime Legacy Points</string>
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -4076,24 +4103,24 @@
 
 	<!-- mt -->
 	<string name="bestiary.name.bosses.giant_wisp">The Elder Wisp</string>
-	<string name="bestiary.name.bosses.wolf_boss">Kriliths Wolf</string>
+	<string name="bestiary.name.bosses.wolf_boss">Krilith's Wolf</string>
 	<string name="bestiary.name.bosses.night_sphere">Night Sphere</string>
 	<string name="bestiary.name.spawner_bats_mt">Frosted Tree Stump</string>
 	<string name="bestiary.name.spawner_vampire_1">Vampire Coffin</string>
 	<string name="bestiary.name.spawner_vampire_2">Ornate Vampire Coffin</string>
 	<string name="bestiary.name.bat_4">Frost Bat</string>
 	<string name="bestiary.name.bat_mb">Dire Bat</string>
-	<string name="bestiary.name.sentinel_ice_melee">Moon Warden Melee</string>
-	<string name="bestiary.name.sentinel_ice_ranged">Moon Warden Ranged</string>
+	<string name="bestiary.name.sentinel_ice_melee">Moon Warden</string>
+	<string name="bestiary.name.sentinel_ice_ranged">Ranged Moon Warden</string>
 	<string name="bestiary.name.sentinel_ice_mb">Moon Guardian</string>
 	<string name="bestiary.name.thrall_mb">Feasting Thrall</string>
-	<string name="bestiary.name.vampire_1">Vampire</string>
-	<string name="bestiary.name.vampire_1_elite">Vampire</string>
-	<string name="bestiary.name.vampire_1_mage">Vampire</string>
-	<string name="bestiary.name.vampire_1_mage_elite">Vampire</string>
-	<string name="bestiary.name.vampire_2">Vampire</string>
-	<string name="bestiary.name.vampire_2_elite">Vampire</string>
-	<string name="bestiary.name.vampire_2_ranged">Vampire</string>
+	<string name="bestiary.name.vampire_1">Vampire Guard</string>
+	<string name="bestiary.name.vampire_1_elite">Elite Vampire Guard</string>
+	<string name="bestiary.name.vampire_1_mage">Vampire Magi</string>
+	<string name="bestiary.name.vampire_1_mage_elite">Elite Vampire Magi</string>
+	<string name="bestiary.name.vampire_2">Exceptional Vampire Guard</string>
+	<string name="bestiary.name.vampire_2_elite">Superior Vampire Guard</string>
+	<string name="bestiary.name.vampire_2_ranged">Vampire Crossbowman</string>
 	<string name="bestiary.name.wisp_frost">Frost Wisp</string>
 	<string name="bestiary.name.wisp_frost_exploding">Exploding Frost Wisp</string>
 	<string name="bestiary.name.tower_flower_frost">Frosted Man Eater</string>
@@ -4103,7 +4130,7 @@
 	<string name="bestiary.name.agent_decay">Lisard</string>
 	<string name="bestiary.name.agent_rime">Isadora</string>
 	<string name="bestiary.name.agent_star">Shaden</string>
-
+	<string name="bestiary.name.shade">Shade</string>
 
 
 
@@ -4129,7 +4156,7 @@
 	<string name="guildhall.accomplishments.boss-8">QUEEN IRIS</string>
 	<string name="guildhall.accomplishments.boss-9">NERYS</string>
 	<string name="guildhall.accomplishments.boss-10">ELDER WISP</string>
-	<string name="guildhall.accomplishments.boss-11">KIRILITH'S WOLF</string>
+	<string name="guildhall.accomplishments.boss-11">KRILITH'S WOLF</string>
 	<string name="guildhall.accomplishments.boss-12">AGENTS</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
@@ -4159,14 +4186,14 @@
 	<string name="accomplishment.boss-9-killed-class.name">Lure of the Lamp %lvl%</string>
 	<string name="accomplishment.boss-9-killed-class.desc">Kill Nerys with %requirement% different classes.</string>
 
-	<string name="accomplishment.boss-10-killed-class.name">Elder Wisp %lvl%</string>
-	<string name="accomplishment.boss-10-killed-class.desc">Kill boss 1 with %requirement% different classes.</string>
+	<string name="accomplishment.boss-10-killed-class.name">Everlasting Winter %lvl%</string>
+	<string name="accomplishment.boss-10-killed-class.desc">Kill the Elder Wisp with %requirement% different classes.</string>
 
-	<string name="accomplishment.boss-11-killed-class.name">Kirilith's Wolf %lvl%</string>
-	<string name="accomplishment.boss-11-killed-class.desc">Kill boss 2 with %requirement% different classes.</string>
+	<string name="accomplishment.boss-11-killed-class.name">Faithful Companion %lvl%</string>
+	<string name="accomplishment.boss-11-killed-class.desc">Kill Kirilith's Wolf with %requirement% different classes.</string>
 
-	<string name="accomplishment.boss-12-killed-class.name">Agents %lvl%</string>
-	<string name="accomplishment.boss-12-killed-class.desc">Kill boss 3 with %requirement% different classes.</string>
+	<string name="accomplishment.boss-12-killed-class.name">The Orb of Night %lvl%</string>
+	<string name="accomplishment.boss-12-killed-class.desc">Kill Blight's Agents with %requirement% different classes.</string>
 
 	<string name="accomplishment.aberration-killed.name">Exorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
@@ -4544,6 +4571,94 @@
 	<string name="player.voice.female-2">Female 2</string>
 	<string name="player.voice.male-1">Male 1</string>
 	<string name="player.voice.male-2">Male 2</string>
+
+
+
+	<!-- Legacy -->
+
+
+	<!-- combos -->
+	<string name="legacyshop.combo.default.name">Purple Sphere</string>
+	<string name="legacyshop.combo.default.desc">The default purple combo sphere.</string>
+	<string name="legacyshop.combo.default-green.name">Green Sphere</string>
+	<string name="legacyshop.combo.default-green.desc">Default combo sphere in green.</string>
+	<string name="legacyshop.combo.lightning.name">Sparking Mist</string>
+	<string name="legacyshop.combo.spin.name">Whirling Inferno</string>
+	<string name="legacyshop.combo.pulse.name">Pulsing Wave</string>
+	<string name="legacyshop.combo.field.name">Scarlet Flash</string>
+
+	<!-- frames -->
+	<string name="legacyshop.frames.default">Default Grey</string>
+	<string name="legacyshop.frames.circle">Grey Circle</string>
+	<string name="legacyshop.frames.jailed">Jailed</string>
+	<string name="legacyshop.frames.plants">Plants</string>
+	<string name="legacyshop.frames.silver">Silver</string>
+	<string name="legacyshop.frames.gold">Gold Coins</string>
+	<string name="legacyshop.frames.diablo">Health and Mana</string>
+	<string name="legacyshop.frames.frozen">Frosty</string>
+	<string name="legacyshop.frames.orange">Orange</string>
+	<string name="legacyshop.frames.orange-circle">Orange Circle</string>
+	<string name="legacyshop.frames.white">White</string>
+	<string name="legacyshop.frames.white-circle">White Circle</string>
+	<string name="legacyshop.frames.rock">Rock</string>
+	<string name="legacyshop.frames.rock-circle">Rock Circle</string>
+	<string name="legacyshop.frames.red">Red</string>
+	<string name="legacyshop.frames.red-circle">Red Circle</string>
+	<string name="legacyshop.frames.fire">Smoldering</string>
+
+	<!-- gravestones -->
+	<string name="legacyshop.gravestones.tombstone-1">Tombstone</string>
+	<string name="legacyshop.gravestones.tombstone-2">Headstone</string>
+	<string name="legacyshop.gravestones.cross">Wooden Cross</string>
+	<string name="legacyshop.gravestones.flowers">Flowers</string>
+	<string name="legacyshop.gravestones.gargoyle">Gargoyle</string>
+	<string name="legacyshop.gravestones.lantern">Lantern</string>
+	<string name="legacyshop.gravestones.mushroom">Mushroom</string>
+	<string name="legacyshop.gravestones.pumpkin">Pumpkin</string>
+	<string name="legacyshop.gravestones.pyramid">Pyramid</string>
+	<string name="legacyshop.gravestones.skeleton">Skeleton</string>
+	<string name="legacyshop.gravestones.bloody-skeleton">Bloody Skeleton</string>
+	<string name="legacyshop.gravestones.burned-skeleton">Charred Skeleton</string>
+	<string name="legacyshop.gravestones.frozen-skeleton">Frozen Skeleton</string>
+	<string name="legacyshop.gravestones.sword">Sword</string>
+	<string name="legacyshop.gravestones.toadstool">Toadstool</string>
+
+	<!-- trails -->
+	<string name="legacyshop.trails.cumulus">Clouds</string>
+	<string name="legacyshop.trails.smoke">Smoke</string>
+	<string name="legacyshop.trails.darkness">Darkness</string>
+	<string name="legacyshop.trails.dust">Dust</string>
+	<string name="legacyshop.trails.flames">Flames</string>
+	<string name="legacyshop.trails.lightning1">Blue Lightning</string>
+	<string name="legacyshop.trails.lightning2">Red Lightning</string>
+	<string name="legacyshop.trails.lightning3">Voltage</string>
+	<string name="legacyshop.trails.poison">Toxic</string>
+	<string name="legacyshop.trails.snow">Blizzard</string>
+	<string name="legacyshop.trails.rainbow">Rainbow</string>
+	<string name="legacyshop.trails.hearts">Pink Hearts</string>
+	<string name="legacyshop.trails.hearts2">Yellow Hearts</string>
+	<string name="legacyshop.trails.transflag">Trans Flag</string>
+	<string name="legacyshop.trails.sweden">Sweden</string>
+	<string name="legacyshop.trails.denmark">Denmark</string>
+	<string name="legacyshop.trails.checkers">Checkers</string>
+	<string name="legacyshop.trails.usa">United States</string>
+	<string name="legacyshop.trails.china">China</string>
+	<string name="legacyshop.trails.canada">Canada</string>
+	<string name="legacyshop.trails.germany">Germany</string>
+	<string name="legacyshop.trails.russia">Russia</string>
+	<string name="legacyshop.trails.iceland">Iceland</string>
+	<string name="legacyshop.trails.uk">United Kingdom</string>
+	<string name="legacyshop.trails.japan">Japan</string>
+	<string name="legacyshop.trails.australia">Australia</string>
+	<string name="legacyshop.trails.france">France</string>
+	<string name="legacyshop.trails.jolly">Jolly Roger</string>
+	<string name="legacyshop.trails.a000ff">a000ff</string>
+	<string name="legacyshop.trails.eu">European Union</string>
+	<string name="legacyshop.trails.netherlands">Netherlands</string>
+	<string name="legacyshop.trails.salt">Salt</string>
+	<string name="legacyshop.trails.hansel">Breadcrumbs</string>
+	<string name="legacyshop.trails.dot">Dots</string>
+	<string name="legacyshop.trails.bubbles">Bubbles</string>
 
 
 
