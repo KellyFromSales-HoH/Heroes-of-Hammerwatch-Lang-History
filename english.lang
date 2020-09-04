@@ -235,6 +235,7 @@
 	<string name="meta.info.onemore">1 more to go…</string>
 	<string name="meta.info.passage">A secret passage has been revealed…</string>
 	<string name="meta.info.exitrevealed">The exit has been revealed!</string>
+	<string name="meta.info.threatspawned">A great threat was spawned!</string>
 	<string name="meta.info.ritual.start">…and the great abomination\n was summoned!</string>
 	<string name="meta.info.ritual.completed">Ritual sequence completed!</string>
 	<string name="meta.info.ritual.failed">Ritual sequence incomplete!</string>
@@ -1934,7 +1935,7 @@
 	<string name="item.sword-kings.desc">+%atk% Attack Power.</string>
 
 	<string name="item.talisman-of-conflagration.name">Talisman of Conflagration</string>
-	<string name="item.talisman-of-conflagration.desc">Enemies have a %chance%% chance  to explode when killed dealing %dm% Magical damage in a small area.</string>
+	<string name="item.talisman-of-conflagration.desc">Enemies have a %chance%% chance  to explode when killed dealing %dmg% Magical damage in a small area.</string>
 
 	<string name="item.wrath-of-the-thundergod.name">Wrath of the Thundergod</string>
 	<string name="item.wrath-of-the-thundergod.desc">Returns a lightning bolt to the attacker when hit, dealing %dmg% Magical damage.</string>
