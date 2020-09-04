@@ -819,7 +819,7 @@
 	<string name="mainmenu.serverlist.mods-allowed">Mods allowed</string>
 	<string name="mainmenu.serverlist.mercenary-only">Mercenary-only lobby</string>
 	<string name="mainmenu.serverlist.mercenary-only.tooltip">This is a regular non-mercenary lobby!</string>
-
+	<string name="mainmenu.serverlist.mercenary-regular">Can't join a regular lobby with a mercenary.</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">CHOOSE HERO</string>
@@ -1986,6 +1986,7 @@
 	<string name="town.transport.outlook">The Outlook</string>
 	<string name="town.transport.pop">City of Stone</string>
 	<string name="town.transport.mt">Mercenary Camp</string>
+	<string name="town.transport.required-dlc">You don't own the required DLC: %dlc%</string>
 
 	<!-- mercenary trainer -->
 	<string name="mercenarytrainer.title">MASTER AT ARMS</string>
@@ -2016,6 +2017,7 @@
 	<string name="town.mercenaryledger.tab.enlisted">ENLISTED</string>
 	<string name="town.mercenaryledger.tab.deceased">DECEASED</string>
 	<string name="town.mercenaryledger.tab.info">INFO</string>
+	<string name="town.mercenaryledger.delete.prompt">Are you sure you want to permanently remove %name% from the ledger as well as the graveyard?</string>
 
 	<!-- mercenary skills -->
 	<string name="shop.hardcoreskills">MERCENARY SKILLS</string>
@@ -2163,7 +2165,7 @@
 	<string name="skills.priest.remedy.2">The Priest regains health 100% more effectively from all sources.</string>
 	<string name="skills.priest.remedy.3">The Priest regains health 150% more effectively from all sources.</string>
 	<string name="skills.priest.remedy.4">The Priest regains health 200% more effectively from all sources.</string>
-	<string name="skills.priest.remedy.merc">You regain health 200% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.merc">You regain health 100% more effectively from all sources.</string>
 
 	<string name="skills.priest.consecrated-ground">Consecrated Ground</string>
 	<string name="skills.priest.consecrated-ground.create">The Priest places a field on the ground that damages enemies and heals allies for 25% of the damage dealt.</string>
@@ -3729,7 +3731,7 @@
 
 	<!-- Generic Snowman 3 -->
 	<string name="dialogue.town.npc.genericsnow.man3.1a">This ice came down from the\ntop of Shaftlocke Tower,\ncrushed the Sun Gates and\nopened up a flood of\nproblems. (1)</string>
-	<string name="dialogue.town.npc.genericsnow.man3.1b">Not only did Blights agents\nsneak in, someone saw\nKriliht the Frost Sorcerer\nescape. (2)</string>
+	<string name="dialogue.town.npc.genericsnow.man3.1b">Not only did Blights agents\nsneak in, someone saw\nKrilith the Frost Sorcerer\nescape. (2)</string>
 	<string name="dialogue.town.npc.genericsnow.man3.1c">This was some time ago,\nbut that person did not\nsee Krilith with his pet\nwolf, he must have left\nit in there. Probably too\nbig to bring with him. (3)</string>
 
 	<!-- Sun Guard in Snowland -->
