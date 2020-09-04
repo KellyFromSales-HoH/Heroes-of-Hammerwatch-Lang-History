@@ -3915,6 +3915,27 @@
 	<string name="meta.info.sequencefailed">Sequence failed!</string>
 	<string name="mainmenu.serverlist.mods-allowed">Mods allowed</string>
 
+	<!-- Post B95 -->
+
+	<string name="town.coliseum.switches">SWITCHES</string>
+	<string name="town.coliseum.switches.title">SWITCHES</string>
+	<string name="arena.switches.faster_waves">Faster spawns</string>
+	<string name="arena.switches.faster_waves.desc">Enemies spawn with a higher frequency.</string>
+	<string name="arena.switches.five_waves">Shorter skirmish</string>
+	<string name="arena.switches.five_waves.desc">Skirmishes are two waves shorter.</string>
+	<string name="arena.switches.faster_enemies">Faster enemies</string>
+	<string name="arena.switches.faster_enemies.desc">Enemies have increased movement speed.</string>
+	<string name="mainmenu.menustyles.title">MENU STYLES</string>
+	<string name="g_menustyle">MENU STYLE</string>
+	<string name="g_menustyle.help">Changes the menu style.</string>
+	<string name="mainmenu.menustyles.style.automatic">Automatic</string>
+	<string name="mainmenu.menustyles.style.default">Forsaken Tower</string>
+	<string name="mainmenu.menustyles.style.random">Random</string>
+	<string name="mainmenu.menustyles.style.pop">Pyramid of Prophecy</string>
+	<string name="menu.store">Check out all of our games!</string>
+	<string name="menu.store.pop">Buy Pyramid of Prophecy DLC!</string>
+	<string name="menu.store.pop.owned">Pyramid of Prophecy DLC already owned!</string>
+
 
 
 </lang>
